@@ -1,1 +1,0 @@
-var e=`/search.png`;export{e as t};
