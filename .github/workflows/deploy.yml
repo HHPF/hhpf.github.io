@@ -10,9 +10,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued. 
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -21,42 +19,45 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
+  # Build and Deploy job
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build with VitePress
         run: npm run docs:build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .vitepress/dist
 
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
         with:
-          # Force deployment to ensure proper cleanup of old files
-          force: true
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Clean gh-pages branch
+        run: rm -rf gh-pages/*
+
+      - name: Copy build output to gh-pages branch
+        run: cp -r .vitepress/dist/* gh-pages/
+
+      - name: Commit and push changes to gh-pages
+        working-directory: gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Deploy new version from main branch"
+          git push origin gh-pages
