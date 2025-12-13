@@ -7,13 +7,42 @@
   --vp-feature-card-transition: all 0.2s ease;
 }
 
-.VPHomeFeatures .card {
+/* Apply styles to all feature cards */
+.feature-item {
+  border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
+  border-radius: var(--vp-feature-card-border-radius);
+  transition: var(--vp-feature-card-transition);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.feature-item:hover {
+  border-color: var(--vp-feature-card-hover-border-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Alternative selector for VitePress default theme */
+.VPFeatures .VPFeature {
   border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
   border-radius: var(--vp-feature-card-border-radius);
   transition: var(--vp-feature-card-transition);
 }
 
-.VPHomeFeatures .card:hover {
+.VPFeatures .VPFeature:hover {
+  border-color: var(--vp-feature-card-hover-border-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Additional fallback selector */
+.vp-doc .VPFeatures > div > div {
+  border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
+  border-radius: var(--vp-feature-card-border-radius);
+  transition: var(--vp-feature-card-transition);
+}
+
+.vp-doc .VPFeatures > div > div:hover {
   border-color: var(--vp-feature-card-hover-border-color);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
