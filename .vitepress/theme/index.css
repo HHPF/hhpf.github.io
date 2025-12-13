@@ -1,55 +1,10 @@
-/* Custom styles for feature cards and logo */
+/* Custom styles for feature cards */
 :root {
   --vp-feature-card-border-radius: 8px;
   --vp-feature-card-border-color: transparent;
   --vp-feature-card-border-width: 1px;
   --vp-feature-card-hover-border-color: var(--vp-c-brand-light);
   --vp-feature-card-transition: all 0.2s ease;
-  --vp-logo-gradient-from: #4f46e5;
-  --vp-logo-gradient-to: #8b5cf6;
-}
-
-/* Logo gradient background */
-.VPLogo {
-  background: linear-gradient(135deg, var(--vp-logo-gradient-from) 0%, var(--vp-logo-gradient-to) 100%);
-  border-radius: 8px;
-  padding: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: all 0.2s ease;
-}
-
-/* Hover effect for logo */
-.VPLogo:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-  transform: translateY(-1px);
-}
-
-/* Ensure logo image is displayed properly */
-.VPLogo img {
-  display: block;
-  margin: 0 auto;
-}
-
-/* Hero image gradient background */
-.VPHomeHero .VPImage {
-  background: linear-gradient(135deg, var(--vp-logo-gradient-from) 0%, var(--vp-logo-gradient-to) 100%);
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-}
-
-/* Hover effect for hero image */
-.VPHomeHero .VPImage:hover {
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
-  transform: translateY(-2px);
-}
-
-/* Ensure hero image is displayed properly */
-.VPHomeHero .VPImage img {
-  display: block;
-  margin: 0 auto;
-  border-radius: 8px;
 }
 
 /* Apply styles to all feature cards */
