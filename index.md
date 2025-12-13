@@ -6,6 +6,9 @@ hero:
   name: "HHPF"
   text: "Human Health Plan Foundation"
   tagline: My great project tagline
+  image:
+    src: /logo.png
+    alt: HHPF Logo
   actions:
     - theme: brand
       text: Markdown Examples

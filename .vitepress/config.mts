@@ -7,7 +7,8 @@ export default defineConfig({
   themeConfig: {
     search: {
       provider: 'local'
-    }
+    },
+    logo: '/logo.png'
   },
   locales: {
     root: {

@@ -6,6 +6,9 @@ hero:
   name: "HHPF"
   text: "人類健康計劃基金會"
   tagline: 我們的偉大項目標語
+  image:
+    src: /logo.png
+    alt: HHPF Logo
   actions:
     - theme: brand
       text: Markdown範例
