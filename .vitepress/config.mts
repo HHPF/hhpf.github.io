@@ -8,7 +8,7 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    logo: '/logo.png'
+    logo: '/logo.webp'
   },
   locales: {
     root: {

@@ -7,7 +7,7 @@ hero:
   text: "人类健康计划基金会"
   tagline: 我们的伟大项目标语
   image:
-    src: /logo.png
+    src: /logo.webp
     alt: HHPF Logo
   actions:
     - theme: brand
