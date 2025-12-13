@@ -1,63 +1,50 @@
 @echo off
 
-:: 简化版本的部署脚本，不使用颜色代码避免乱码
+echo 正在部署HHPF文档网站...
+echo.
 
-:: 检查是否在git仓库中
-if not exist ".git" (
-    echo 错误：当前目录不是git仓库！
+:: 检查Git是否可用
+where git >nul 2>nul
+if %errorlevel% neq 0 (
+    echo 错误：未找到Git命令！
     pause
     exit /b 1
 )
 
-:: 拉取远程仓库最新更改
+:: 拉取最新代码
 echo 1. 拉取远程仓库最新更改...
 git pull origin main
 if %errorlevel% neq 0 (
-    echo 错误：拉取远程仓库失败！
+    echo 错误：拉取失败！
     pause
     exit /b 1
 )
 
-:: 添加所有更改到暂存区
-echo 2. 添加所有更改到暂存区...
+:: 添加所有更改
+echo 2. 添加所有更改...
 git add .
 if %errorlevel% neq 0 (
-    echo 错误：添加更改到暂存区失败！
+    echo 错误：添加更改失败！
     pause
     exit /b 1
-)
-
-:: 检查是否有更改
-git status --porcelain > temp_changes.txt
-set "has_changes="
-for /f "tokens=*" %%i in (temp_changes.txt) do set has_changes=1
-del temp_changes.txt 2>nul
-
-if not defined has_changes (
-    echo 警告：没有发现任何更改！
-    pause
-    exit /b 0
 )
 
 :: 提交更改
 echo 3. 提交更改...
-git commit -m "自动更新文档内容"
-if %errorlevel% neq 0 (
-    echo 错误：提交更改失败！
-    pause
-    exit /b 1
-)
+git commit -m "自动更新文档" || echo 警告：没有需要提交的更改
 
-:: 推送到远程仓库
-echo 4. 推送到远程仓库...
+:: 推送更改
+echo 4. 推送更改...
 git push origin main
 if %errorlevel% neq 0 (
-    echo 错误：推送远程仓库失败！
+    echo 错误：推送失败！
     pause
     exit /b 1
 )
 
-echo === 部署成功！===
-echo 本地访问地址：http://localhost:5173/
-echo 远程访问地址：https://hhp.foundation
+echo.
+echo 部署成功！
+echo 本地访问：http://localhost:5173/
+echo 远程访问：https://hhp.foundation
+echo.
 pause
