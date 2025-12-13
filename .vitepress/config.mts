@@ -18,7 +18,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Examples', link: '/markdown-examples' },
-          { text: 'Languages', items: [
+          { text: 'Languages', icon: 'globe', items: [
             { text: 'English', link: '/' },
             { text: '简体中文', link: '/zh-CN/' },
             { text: '繁體中文', link: '/zh-TW/' }
@@ -46,7 +46,7 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/zh-CN/' },
           { text: '示例', link: '/zh-CN/markdown-examples' },
-          { text: '语言', items: [
+          { text: '语言', icon: 'globe', items: [
             { text: 'English', link: '/' },
             { text: '简体中文', link: '/zh-CN/' },
             { text: '繁體中文', link: '/zh-TW/' }
@@ -74,7 +74,7 @@ export default defineConfig({
         nav: [
           { text: '首頁', link: '/zh-TW/' },
           { text: '範例', link: '/zh-TW/markdown-examples' },
-          { text: '語言', items: [
+          { text: '語言', icon: 'globe', items: [
             { text: 'English', link: '/' },
             { text: '简体中文', link: '/zh-CN/' },
             { text: '繁體中文', link: '/zh-TW/' }
