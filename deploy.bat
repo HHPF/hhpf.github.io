@@ -1,61 +1,63 @@
 @echo off
 
-:: 设置颜色
-echo [1m[36m=== HHPF文档网站部署脚本 ===[0m
+:: 简化版本的部署脚本，不使用颜色代码避免乱码
 
 :: 检查是否在git仓库中
 if not exist ".git" (
-    echo [1m[31m错误：当前目录不是git仓库！[0m
+    echo 错误：当前目录不是git仓库！
     pause
     exit /b 1
 )
 
 :: 拉取远程仓库最新更改
-echo [1m[32m1. 拉取远程仓库最新更改...[0m
+echo 1. 拉取远程仓库最新更改...
 git pull origin main
 if %errorlevel% neq 0 (
-    echo [1m[31m错误：拉取远程仓库失败！[0m
+    echo 错误：拉取远程仓库失败！
     pause
     exit /b 1
 )
 
 :: 添加所有更改到暂存区
-echo [1m[32m2. 添加所有更改到暂存区...[0m
+echo 2. 添加所有更改到暂存区...
 git add .
 if %errorlevel% neq 0 (
-    echo [1m[31m错误：添加更改到暂存区失败！[0m
+    echo 错误：添加更改到暂存区失败！
     pause
     exit /b 1
 )
 
 :: 检查是否有更改
-setlocal enabledelayedexpansion
-for /f %%i in ('git status --porcelain') do set "has_changes=1"
+git status --porcelain > temp_changes.txt
+set "has_changes="
+for /f "tokens=*" %%i in (temp_changes.txt) do set has_changes=1
+del temp_changes.txt 2>nul
+
 if not defined has_changes (
-    echo [1m[33m警告：没有发现任何更改！[0m
+    echo 警告：没有发现任何更改！
     pause
     exit /b 0
 )
 
 :: 提交更改
-echo [1m[32m3. 提交更改...[0m
+echo 3. 提交更改...
 git commit -m "自动更新文档内容"
 if %errorlevel% neq 0 (
-    echo [1m[31m错误：提交更改失败！[0m
+    echo 错误：提交更改失败！
     pause
     exit /b 1
 )
 
 :: 推送到远程仓库
-echo [1m[32m4. 推送到远程仓库...[0m
+echo 4. 推送到远程仓库...
 git push origin main
 if %errorlevel% neq 0 (
-    echo [1m[31m错误：推送远程仓库失败！[0m
+    echo 错误：推送远程仓库失败！
     pause
     exit /b 1
 )
 
-echo [1m[32m=== 部署成功！===[0m
-echo [1m[36m本地访问地址：[0m http://localhost:5173/
-echo [1m[36m远程访问地址：[0m https://hhp.foundation
+echo === 部署成功！===
+echo 本地访问地址：http://localhost:5173/
+echo 远程访问地址：https://hhp.foundation
 pause
