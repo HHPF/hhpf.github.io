@@ -17,12 +17,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Examples', link: '/markdown-examples' },
-          { text: 'Languages', icon: 'globe', items: [
-            { text: 'English', link: '/' },
-            { text: '简体中文', link: '/zh-CN/' },
-            { text: '繁體中文', link: '/zh-TW/' }
-          ]}
+          { text: 'Examples', link: '/markdown-examples' }
         ],
         sidebar: [
           {
@@ -45,12 +40,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首页', link: '/zh-CN/' },
-          { text: '示例', link: '/zh-CN/markdown-examples' },
-          { text: '语言', icon: 'globe', items: [
-            { text: 'English', link: '/' },
-            { text: '简体中文', link: '/zh-CN/' },
-            { text: '繁體中文', link: '/zh-TW/' }
-          ]}
+          { text: '示例', link: '/zh-CN/markdown-examples' }
         ],
         sidebar: [
           {
@@ -73,12 +63,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首頁', link: '/zh-TW/' },
-          { text: '範例', link: '/zh-TW/markdown-examples' },
-          { text: '語言', icon: 'globe', items: [
-            { text: 'English', link: '/' },
-            { text: '简体中文', link: '/zh-CN/' },
-            { text: '繁體中文', link: '/zh-TW/' }
-          ]}
+          { text: '範例', link: '/zh-TW/markdown-examples' }
         ],
         sidebar: [
           {
