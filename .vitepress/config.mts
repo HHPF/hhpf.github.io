@@ -4,6 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "HHPF",
   description: "Human Health Plan Foundation",
+  themeConfig: {
+    search: {
+      provider: 'local'
+    }
+  },
   locales: {
     root: {
       label: 'English',
