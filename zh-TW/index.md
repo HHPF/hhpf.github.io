@@ -15,10 +15,10 @@ hero:
       link: /zh-TW/api-examples
 
 features:
-  - title: 功能A
-    details: 這是功能A的詳細描述，用於展示基金會的核心優勢
-  - title: 功能B
-    details: 這是功能B的詳細描述，用於展示基金會的核心優勢
-  - title: 功能C
-    details: 這是功能C的詳細描述，用於展示基金會的核心優勢
+  - title: MIT許可證
+    details: MIT許可證（MIT）- 一種允許軟件重用、修改和分發的寬鬆開源許可證。
+  - title: 版權聲明
+    details: Copyright (c) 2017 these people - 許可證包含必須保留在所有副本或軟件實質性部分中的版權聲明。
+  - title: 許可條款
+    details: 特此免費授予獲得本軟件及相關文檔文件（以下簡稱"軟件"）副本的任何人不受限制地處理本軟件的權利，包括但不限於使用、複製、修改、合併、出版、分發、再許可和/或銷售軟件副本的權利，並允許向其提供本軟件的人這樣做，但須遵守以下條件。
 ---

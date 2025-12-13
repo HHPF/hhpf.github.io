@@ -1,0 +1,20 @@
+/* Custom styles for feature cards */
+:root {
+  --vp-feature-card-border-radius: 8px;
+  --vp-feature-card-border-color: transparent;
+  --vp-feature-card-border-width: 1px;
+  --vp-feature-card-hover-border-color: var(--vp-c-brand-light);
+  --vp-feature-card-transition: all 0.2s ease;
+}
+
+.VPHomeFeatures .card {
+  border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
+  border-radius: var(--vp-feature-card-border-radius);
+  transition: var(--vp-feature-card-transition);
+}
+
+.VPHomeFeatures .card:hover {
+  border-color: var(--vp-feature-card-hover-border-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}

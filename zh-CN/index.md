@@ -15,10 +15,10 @@ hero:
       link: /zh-CN/api-examples
 
 features:
-  - title: 功能A
-    details: 这是功能A的详细描述，用于展示基金会的核心优势
-  - title: 功能B
-    details: 这是功能B的详细描述，用于展示基金会的核心优势
-  - title: 功能C
-    details: 这是功能C的详细描述，用于展示基金会的核心优势
+  - title: MIT许可证
+    details: MIT许可证（MIT）- 一种允许软件重用、修改和分发的宽松开源许可证。
+  - title: 版权声明
+    details: Copyright (c) 2017 these people - 许可证包含必须保留在所有副本或软件实质性部分中的版权声明。
+  - title: 许可条款
+    details: 特此免费授予获得本软件及相关文档文件（以下简称"软件"）副本的任何人不受限制地处理本软件的权利，包括但不限于使用、复制、修改、合并、出版、分发、再许可和/或销售软件副本的权利，并允许向其提供本软件的人这样做，但须遵守以下条件。
 ---
