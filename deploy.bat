@@ -6,9 +6,13 @@ echo.
 echo 1. Adding all changes...
 git add .
 
-:: Use default commit message
+:: Ask for commit message with default value
 echo 2. Committing changes...
-git commit -m "Update website content" || echo Warning: No changes to commit
+set "commit_msg=Update website content"
+set /p commit_msg=Enter commit message (default: %commit_msg%): 
+
+:: Use user input or default message
+git commit -m "%commit_msg%" || echo Warning: No changes to commit
 
 :: Push to remote
 echo 3. Pushing to remote repository...
