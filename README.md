@@ -1,1 +1,1 @@
-Human Health Plan Foundation (HHPF) White Paper
+Human Health Plan Foundation White Paper
