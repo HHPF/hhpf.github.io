@@ -31,7 +31,10 @@ export default defineConfig({
         ],
         socialLinks: [
           { icon: 'github', link: 'https://github.com/HHPF/hhpf.github.io' }
-        ]
+        ],
+        footer: {
+          copyright: 'Copyright © 2024-Present Human Health Plan Foundation'
+        }
       }
     },
     'zh-CN': {
@@ -40,8 +43,14 @@ export default defineConfig({
       description: '人类健康计划基金会',
       themeConfig: {
         nav: [
-          { text: '首页', link: '/zh-CN/' },
-          { text: '示例', link: '/zh-CN/markdown-examples' }
+          { text: '愿景', link: '/zh-CN/1' },
+          { text: '方法论', link: '/zh-CN/2' },
+          { text: '人工智能', link: 'https://sm.doctor/' },
+          { text: 'A/B实验', link: '/zh-CN/4' },
+          { text: '训练营', link: '/zh-CN/5' },
+          { text: '项目', link: '/zh-CN/6' },
+          { text: '募资', link: '/zh-CN/7' },
+          { text: '关于', link: '/zh-CN/8' }
         ],
         sidebar: [
           {
@@ -53,8 +62,11 @@ export default defineConfig({
           }
         ],
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/HHPF/hhpf.github.io' }
-        ]
+          { icon: 'github', link: 'https://github.com/HHPF/' }
+        ],
+        footer: {
+          copyright: '版权所有 © 2024-至今 人类健康计划基金会'
+        }
       }
     },
     'zh-TW': {
@@ -77,7 +89,10 @@ export default defineConfig({
         ],
         socialLinks: [
           { icon: 'github', link: 'https://github.com/HHPF/hhpf.github.io' }
-        ]
+        ],
+        footer: {
+          copyright: '版權所有 © 2024-至今 人類健康計劃基金會'
+        }
       }
     }
   }
