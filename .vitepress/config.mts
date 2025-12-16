@@ -43,78 +43,96 @@ export default defineConfig({
       description: '人类健康计划基金会',
       themeConfig: {
         nav: [
-          { text: '愿景', link: '/zh-CN/1' },
-          { text: '方法论', link: '/zh-CN/2' },
-          { text: '人工智能', link: '#' },
-          { text: 'A/B实验', link: '/zh-CN/4' },
-          { text: '训练营', link: '/zh-CN/5' },
-          { text: '示范项目', link: '/zh-CN/6' },
-          { text: '募资', link: '/zh-CN/7' },
-          { text: '团队', link: '/zh-CN/8' }
+          { text: '首页', link: '/zh-CN/' },
+          { text: '白皮书', link: '/zh-CN/Project-Origins' },
+          { text: '新闻活动', link: '/zh-CN/News-and-Events' },
+          { text: '版权申明', link: '/zh-CN/Copyright-Statement' },
+          { text: '联系我们', link: '/zh-CN/Contact-Us' },
+
         ],
         sidebar: [
           {
             text: '愿景',
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: 'Markdown示例', link: '/zh-CN/markdown-examples' },
-              { text: '运行时API示例', link: '/zh-CN/api-examples' }
+              { text: '项目缘起', link: '/zh-CN/Project-Origins' },
+              { text: '模式创新', link: '/zh-CN/Model-Innovation' },
+              { text: '理论深化', link: '/zh-CN/Theory-Advancement' },
+              { text: '疗法升级', link: '/zh-CN/Therapy-Upgrading' }
             ]
           },  
           {
             text: '方法论',
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: 'Markdown示例', link: '/zh-CN/markdown-examples' },
-              { text: '运行时API示例', link: '/zh-CN/api-examples' }
+              { text: '生命系统论', link: '/zh-CN/Life-Systems-Theory' },
+              { text: '第一原理', link: '/zh-CN/First-Principles' },
+              { text: '九维健康标准', link: '/zh-CN/9D-Health-Standards' },
+              { text: '系统医学', link: '/zh-CN/Systems-Medicine' },
+              { text: '系统疗法', link: '/zh-CN/Systems-Therapy' }
             ]
           },
           {
             text: '人工智能',
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: 'Markdown示例', link: '/zh-CN/markdown-examples' },
-              { text: '运行时API示例', link: '/zh-CN/api-examples' }
+              { text: '诊疗SOP', link: '/zh-CN/Clinical-SOPs' },
+              { text: '案例库RAG', link: '/zh-CN/Case-RAG' },
+              { text: '免费AI问诊计划', link: '/zh-CN/Free-AI-Triage' }
             ]
           },
           {
-            text: 'A/B实验',
-            collapsed: false,
+            text: '标准化',
+            collapsed: true,
             items: [
-              { text: 'Markdown示例', link: '/zh-CN/markdown-examples' },
-              { text: '运行时API示例', link: '/zh-CN/api-examples' }
+              { text: 'A/B实验', link: '/zh-CN/AB-Testing' },
+              { text: '培训班', link: '/zh-CN/Training-Program' }
             ]
           },
           {
             text: '训练营',
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: 'Markdown示例', link: '/zh-CN/markdown-examples' },
-              { text: '运行时API示例', link: '/zh-CN/api-examples' }
+              { text: '正觉疗法', link: '/zh-CN/Right-Awareness-Therapy' },
+              { text: '正觉生活禅修', link: '/zh-CN/Right-Awareness-Mindful-Living' }
             ]
           },
           {
             text: '示范项目',
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: 'Markdown示例', link: '/zh-CN/markdown-examples' },
-              { text: '运行时API示例', link: '/zh-CN/api-examples' }
+              { text: '医馆', link: '/zh-CN/Medical-Hall' },
+              { text: '疗养院', link: '/zh-CN/Nursing-Center' },
+              { text: '养老与临终关怀', link: '/zh-CN/Elderly-Care-and-Hospice-Services' },
+              { text: '社区大健康综合体', link: '/zh-CN/Community-Wellness-Complex' },
+              { text: '大健康产业园', link: '/zh-CN/Health-Industry-Park' },
+              { text: '生命健康学院', link: '/zh-CN/Life-Health-College' }
             ]
           },
           {
             text: '募资',
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: 'Markdown示例', link: '/zh-CN/markdown-examples' },
-              { text: '运行时API示例', link: '/zh-CN/api-examples' }
+              { text: '公益筹资', link: '/zh-CN/Public-Welfare-Fundraising' },
+              { text: '商业项目', link: '/zh-CN/Commercial-Projects' }
             ]
           },
           {
             text: '团队',
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: 'Markdown示例', link: '/zh-CN/markdown-examples' },
-              { text: '运行时API示例', link: '/zh-CN/api-examples' }
+              { text: '价值观', link: '/zh-CN/Talent-Recruitment' },
+              { text: '义工招募', link: '/zh-CN/Volunteer-Recruitment' },
+              { text: '诚聘英才', link: '/zh-CN/Talent-Recruitment' }
+            ]
+          },
+          {
+             text: '其他',
+             collapsed: true,
+             items: [
+              { text: '新闻活动', link: '/zh-CN/News-and-Events' },
+              { text: '版权申明', link: '/zh-CN/Copyright-Statement' },
+              { text: '联系我们', link: '/zh-CN/Contact-Us' }
             ]
           },
         ],
