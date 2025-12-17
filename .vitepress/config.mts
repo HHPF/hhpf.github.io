@@ -17,15 +17,15 @@ export default defineConfig({
       description: 'Human Health Plan Foundation',
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Examples', link: '/en/markdown-examples' }
+          { text: 'Home', link: '/' },
+          { text: 'Examples', link: '/markdown-examples' }
         ],
         sidebar: [
           {
             text: 'Examples',
             items: [
-              { text: 'Markdown Examples', link: '/en/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/en/api-examples' }
+              { text: 'Markdown Examples', link: '/markdown-examples' },
+              { text: 'Runtime API Examples', link: '/api-examples' }
             ]
           }
         ],
@@ -126,7 +126,7 @@ export default defineConfig({
             ]
           },
           {
-             text: '其他',
+             text: '相关',
              collapsed: true,
              items: [
               { text: '新闻活动', link: '/zh-CN/News-and-Events' },
