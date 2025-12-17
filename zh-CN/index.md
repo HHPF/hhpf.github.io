@@ -12,13 +12,13 @@ hero:
   actions:
     - theme: alt
       text: 💎替代医疗计划
-      link: /zh-CN/markdown-examples
+      link: /ZH-CN/markdown-examples
     - theme: alt
       text: 🌈廉价医疗计划
-      link: /zh-CN/markdown-examples
+      link: /ZH-CN/markdown-examples
     - theme: alt
       text: 💖公益医疗计划
-      link: /zh-CN/markdown-examples
+      link: /ZH-CN/markdown-examples
 
 features:
   - title: 🥇生命系统论

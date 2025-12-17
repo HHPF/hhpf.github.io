@@ -17,15 +17,15 @@ export default defineConfig({
       description: 'Human Health Plan Foundation',
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Examples', link: '/markdown-examples' }
+          { text: 'Home', link: '/en/' },
+          { text: 'Examples', link: '/en/markdown-examples' }
         ],
         sidebar: [
           {
             text: 'Examples',
             items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              { text: 'Markdown Examples', link: '/en/markdown-examples' },
+              { text: 'Runtime API Examples', link: '/en/api-examples' }
             ]
           }
         ],
@@ -33,7 +33,7 @@ export default defineConfig({
           { icon: 'github', link: 'https://github.com/HHPF/' }
         ],
         footer: {
-          copyright: 'Copyright © 2024 ~ Present Human Health Plan Foundation'
+          copyright: 'Copyright © 2025 ~ Present Human Health Plan Foundation'
         }
       }
     },
@@ -47,8 +47,7 @@ export default defineConfig({
           { text: '白皮书', link: '/zh-CN/Project-Origins' },
           { text: '新闻', link: '/zh-CN/News-and-Events' },
           { text: '版权', link: '/zh-CN/Copyright-Statement' },
-          { text: '联系', link: '/zh-CN/Contact-Us' },
-
+          { text: '联系', link: '/zh-CN/Contact-Us' }
         ],
         sidebar: [
           {
@@ -167,6 +166,112 @@ export default defineConfig({
         ],
         footer: {
           copyright: '版權所有 © 2024 ~ 至今 人類健康計劃基金會（筹）'
+        }
+      }
+    },
+    'ja-JP': {
+      label: '日本語',
+      lang: 'ja-JP',
+      description: '人間健康計画財団',
+      themeConfig: {
+        nav: [
+          { text: 'ホーム', link: '/ja-JP/' },
+          { text: '概要', link: '/ja-JP/Project-Origins' },
+          { text: 'ニュース', link: '/ja-JP/News-and-Events' },
+          { text: '著作権', link: '/ja-JP/Copyright-Statement' },
+          { text: 'お問い合わせ', link: '/ja-JP/Contact-Us' }
+        ],
+        sidebar: [
+          {
+            text: 'ビジョン',
+            collapsed: true,
+            items: [
+              { text: 'プロジェクトの起源', link: '/ja-JP/Project-Origins' },
+              { text: 'モデルイノベーション', link: '/ja-JP/Model-Innovation' },
+              { text: '理論の深化', link: '/ja-JP/Theory-Advancement' },
+              { text: '療法のアップグレード', link: '/ja-JP/Therapy-Upgrading' }
+            ]
+          },  
+          {
+            text: '方法論',
+            collapsed: true,
+            items: [
+              { text: '生命システム論', link: '/ja-JP/Life-Systems-Theory' },
+              { text: 'ファーストプリンシプル', link: '/ja-JP/First-Principles' },
+              { text: '9次元健康基準', link: '/ja-JP/9D-Health-Standards' },
+              { text: 'システム医学', link: '/ja-JP/Systems-Medicine' },
+              { text: 'システム療法', link: '/ja-JP/Systems-Therapy' }
+            ]
+          },
+          {
+            text: '人工知能',
+            collapsed: true,
+            items: [
+              { text: '診療SOP', link: '/ja-JP/Clinical-SOPs' },
+              { text: 'ケースライブラリーRAG', link: '/ja-JP/Case-RAG' },
+              { text: '無料AIトリアージ', link: '/ja-JP/Free-AI-Triage' }
+            ]
+          },
+          {
+            text: '標準化',
+            collapsed: true,
+            items: [
+              { text: 'A/B実験', link: '/ja-JP/AB-Testing' },
+              { text: 'トレーニングプログラム', link: '/ja-JP/Training-Program' }
+            ]
+          },
+          {
+            text: 'トレーニングキャンプ',
+            collapsed: true,
+            items: [
+              { text: '正覚療法', link: '/ja-JP/Right-Awareness-Therapy' },
+              { text: '正覚生活瞑想', link: '/ja-JP/Right-Awareness-Mindful-Living' }
+            ]
+          },
+          {
+            text: 'デモンストレーションプロジェクト',
+            collapsed: true,
+            items: [
+              { text: '医館', link: '/ja-JP/Medical-Hall' },
+              { text: '介護センター', link: '/ja-JP/Nursing-Center' },
+              { text: '高齢者介護と終末期ケア', link: '/ja-JP/Elderly-Care-and-Hospice-Services' },
+              { text: 'コミュニティ健康総合施設', link: '/ja-JP/Community-Wellness-Complex' },
+              { text: '健康産業公園', link: '/ja-JP/Health-Industry-Park' },
+              { text: '生命健康学院', link: '/ja-JP/Life-Health-College' }
+            ]
+          },
+          {
+            text: '資金調達',
+            collapsed: true,
+            items: [
+              { text: '公益資金調達', link: '/ja-JP/Public-Welfare-Fundraising' },
+              { text: '商用プロジェクト', link: '/ja-JP/Commercial-Projects' }
+            ]
+          },
+          {
+            text: 'チーム',
+            collapsed: true,
+            items: [
+              { text: '価値観', link: '/ja-JP/Talent-Recruitment' },
+              { text: 'ボランティア募集', link: '/ja-JP/Volunteer-Recruitment' },
+              { text: '人材募集', link: '/ja-JP/Talent-Recruitment' }
+            ]
+          },
+          {
+             text: 'その他',
+             collapsed: true,
+             items: [
+              { text: 'ニュースとイベント', link: '/ja-JP/News-and-Events' },
+              { text: '著作権に関する声明', link: '/ja-JP/Copyright-Statement' },
+              { text: 'お問い合わせ', link: '/ja-JP/Contact-Us' },
+            ]
+          }
+        ],
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/HHPF/' }
+        ],
+        footer: {
+          copyright: '著作権所有 © 2024 ~ 現在 人間健康計画財団（準備中）'
         }
       }
     }
