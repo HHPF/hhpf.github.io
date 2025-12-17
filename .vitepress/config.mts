@@ -65,7 +65,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '生命系统论', link: '/zh-CN/Life-Systems-Theory' },
-              { text: '第一原理', link: '/zh-CN/First-Principles' },
+              { text: '自愈定理', link: '/zh-CN/First-Principles' },
               { text: '九维健康标准', link: '/zh-CN/9D-Health-Standards' },
               { text: '系统医学', link: '/zh-CN/Systems-Medicine' },
               { text: '系统疗法', link: '/zh-CN/Systems-Therapy' }
