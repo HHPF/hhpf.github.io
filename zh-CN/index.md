@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "HHPF"
-  text: "人类健康计划"
-  tagline: 致力于AI时代人类健康基础设施构建
+  text: "人类健康计划基金会"
+  tagline: 致力于AI时代人类健康基础设施建设
   image:
     src: /logo.webp
     alt: HHPF Logo

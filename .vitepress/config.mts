@@ -45,9 +45,9 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/zh-CN/' },
           { text: '白皮书', link: '/zh-CN/Project-Origins' },
-          { text: '新闻活动', link: '/zh-CN/News-and-Events' },
-          { text: '版权申明', link: '/zh-CN/Copyright-Statement' },
-          { text: '联系我们', link: '/zh-CN/Contact-Us' },
+          { text: '新闻', link: '/zh-CN/News-and-Events' },
+          { text: '版权', link: '/zh-CN/Copyright-Statement' },
+          { text: '联系', link: '/zh-CN/Contact-Us' },
 
         ],
         sidebar: [
@@ -132,7 +132,7 @@ export default defineConfig({
              items: [
               { text: '新闻活动', link: '/zh-CN/News-and-Events' },
               { text: '版权申明', link: '/zh-CN/Copyright-Statement' },
-              { text: '联系我们', link: '/zh-CN/Contact-Us' }
+              { text: '联系我们', link: '/zh-CN/Contact-Us' },
             ]
           },
         ],
