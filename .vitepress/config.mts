@@ -81,7 +81,7 @@ export default defineConfig({
             ]
           },
           {
-            text: '标准化',
+            text: '标准化工程',
             collapsed: true,
             items: [
               { text: 'A/B实验', link: '/zh-CN/AB-Testing' },
