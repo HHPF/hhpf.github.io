@@ -4,14 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "HHPF - Human Health Plan Foundation",
   description: "Human Health Plan Foundation",
-
-
-
-
-
-
-
-
+  // 配置网站favicon
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 配置网站搜索功能
   themeConfig: {
     search: {
@@ -25,7 +19,6 @@ export default defineConfig({
     },
     siteTitle: false
   },
-
   // 英文版设置
   locales: {
     root: {
