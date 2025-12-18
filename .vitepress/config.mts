@@ -1,25 +1,44 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
+// 网站配置
 export default defineConfig({
-  title: "HHPF",
+  title: "HHPF - Human Health Plan Foundation",
   description: "Human Health Plan Foundation",
+
+
+
+
+
+
+
+
+  // 配置网站搜索功能
   themeConfig: {
     search: {
       provider: 'local'
     },
-    logo: '/logo.webp'
+    // 配置网站logo
+    logo: {
+      light: '/logo-light.png',
+      dark: '/logo-dark.png',
+      alt: 'HHPF Logo'
+    },
+    siteTitle: false
   },
+
+  // 英文版设置
   locales: {
     root: {
       label: 'English',
       lang: 'en',
       description: 'Human Health Plan Foundation',
+      // 英文版首页导航设置
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Examples', link: '/markdown-examples' }
         ],
+        // 英文版内容侧边栏设置
         sidebar: [
           {
             text: 'Examples',
@@ -29,18 +48,23 @@ export default defineConfig({
             ]
           }
         ],
+        // 英文版首页社交链接设置
         socialLinks: [
           { icon: 'github', link: 'https://github.com/HHPF/' }
         ],
+        // 英文版首页页脚设置
         footer: {
           copyright: 'Copyright © 2025 ~ Present Human Health Plan Foundation'
         }
       }
     },
+
+    // 中文版设置
     'zh-CN': {
       label: '简体中文',
       lang: 'zh-CN',
       description: '人类健康计划基金会',
+      // 中文版首页导航设置
       themeConfig: {
         nav: [
           { text: '首页', link: '/zh-CN/' },
@@ -49,6 +73,7 @@ export default defineConfig({
           { text: '版权', link: '/zh-CN/Copyright-Statement' },
           { text: '联系', link: '/zh-CN/Contact-Us' }
         ],
+        // 中文版内容侧边栏设置
         sidebar: [
           {
             text: '愿景',
@@ -72,43 +97,16 @@ export default defineConfig({
             ]
           },
           {
-            text: '标准化工程',
+            text: '项目',
             collapsed: true,
             items: [
-              { text: 'A/B实验', link: '/zh-CN/AB-Testing' },
-              { text: '培训班', link: '/zh-CN/Training-Program' }
+              { text: '标准化工程', link: '/zh-CN/AB-Testing' },
+              { text: '人工智能', link: '/zh-CN/Training-Program' },
+              { text: '训练营', link: '/zh-CN/Training-Program' },
+              { text: '示范项目', link: '/zh-CN/Training-Program' }
             ]
           },          
-          {
-            text: '人工智能',
-            collapsed: true,
-            items: [
-              { text: '诊疗SOP', link: '/zh-CN/Clinical-SOPs' },
-              { text: '案例库RAG', link: '/zh-CN/Case-RAG' },
-              { text: '免费AI问诊计划', link: '/zh-CN/Free-AI-Triage' }
-            ]
-          },
 
-          {
-            text: '训练营',
-            collapsed: true,
-            items: [
-              { text: '正觉疗法', link: '/zh-CN/Right-Awareness-Therapy' },
-              { text: '正觉生活禅修', link: '/zh-CN/Right-Awareness-Mindful-Living' }
-            ]
-          },
-          {
-            text: '示范项目',
-            collapsed: true,
-            items: [
-              { text: '医馆', link: '/zh-CN/Medical-Hall' },
-              { text: '疗养院', link: '/zh-CN/Nursing-Center' },
-              { text: '养老与临终关怀', link: '/zh-CN/Elderly-Care-and-Hospice-Services' },
-              { text: '社区大健康综合体', link: '/zh-CN/Community-Wellness-Complex' },
-              { text: '大健康产业园', link: '/zh-CN/Health-Industry-Park' },
-              { text: '生命健康学院', link: '/zh-CN/Life-Health-College' }
-            ]
-          },
           {
             text: '募资',
             collapsed: true,
@@ -117,6 +115,7 @@ export default defineConfig({
               { text: '商业项目', link: '/zh-CN/Commercial-Projects' }
             ]
           },
+
           {
             text: '团队',
             collapsed: true,
@@ -144,23 +143,28 @@ export default defineConfig({
             ]
           },
         ],
+        // 中文版首页社交链接设置
         socialLinks: [
           { icon: 'github', link: 'https://github.com/HHPF/' }
         ],
+        // 中文版首页页脚设置
         footer: {
           copyright: '版权所有 © 2024 ~ 至今 人类健康计划基金会（筹）'
         }
       }
     },
+    // 繁体中文设置
     'zh-TW': {
       label: '繁體中文',
       lang: 'zh-TW',
       description: '人類健康計劃基金會（筹）',
+      // 繁体中文首页导航设置
       themeConfig: {
         nav: [
           { text: '首頁', link: '/zh-TW/' },
           { text: '範例', link: '/zh-TW/markdown-examples' }
         ],
+        // 繁体中文内容侧边栏设置
         sidebar: [
           {
             text: '範例',
@@ -170,14 +174,17 @@ export default defineConfig({
             ]
           }
         ],
+        // 繁体中文首页社交链接设置
         socialLinks: [
           { icon: 'github', link: 'https://github.com/HHPF/hhpf.github.io' }
         ],
+        // 繁体中文首页页脚设置
         footer: {
           copyright: '版權所有 © 2024 ~ 至今 人類健康計劃基金會（筹）'
         }
       }
     },
+    // 日语设置
     'ja-JP': {
       label: '日本語',
       lang: 'ja-JP',

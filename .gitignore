@@ -12,6 +12,7 @@ node_modules
 dist
 dist-ssr
 *.local
+HHPF-LOGO
 
 # Editor directories and files
 .vscode/*
