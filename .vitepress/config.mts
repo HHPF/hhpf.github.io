@@ -72,6 +72,14 @@ export default defineConfig({
             ]
           },
           {
+            text: '标准化工程',
+            collapsed: true,
+            items: [
+              { text: 'A/B实验', link: '/zh-CN/AB-Testing' },
+              { text: '培训班', link: '/zh-CN/Training-Program' }
+            ]
+          },          
+          {
             text: '人工智能',
             collapsed: true,
             items: [
@@ -80,14 +88,7 @@ export default defineConfig({
               { text: '免费AI问诊计划', link: '/zh-CN/Free-AI-Triage' }
             ]
           },
-          {
-            text: '标准化工程',
-            collapsed: true,
-            items: [
-              { text: 'A/B实验', link: '/zh-CN/AB-Testing' },
-              { text: '培训班', link: '/zh-CN/Training-Program' }
-            ]
-          },
+
           {
             text: '训练营',
             collapsed: true,
@@ -126,11 +127,19 @@ export default defineConfig({
             ]
           },
           {
-             text: '相关',
+             text: '版权声明',
              collapsed: true,
              items: [
               { text: '新闻活动', link: '/zh-CN/News-and-Events' },
               { text: '版权申明', link: '/zh-CN/Copyright-Statement' },
+              { text: '联系我们', link: '/zh-CN/Contact-Us' },
+            ]
+          },
+          {
+             text: '相关',
+             collapsed: true,
+             items: [
+              { text: '新闻活动', link: '/zh-CN/News-and-Events' },
               { text: '联系我们', link: '/zh-CN/Contact-Us' },
             ]
           },
