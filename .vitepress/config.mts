@@ -142,7 +142,8 @@ export default defineConfig({
         ],
         // 中文版首页页脚设置
         footer: {
-          copyright: '版权所有 © 2024 ~ 至今 人类健康计划基金会（筹）'
+          message: '<img src="/logo-light.png" style="height: 25px; margin:auto;"><br>',
+          copyright: '版权所有 © 2025 ~ 至今 人类健康计划基金会'
         }
       }
     },
