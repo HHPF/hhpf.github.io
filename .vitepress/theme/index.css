@@ -6,14 +6,17 @@
   --vp-c-brand-lighter: #339900;
   --vp-c-brand-dark: #339900;
   --vp-c-brand-darker: #339900;
-  
-  /* 全局链接颜色设置 */
+
+  /* 首页英雄图与文字彩色样式设置 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+
+    /* 全局链接颜色设置 */
   --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
   --vp-c-text-link-active: var(--vp-c-brand) !important;
   
-  /* Hero 部分颜色设置 */
-  --vp-home-hero-name-color: var(--vp-c-brand);
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--vp-c-brand), var(--vp-c-brand-light));
   
   /* 侧边栏颜色设置 */
   --vp-sidebar-heading-color: var(--vp-c-brand);
@@ -21,131 +24,133 @@
   --vp-sidebar-item-hover-color: var(--vp-c-brand-light);
   --vp-sidebar-item-active-color: var(--vp-c-brand);
   
-  --vp-feature-card-border-radius: 8px;
+  /* 功能卡片样式设置 */
+  --vp-feature-card-border-radius: 25px;
   --vp-feature-card-border-color: transparent;
-  --vp-feature-card-border-width: 1px;
-  --vp-feature-card-hover-border-color: var(--vp-c-brand-light);
+  --vp-feature-card-border-width: 3px;
+  --vp-feature-card-hover-border-color: rgba(51, 153, 0, 0.2); /* 50%透明度的品牌色 */
   --vp-feature-card-transition: all 0.2s ease;
-  --vp-home-hero-image-background-image: linear-gradient(135deg, var(--vp-c-brand) 0%, var(--vp-c-brand-light) 100%);
-  --vp-home-hero-image-filter: blur(60px);
+
+
+  /* 导航栏logo高度设置 */
   --vp-nav-logo-height: 20px !important;
   --vp-nav-logo-max-height: 20px !important;
 }
 
-/* Apply styles to all feature cards */
-.feature-item {
-  border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
-  border-radius: var(--vp-feature-card-border-radius);
-  transition: var(--vp-feature-card-transition);
-  padding: 24px;
-  margin-bottom: 24px;
-}
-
-.feature-item:hover {
-  border-color: var(--vp-feature-card-hover-border-color);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-}
-
-/* Alternative selector for VitePress default theme */
-.VPFeatures .VPFeature {
-  border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
-  border-radius: var(--vp-feature-card-border-radius);
-  transition: var(--vp-feature-card-transition);
-}
-
-.VPFeatures .VPFeature:hover {
-  border-color: var(--vp-feature-card-hover-border-color);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-}
-
-/* Additional fallback selector */
-.vp-doc .VPFeatures > div > div {
-  border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
-  border-radius: var(--vp-feature-card-border-radius);
-  transition: var(--vp-feature-card-transition);
-}
-
-.vp-doc .VPFeatures > div > div:hover {
-  border-color: var(--vp-feature-card-hover-border-color);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-}
-
-/* 侧边栏可折叠栏目样式 */
-.VPSidebar .VPNav .VPNavItem .VPNavItemTitle {
-  color: var(--vp-sidebar-heading-color);
-}
-
-.VPSidebar .VPNav .VPNavItem .VPNavItemTitle:hover {
-  color: var(--vp-sidebar-item-hover-color);
-}
-
-.VPSidebar .VPNav .VPNavItem .VPNavChildren a {
-  color: var(--vp-sidebar-item-color);
-}
-
-.VPSidebar .VPNav .VPNavItem .VPNavChildren a:hover {
-  color: var(--vp-sidebar-item-hover-color);
-}
-
-.VPSidebar .VPNav .VPNavItem .VPNavChildren a.active {
-  color: var(--vp-sidebar-item-active-color);
-}
-
-/* 根据dark/light模式设置链接当前色 */
-/* light模式下的链接颜色 */
-:root {
-  --vp-c-text-link: var(--vp-c-brand) !important;
-  --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
-  --vp-c-text-link-active: var(--vp-c-brand) !important;
-  --vp-c-text-link-visited: var(--vp-c-brand) !important;
-}
-
-/* dark模式下的链接颜色 */
-html.dark {
-  --vp-c-text-link: #ffffff !important;
-  --vp-c-text-link-hover: var(--vp-c-brand-light) !important;
-  --vp-c-text-link-active: #ffffff !important;
-  --vp-c-text-link-visited: #ffffff !important;
-}
-
-/* 确保所有链接都应用模式对应的颜色 */
-a {
-  color: var(--vp-c-text-link) !important;
-  text-decoration: none !important;
-}
-
-a:hover {
-  color: #339900 !important;
-  text-decoration: none !important;
-}
-
-a:active {
-  color: var(--vp-c-text-link-active) !important;
-}
-
-
-
-a:visited {
-  color: var(--vp-c-text-link-visited) !important;
-}
-
-/* 确保文档中的链接也应用相同样式 */
-.vp-doc a {
-  color: var(--vp-c-brand) !important;
-}
-
-.vp-doc a:hover {
-  color: var(--vp-c-brand-lighter) !important;
-}
-
-/* 导航链接样式 */
-.VPNavLink {
-  color: var(--vp-c-brand) !important;
-}
-
-.VPNavLink:hover {
-  color: var(--vp-c-brand-lighter) !important;
-}
+ 
+ .feature-item {
+   border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
+   border-radius: var(--vp-feature-card-border-radius);
+   transition: var(--vp-feature-card-transition);
+   padding: 24px;
+   margin-bottom: 24px;
+ }
+ 
+ .feature-item:hover {
+   border-color: var(--vp-feature-card-hover-border-color);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   transform: translateY(-2px);
+ }
+ 
+ /* Alternative selector for VitePress default theme */
+ .VPFeatures .VPFeature {
+   border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
+   border-radius: var(--vp-feature-card-border-radius);
+   transition: var(--vp-feature-card-transition);
+ }
+ 
+ .VPFeatures .VPFeature:hover {
+   border-color: var(--vp-feature-card-hover-border-color);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   transform: translateY(-2px);
+ }
+ 
+ /* Additional fallback selector */
+ .vp-doc .VPFeatures > div > div {
+   border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
+   border-radius: var(--vp-feature-card-border-radius);
+   transition: var(--vp-feature-card-transition);
+ }
+ 
+ .vp-doc .VPFeatures > div > div:hover {
+   border-color: var(--vp-feature-card-hover-border-color);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   transform: translateY(-2px);
+ }
+ 
+ /* 侧边栏可折叠栏目样式 */
+ .VPSidebar .VPNav .VPNavItem .VPNavItemTitle {
+   color: var(--vp-sidebar-heading-color);
+ }
+ 
+ .VPSidebar .VPNav .VPNavItem .VPNavItemTitle:hover {
+   color: var(--vp-sidebar-item-hover-color);
+ }
+ 
+ .VPSidebar .VPNav .VPNavItem .VPNavChildren a {
+   color: var(--vp-sidebar-item-color);
+ }
+ 
+ .VPSidebar .VPNav .VPNavItem .VPNavChildren a:hover {
+   color: var(--vp-sidebar-item-hover-color);
+ }
+ 
+ .VPSidebar .VPNav .VPNavItem .VPNavChildren a.active {
+   color: var(--vp-sidebar-item-active-color);
+ }
+ 
+ /* 根据dark/light模式设置链接当前色 */
+ /* light模式下的链接颜色 */
+ :root {
+   --vp-c-text-link: var(--vp-c-brand) !important;
+   --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
+   --vp-c-text-link-active: var(--vp-c-brand) !important;
+   --vp-c-text-link-visited: var(--vp-c-brand) !important;
+ }
+ 
+ /* dark模式下的链接颜色 */
+ html.dark {
+   --vp-c-text-link: #ffffff !important;
+   --vp-c-text-link-hover: var(--vp-c-brand-light) !important;
+   --vp-c-text-link-active: #ffffff !important;
+   --vp-c-text-link-visited: #ffffff !important;
+ }
+ 
+ /* 确保所有链接都应用模式对应的颜色 */
+ a {
+   color: var(--vp-c-text-link) !important;
+   text-decoration: none !important;
+ }
+ 
+ a:hover {
+   color: #339900 !important;
+   text-decoration: none !important;
+ }
+ 
+ a:active {
+   color: var(--vp-c-text-link-active) !important;
+ }
+ 
+ 
+ 
+ a:visited {
+   color: var(--vp-c-text-link-visited) !important;
+ }
+ 
+ /* 确保文档中的链接也应用相同样式 */
+ .vp-doc a {
+   color: var(--vp-c-brand) !important;
+ }
+ 
+ .vp-doc a:hover {
+   color: var(--vp-c-brand-lighter) !important;
+ }
+ 
+ /* 导航链接样式 */
+ .VPNavLink {
+   color: var(--vp-c-brand) !important;
+ }
+ 
+ .VPNavLink:hover {
+   color: var(--vp-c-brand-lighter) !important;
+ }
