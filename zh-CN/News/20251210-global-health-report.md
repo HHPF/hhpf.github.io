@@ -3,6 +3,8 @@ outline: deep
 date: 2025-12-10
 title: 基金会发布《2025全球健康报告》
 description: 人类健康计划基金会发布了《2025全球健康报告》，报告分析了当前全球健康状况及面临的挑战，并提出了未来健康发展的建议和方向。
+prev: false
+next: false
 ---
 
 # 基金会发布《2025全球健康报告》
@@ -37,4 +39,6 @@ description: 人类健康计划基金会发布了《2025全球健康报告》，
 
 《2025全球健康报告》的发布将为各国政府、国际组织和健康机构提供重要参考，有助于推动全球健康事业的发展，实现联合国可持续发展目标中的健康相关目标。
 
-[返回新闻列表](../News-and-Events.md)
+
+<br><br>
+<a href="index" style="display: inline-block; padding: 8px 30px; background-color: #339900; color: white !important; text-decoration: none !important; border-radius: 20px; font-weight: 500;" onmouseover="this.style.backgroundColor='#000000';" onmouseout="this.style.backgroundColor='#339900';">返回新闻列表</a>

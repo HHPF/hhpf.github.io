@@ -4,9 +4,10 @@
   "description": "Human Health Plan Foundation White Paper",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "d": "vitepress dev",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "update:news": "node update-news-component.js",
+    "d": "npm run update:news && vitepress dev",
+    "docs:dev": "npm run update:news && vitepress dev",
+    "docs:build": "npm run update:news && vitepress build",
     "docs:preview": "vitepress preview"
   },
   "keywords": [
@@ -19,6 +20,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "gray-matter": "^4.0.3",
     "vitepress": "^1.6.4"
   }
 }

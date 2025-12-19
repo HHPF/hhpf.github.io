@@ -2,10 +2,14 @@
 :root {
   /* 网站主色设置 */
   --vp-c-brand: #339900;
-  --vp-c-brand-light: #afe5bf;
-  --vp-c-brand-lighter: #068920;
-  --vp-c-brand-dark: #0d5621;
-  --vp-c-brand-darker: #013706;
+  --vp-c-brand-light: #339900;
+  --vp-c-brand-lighter: #339900;
+  --vp-c-brand-dark: #339900;
+  --vp-c-brand-darker: #339900;
+  
+  /* 全局链接颜色设置 */
+  --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
+  --vp-c-text-link-active: var(--vp-c-brand) !important;
   
   /* Hero 部分颜色设置 */
   --vp-home-hero-name-color: var(--vp-c-brand);
@@ -88,4 +92,60 @@
 
 .VPSidebar .VPNav .VPNavItem .VPNavChildren a.active {
   color: var(--vp-sidebar-item-active-color);
+}
+
+/* 根据dark/light模式设置链接当前色 */
+/* light模式下的链接颜色 */
+:root {
+  --vp-c-text-link: var(--vp-c-brand) !important;
+  --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
+  --vp-c-text-link-active: var(--vp-c-brand) !important;
+  --vp-c-text-link-visited: var(--vp-c-brand) !important;
+}
+
+/* dark模式下的链接颜色 */
+html.dark {
+  --vp-c-text-link: #ffffff !important;
+  --vp-c-text-link-hover: var(--vp-c-brand-light) !important;
+  --vp-c-text-link-active: #ffffff !important;
+  --vp-c-text-link-visited: #ffffff !important;
+}
+
+/* 确保所有链接都应用模式对应的颜色 */
+a {
+  color: var(--vp-c-text-link) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #339900 !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  color: var(--vp-c-text-link-active) !important;
+}
+
+
+
+a:visited {
+  color: var(--vp-c-text-link-visited) !important;
+}
+
+/* 确保文档中的链接也应用相同样式 */
+.vp-doc a {
+  color: var(--vp-c-brand) !important;
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-brand-lighter) !important;
+}
+
+/* 导航链接样式 */
+.VPNavLink {
+  color: var(--vp-c-brand) !important;
+}
+
+.VPNavLink:hover {
+  color: var(--vp-c-brand-lighter) !important;
 }

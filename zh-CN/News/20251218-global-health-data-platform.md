@@ -3,6 +3,8 @@ outline: deep
 date: 2025-12-18
 title: 人类健康计划基金会正式启动全球健康数据共享平台
 description: 人类健康计划基金会启动全球健康数据共享平台，促进全球健康数据共享与合作
+prev: false
+next: false
 ---
 
 # 人类健康计划基金会正式启动全球健康数据共享平台
@@ -48,4 +50,10 @@ description: 人类健康计划基金会启动全球健康数据共享平台，�
 - 促进全球健康公平，缩小不同地区健康差距
 - 推动健康产业创新发展
 
-[返回新闻列表](../News-and-Events.md)
+
+
+<br><br>
+<a href="index" style="display: inline-block; padding: 8px 30px; background-color: 
+#339900; color: white !important; text-decoration: none !important; border-radius: 
+20px; font-weight: 500;" onmouseover="this.style.backgroundColor='#000000';" 
+onmouseout="this.style.backgroundColor='#339900';">返回新闻列表</a>

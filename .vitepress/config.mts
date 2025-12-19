@@ -1,7 +1,9 @@
 import { defineConfig } from 'vitepress'
 
-// 网站配置
+// 网站全局配置
 export default defineConfig({
+  // 配置网站最后更新时间
+  lastUpdated: true,
   // 配置网站favicon
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 配置网站搜索功能
@@ -15,7 +17,16 @@ export default defineConfig({
       dark: '/logo-dark.png',
       alt: 'HHPF Logo'
     },
-    siteTitle: false
+    siteTitle: false,
+    // 配置编辑链接
+    editLink: {
+      pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
+      text: '在GitHub上编辑此页面'
+    },
+    // 配置仓库链接
+    repo: 'HHPF/hhpf.github.io',
+    // 配置最后更新时间文本
+    lastUpdatedText: '最后更新于'
   },
 
   // 英文版设置
@@ -137,14 +148,8 @@ export default defineConfig({
               { text: '授权方式', link: '/zh-CN/Contact-Us' },
             ]
           },
-          {
-             text: '相关',
-             collapsed: true,
-             items: [
-              { text: '新闻活动', link: '/zh-CN/News/' },
-              { text: '联系我们', link: '/zh-CN/Contact' },
-            ]
-          },
+          { text: '新闻', link: '/zh-CN/News/' },
+          { text: '联系', link: '/zh-CN/Contact' },
         ],
         // 中文版首页社交链接设置
         socialLinks: [

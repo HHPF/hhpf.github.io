@@ -3,6 +3,8 @@ outline: deep
 date: 2025-12-15
 title: 首届国际健康系统论坛在北京成功举办
 description: 首届国际健康系统论坛在北京成功举办，全球专家共同探讨健康系统创新与发展
+prev: false
+next: false
 ---
 
 # 首届国际健康系统论坛在北京成功举办
@@ -42,4 +44,9 @@ description: 首届国际健康系统论坛在北京成功举办，全球专家�
 
 人类健康计划基金会计划每年举办一次国际健康系统论坛，将其打造成为全球健康领域的重要交流平台。
 
-[返回新闻列表](../News-and-Events.md)
+
+<br><br>
+<a href="index" style="display: inline-block; padding: 8px 30px; background-color: 
+#339900; color: white !important; text-decoration: none !important; border-radius: 
+20px; font-weight: 500;" onmouseover="this.style.backgroundColor='#000000';" 
+onmouseout="this.style.backgroundColor='#339900';">返回新闻列表</a>
