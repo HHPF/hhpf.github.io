@@ -1,15 +1,21 @@
 /* Custom styles for feature cards and logo gradient */
 :root {
   /* 网站主色设置 */
-  --vp-c-brand: #4f46e5;
-  --vp-c-brand-light: #6366f1;
-  --vp-c-brand-lighter: #818cf8;
-  --vp-c-brand-dark: #4338ca;
-  --vp-c-brand-darker: #3730a3;
+  --vp-c-brand: #339900;
+  --vp-c-brand-light: #afe5bf;
+  --vp-c-brand-lighter: #068920;
+  --vp-c-brand-dark: #0d5621;
+  --vp-c-brand-darker: #013706;
   
   /* Hero 部分颜色设置 */
   --vp-home-hero-name-color: var(--vp-c-brand);
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--vp-c-brand), var(--vp-c-brand-light));
+  
+  /* 侧边栏颜色设置 */
+  --vp-sidebar-heading-color: var(--vp-c-brand);
+  --vp-sidebar-item-color: rgba(255, 255, 255, 0.87);
+  --vp-sidebar-item-hover-color: var(--vp-c-brand-light);
+  --vp-sidebar-item-active-color: var(--vp-c-brand);
   
   --vp-feature-card-border-radius: 8px;
   --vp-feature-card-border-color: transparent;
@@ -61,4 +67,25 @@
   border-color: var(--vp-feature-card-hover-border-color);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
+}
+
+/* 侧边栏可折叠栏目样式 */
+.VPSidebar .VPNav .VPNavItem .VPNavItemTitle {
+  color: var(--vp-sidebar-heading-color);
+}
+
+.VPSidebar .VPNav .VPNavItem .VPNavItemTitle:hover {
+  color: var(--vp-sidebar-item-hover-color);
+}
+
+.VPSidebar .VPNav .VPNavItem .VPNavChildren a {
+  color: var(--vp-sidebar-item-color);
+}
+
+.VPSidebar .VPNav .VPNavItem .VPNavChildren a:hover {
+  color: var(--vp-sidebar-item-hover-color);
+}
+
+.VPSidebar .VPNav .VPNavItem .VPNavChildren a.active {
+  color: var(--vp-sidebar-item-active-color);
 }

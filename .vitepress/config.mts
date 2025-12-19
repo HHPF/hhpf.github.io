@@ -2,8 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // 网站配置
 export default defineConfig({
-  title: "HHPF - Human Health Plan Foundation",
-  description: "Human Health Plan Foundation",
   // 配置网站favicon
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 配置网站搜索功能
@@ -19,12 +17,14 @@ export default defineConfig({
     },
     siteTitle: false
   },
+
   // 英文版设置
   locales: {
     root: {
       label: 'English',
       lang: 'en',
-      description: 'Human Health Plan Foundation',
+      title: "HHPF - Human Health Plan Foundation",
+      description: "Committed to Building Human Health Infrastructure for the AI Era.",
       // 英文版首页导航设置
       themeConfig: {
         nav: [
@@ -47,6 +47,7 @@ export default defineConfig({
         ],
         // 英文版首页页脚设置
         footer: {
+          message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',          
           copyright: 'Copyright © 2025 ~ Present Human Health Plan Foundation'
         }
       }
@@ -56,15 +57,24 @@ export default defineConfig({
     'zh-CN': {
       label: '简体中文',
       lang: 'zh-CN',
-      description: '人类健康计划基金会',
+      title: "HHPF - 人类健康计划基金会",
+      description: "致力于为AI时代构建人类健康基础设施。",      
       // 中文版首页导航设置
       themeConfig: {
         nav: [
           { text: '首页', link: '/zh-CN/' },
-          { text: '白皮书', link: '/zh-CN/Project-Origins' },
-          { text: '新闻', link: '/zh-CN/News-and-Events' },
-          { text: '版权', link: '/zh-CN/Copyright-Statement' },
-          { text: '联系', link: '/zh-CN/Contact-Us' }
+          { text: '白皮书', 
+            items: [
+              { text: '愿景', link: '/zh-CN/Project-Origins' },
+              { text: '方法论', link: '/zh-CN/Model-Innovation' },
+              { text: '项目', link: '/zh-CN/Theory-Advancement' },
+              { text: '募资', link: '/zh-CN/Therapy-Upgrading' },
+              { text: '团队', link: '/zh-CN/Therapy-Upgrading' },
+              { text: '版权声明', link: '/zh-CN/Copyright-Statement' },
+            ]
+          },
+          { text: '新闻', link: '/zh-CN/Contact-Us' },
+          { text: '联系', link: '/zh-CN/Contact-Us' },
         ],
         // 中文版内容侧边栏设置
         sidebar: [
@@ -122,9 +132,9 @@ export default defineConfig({
              text: '版权声明',
              collapsed: true,
              items: [
-              { text: '新闻活动', link: '/zh-CN/News-and-Events' },
+              { text: '著作权申明', link: '/zh-CN/News-and-Events' },
               { text: '版权申明', link: '/zh-CN/Copyright-Statement' },
-              { text: '联系我们', link: '/zh-CN/Contact-Us' },
+              { text: '授权方式', link: '/zh-CN/Contact-Us' },
             ]
           },
           {
@@ -281,6 +291,7 @@ export default defineConfig({
           { icon: 'github', link: 'https://github.com/HHPF/' }
         ],
         footer: {
+          message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',          
           copyright: '著作権所有 © 2024 ~ 現在 人間健康計画財団（準備中）'
         }
       }
