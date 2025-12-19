@@ -73,8 +73,8 @@ export default defineConfig({
               { text: '版权声明', link: '/zh-CN/Copyright-Statement' },
             ]
           },
-          { text: '新闻', link: '/zh-CN/Contact-Us' },
-          { text: '联系', link: '/zh-CN/Contact-Us' },
+          { text: '新闻', link: '/zh-CN/News/' },
+          { text: '联系', link: '/zh-CN/Contact' },
         ],
         // 中文版内容侧边栏设置
         sidebar: [
@@ -105,7 +105,7 @@ export default defineConfig({
             items: [
               { text: '标准化工程', link: '/zh-CN/AB-Testing' },
               { text: '人工智能', link: '/zh-CN/Training-Program' },
-              { text: '训练营', link: '/zh-CN/Training-Program' },
+              { text: '健康训练营', link: '/zh-CN/Training-Program' },
               { text: '示范项目', link: '/zh-CN/Training-Program' }
             ]
           },          
@@ -133,7 +133,7 @@ export default defineConfig({
              collapsed: true,
              items: [
               { text: '著作权申明', link: '/zh-CN/News-and-Events' },
-              { text: '版权申明', link: '/zh-CN/Copyright-Statement' },
+              { text: '知识产权', link: '/zh-CN/Copyright-Statement' },
               { text: '授权方式', link: '/zh-CN/Contact-Us' },
             ]
           },
@@ -141,8 +141,8 @@ export default defineConfig({
              text: '相关',
              collapsed: true,
              items: [
-              { text: '新闻活动', link: '/zh-CN/News-and-Events' },
-              { text: '联系我们', link: '/zh-CN/Contact-Us' },
+              { text: '新闻活动', link: '/zh-CN/News/' },
+              { text: '联系我们', link: '/zh-CN/Contact' },
             ]
           },
         ],
@@ -153,7 +153,7 @@ export default defineConfig({
         // 中文版首页页脚设置
         footer: {
           message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',
-          copyright: '版权所有 © 2025 ~ 至今 人类健康计划基金会'
+          copyright: '版权所有 © 2025 ~ Present 人类健康计划基金会'
         }
       }
     },

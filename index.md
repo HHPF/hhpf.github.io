@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "HHPF"
   text: "Human Health Plan Foundation"
-  tagline: My great project tagline
+  tagline: Committed to Building Human Health Infrastructure for the AI Era.
   image:
     src: /logo.webp
     alt: HHPF Logo
