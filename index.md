@@ -20,8 +20,14 @@ hero:
 features:
   - title: MIT License
     details: The MIT License (MIT) - A permissive open-source license that allows for reuse, modification, and distribution of software.
+    link: /license
+    linkText: 查看MIT许可证
   - title: Copyright Notice
     details: Copyright (c) 2017 these people - The license includes a copyright notice that must be retained in all copies or substantial portions of the software.
+    link: /copyright
+    linkText: 查看版权声明
   - title: Permission Terms
-    details: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions.
+    details: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software").
+    link: /terms
+    linkText: 查看许可条款
 ---
