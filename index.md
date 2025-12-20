@@ -7,7 +7,7 @@ hero:
   text: "Human Health Plan Foundation"
   tagline: Committed to Building Human Health Infrastructure for the AI Era.
   image:
-    src: /logo.webp
+    src: /hero.png
     alt: HHPF Logo
   actions:
     - theme: brand
