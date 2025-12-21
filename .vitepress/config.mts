@@ -76,12 +76,12 @@ export default defineConfig({
           { text: '首页', link: '/zh-CN/' },
           { text: '白皮书', 
             items: [
-              { text: '愿景', link: '/zh-CN/Project-Origins' },
-              { text: '方法论', link: '/zh-CN/Model-Innovation' },
-              { text: '项目', link: '/zh-CN/Theory-Advancement' },
-              { text: '募资', link: '/zh-CN/Therapy-Upgrading' },
-              { text: '团队', link: '/zh-CN/Therapy-Upgrading' },
-              { text: '版权声明', link: '/zh-CN/Copyright-Statement' },
+              { text: '愿景', link: '/zh-CN/Whitepaper/Project-Origins' },
+              { text: '方法论', link: '/zh-CN/Whitepaper/Model-Innovation' },
+              { text: '项目', link: '/zh-CN/Whitepaper/Theory-Advancement' },
+              { text: '募资', link: '/zh-CN/Whitepaper/Therapy-Upgrading' },
+              { text: '团队', link: '/zh-CN/Whitepaper/HHPF-Values' },
+              { text: '版权声明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
             ]
           },
           { text: '新闻', link: '/zh-CN/News/' },
@@ -93,31 +93,31 @@ export default defineConfig({
             text: '愿景',
             collapsed: true,
             items: [
-              { text: '项目缘起', link: '/zh-CN/Project-Origins' },
-              { text: '模式创新', link: '/zh-CN/Model-Innovation' },
-              { text: '理论深化', link: '/zh-CN/Theory-Advancement' },
-              { text: '疗法升级', link: '/zh-CN/Therapy-Upgrading' }
+              { text: '项目缘起', link: '/zh-CN/Whitepaper/Project-Origins' },
+              { text: '理论深化', link: '/zh-CN/Whitepaper/Theory-Advancement' },
+              { text: '疗法整合', link: '/zh-CN/Whitepaper/Therapy-Integration' },
+              { text: '模式创新', link: '/zh-CN/Whitepaper/Model-Innovation' },
             ]
           },  
           {
             text: '方法论',
             collapsed: true,
             items: [
-              { text: '生命系统论', link: '/zh-CN/Life-Systems-Theory' },
-              { text: '自愈定理', link: '/zh-CN/First-Principles' },
-              { text: '九维健康标准', link: '/zh-CN/9D-Health-Standards' },
-              { text: '系统医学', link: '/zh-CN/Systems-Medicine' },
-              { text: '系统疗法', link: '/zh-CN/Systems-Therapy' }
+              { text: '生命系统论', link: '/zh-CN/Whitepaper/Life-Systems-Theory' },
+              { text: '自愈定理', link: '/zh-CN/Whitepaper/First-Principles' },
+              { text: '九维健康标准', link: '/zh-CN/Whitepaper/9D-Health-Standards' },
+              { text: '系统医学', link: '/zh-CN/Whitepaper/Systems-Medicine' },
+              { text: '系统疗法', link: '/zh-CN/Whitepaper/Systems-Therapy' }
             ]
           },
           {
             text: '项目',
             collapsed: true,
             items: [
-              { text: '标准化工程', link: '/zh-CN/AB-Testing' },
-              { text: '人工智能', link: '/zh-CN/Training-Program' },
-              { text: '健康训练营', link: '/zh-CN/Training-Program' },
-              { text: '示范项目', link: '/zh-CN/Training-Program' }
+              { text: '标准化工程', link: '/zh-CN/Whitepaper/AB-Testing' },
+              { text: '人工智能', link: '/zh-CN/Whitepaper/SMD-AI' },
+              { text: '健康训练营', link: '/zh-CN/Whitepaper/Training-Program' },
+              { text: '示范项目', link: '/zh-CN/Whitepaper/Training-Program' }
             ]
           },          
 
@@ -125,8 +125,8 @@ export default defineConfig({
             text: '募资',
             collapsed: true,
             items: [
-              { text: '公益筹资', link: '/zh-CN/Public-Welfare-Fundraising' },
-              { text: '商业项目', link: '/zh-CN/Commercial-Projects' }
+              { text: '公益筹资', link: '/zh-CN/Whitepaper/Public-Welfare-Fundraising' },
+              { text: '商业项目', link: '/zh-CN/Whitepaper/Commercial-Projects' }
             ]
           },
 
@@ -134,18 +134,18 @@ export default defineConfig({
             text: '团队',
             collapsed: true,
             items: [
-              { text: '价值观', link: '/zh-CN/Talent-Recruitment' },
-              { text: '义工招募', link: '/zh-CN/Volunteer-Recruitment' },
-              { text: '诚聘英才', link: '/zh-CN/Talent-Recruitment' }
+              { text: '我们的价值观', link: '/zh-CN/Whitepaper/HHPF-Values' },
+              { text: '志愿者招募', link: '/zh-CN/Whitepaper/Volunteer-Recruitment' },
+              { text: '诚聘英才', link: '/zh-CN/Whitepaper/Talent-Recruitment' }
             ]
           },
           {
              text: '版权声明',
              collapsed: true,
              items: [
-              { text: '著作权申明', link: '/zh-CN/News-and-Events' },
-              { text: '知识产权', link: '/zh-CN/Copyright-Statement' },
-              { text: '授权方式', link: '/zh-CN/Contact-Us' },
+              { text: '著作权申明', link: '/zh-CN/Whitepaper/News-and-Events' },
+              { text: '知识产权', link: '/zh-CN/Whitepaper/Copyright-Statement' },
+              { text: '授权方式', link: '/zh-CN/Whitepaper/Contact-Us' },
             ]
           },
           { text: '新闻', link: '/zh-CN/News/' },
