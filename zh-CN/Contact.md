@@ -14,15 +14,34 @@ editLink: false
 
 <form id="contact-form" style="max-width: 600px; margin: 0;">
   <div style="margin-bottom: 16px;">
-    <input type="text" id="name" name="name" placeholder="您的姓名" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 20px; font-size: 16px;">
+    <input type="text" id="name" name="name" placeholder="您的姓名" required style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px;">
   </div>
   
   <div style="margin-bottom: 16px;">
-    <input type="email" id="email" name="email" placeholder="您的邮箱" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 20px; font-size: 16px;">
+    <input type="email" id="email" name="email" placeholder="您的邮箱" required style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px;">
   </div>
   
+  <div style="margin-bottom: 16px; position: relative;">
+    <!-- 自定义下拉选择框 -->
+    <div id="custom-select" style="width: 100%; border: 2px solid #ddd; border-radius: 20px; font-size: 16px; position: relative;">
+      <div id="select-value" style="padding: 12px; cursor: pointer; background-color: transparent; display: flex; justify-content: space-between; align-items: center;">
+        <span>选择类别</span>
+        <span>▼</span>
+      </div>
+      <!-- 下拉菜单 -->
+      <div id="select-options" style="display: none; position: absolute; top: 100%; left: 0; right: 0; border: 2px solid #ddd; margin-top: -1px; z-index: 1000; background-color: transparent; backdrop-filter: blur(10px);">
+        <div class="select-option" data-value="我要应聘" style="padding: 12px; cursor: pointer; transition: background-color 0.3s; background-color: transparent;">我要应聘</div>
+        <div class="select-option" data-value="报名志愿者" style="padding: 12px; cursor: pointer; transition: background-color 0.3s; background-color: transparent;">报名志愿者</div>
+        <div class="select-option" data-value="商务合作" style="padding: 12px; cursor: pointer; transition: background-color 0.3s; background-color: transparent;">商务合作</div>
+        <div class="select-option" data-value="我要咨询" style="padding: 12px; cursor: pointer; transition: background-color 0.3s; background-color: transparent;">我要咨询</div>
+      </div>
+    </div>
+    <!-- 隐藏的实际表单字段 -->
+    <input type="hidden" id="purpose" name="purpose" value="" required>
+  </div>
+
   <div style="margin-bottom: 16px;">
-    <textarea id="message" name="message" placeholder="留言内容" rows="6" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 20px; font-size: 16px; resize: vertical;"></textarea>
+    <textarea id="message" name="message" placeholder="留言内容" rows="6" required style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px; resize: vertical; background-color: transparent;"></textarea>
   </div>
   
   <div style="margin-bottom: 16px;">
@@ -39,6 +58,39 @@ editLink: false
 import { onMounted } from 'vue';
 
 onMounted(() => {
+  // 初始化自定义下拉菜单
+  const customSelect = document.getElementById('custom-select');
+  const selectValue = document.getElementById('select-value');
+  const selectOptions = document.getElementById('select-options');
+  const purposeInput = document.getElementById('purpose');
+  const options = document.querySelectorAll('.select-option');
+
+  // 点击选择框切换下拉菜单
+  selectValue.addEventListener('click', function(e) {
+    e.stopPropagation(); // 阻止事件冒泡
+    selectOptions.style.display = selectOptions.style.display === 'block' ? 'none' : 'block';
+  });
+
+  // 点击选项选择值
+  options.forEach(option => {
+    option.addEventListener('click', function(e) {
+      e.stopPropagation(); // 阻止事件冒泡
+      const value = this.dataset.value;
+      selectValue.innerHTML = `<span>${value}</span><span>▼</span>`;
+      purposeInput.value = value;
+      selectOptions.style.display = 'none';
+      
+      // 添加选中效果
+      options.forEach(opt => opt.style.backgroundColor = 'transparent');
+      this.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+    });
+  });
+
+  // 点击页面其他地方关闭下拉菜单
+  document.addEventListener('click', function() {
+    selectOptions.style.display = 'none';
+  });
+
   // 动态创建并加载 EmailJS 脚本
   const script = document.createElement('script');
   script.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
@@ -71,6 +123,8 @@ onMounted(() => {
         status.style.backgroundColor = '#d4edda';
         status.style.color = '#155724';
         form.reset();
+        // 重置下拉菜单显示
+        selectValue.innerHTML = `<span>选择类别</span><span>▼</span>`;
       }, function(error) {
         // 发送失败
         status.textContent = '留言发送失败，请稍后重试或直接通过邮箱联系我们。';

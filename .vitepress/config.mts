@@ -94,7 +94,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '项目缘起', link: '/zh-CN/Whitepaper/Project-Origins' },
-              { text: '理论深化', link: '/zh-CN/Whitepaper/Theory-Advancement' },
+              { text: '理论深化', link: '/zh-CN/Whitepaper/Theoretical-Deepening' },
               { text: '疗法整合', link: '/zh-CN/Whitepaper/Therapy-Integration' },
               { text: '模式创新', link: '/zh-CN/Whitepaper/Model-Innovation' },
             ]
@@ -134,7 +134,7 @@ export default defineConfig({
             text: '团队',
             collapsed: true,
             items: [
-              { text: '我们的价值观', link: '/zh-CN/Whitepaper/HHPF-Values' },
+              { text: 'HHPF价值观', link: '/zh-CN/Whitepaper/HHPF-Values' },
               { text: '志愿者招募', link: '/zh-CN/Whitepaper/Volunteer-Recruitment' },
               { text: '诚聘英才', link: '/zh-CN/Whitepaper/Talent-Recruitment' }
             ]
