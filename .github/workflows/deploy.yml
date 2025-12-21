@@ -8,9 +8,11 @@ on:
   # 允许您从 Actions 选项卡手动运行此工作流
   workflow_dispatch:
 
-# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 # 只允许一个并发部署，跳过正在进行的运行和最新排队运行之间的队列运行。
 # 但是，不要取消正在进行的运行，因为我们希望允许这些生产部署完成。
@@ -19,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # 构建和部署作业
+  # Build and Deploy job
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
@@ -41,28 +43,15 @@ jobs:
       - name: Build with VitePress
         run: npm run docs:build
 
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          ref: gh-pages
-          path: gh-pages
+          # Upload dist folder
+          path: '.vitepress/dist'
 
-      - name: Clean gh-pages branch
-        run: rm -rf gh-pages/*
-
-      - name: Copy build output to gh-pages branch
-        run: cp -r .vitepress/dist/* gh-pages/
-
-      - name: Commit and push changes to gh-pages
-        working-directory: gh-pages
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          # 只有在有更改时才提交和推送
-          if git diff --staged --quiet; then 
-            echo "No changes to commit"
-          else
-            git commit -m "Deploy new version from main branch"
-            git push origin gh-pages
-          fi
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
