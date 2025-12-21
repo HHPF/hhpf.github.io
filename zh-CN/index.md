@@ -10,6 +10,9 @@ hero:
     src: /hero.png
     alt: HHPF Logo
   actions:
+    - theme: brand
+      text: 基于全新的系统医学方法论考量！
+      link: /markdown-examples  
     - theme: alt
       text: 💎理论深化
       link: /zh-CN/Systems-Medicine
@@ -37,5 +40,3 @@ features:
     details: 基于SMD深化理论、SMD循证思想整合多种疗法，多种实体性项目，例如SMD医馆、SMD医院、SMD诊所等，展示SMD在实际应用中的效果和价值。
     link: /zh-CN/Training-Program
 ---
-
-
