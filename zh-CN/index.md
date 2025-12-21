@@ -12,19 +12,19 @@ hero:
     alt: HHPF-Logo
   actions:
     - theme: alt
-      text: 💎理论深化
+      text: 💎 替代医疗
       link: /zh-CN/Whitepaper/Systems-Medicine
     - theme: alt
-      text: 🌈疗法整合
+      text: 🌈 廉价医疗
       link: /zh-CN/Whitepaper/Therapy-Integration
     - theme: alt
-      text: 💖模式创新
+      text: 💖 公益医疗
       link: /zh-CN/Whitepaper/Model-Innovation
 
 features:
   - title: 标准化工程
     details: 量化疗法与疗效之间关系，尤其是自然疗法疗效的量化，构建标准化SOP手册，确保治疗效果的可重复性和一致性。
-    link: /zh-CN/Whitepaper/AB-testing
+    link: /zh-CN/Whitepaper/AB-Testing
 
   - title: 人工智能
     details: 基于全球顶级AI会诊系统，整合多种疗法，实现个性化治疗，提升疗效和患者满意度。
