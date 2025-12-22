@@ -1,35 +1,26 @@
 import { defineConfig } from 'vitepress'
 
-// 网站全局配置
+// 网站全局配置-----------------------------------------------------------------------
 export default defineConfig({
-  // 配置网站最后更新时间
-  lastUpdated: true,
-  // 配置网站favicon
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-  // 配置网站搜索功能
-  themeConfig: {
-    search: {
-      provider: 'local'
+    // 配置网站最后更新时间
+    lastUpdated: true,
+    // 配置网站favicon
+    head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+    // 配置网站搜索功能
+    themeConfig: {
+      search: {
+        provider: 'local'
+      },
+      // 配置网站logo
+      logo: {
+        light: '/logo-light.png',
+        dark: '/logo-dark.png',
+        alt: 'HHPF Logo'
+      },
+      siteTitle: false
     },
-    // 配置网站logo
-    logo: {
-      light: '/logo-light.png',
-      dark: '/logo-dark.png',
-      alt: 'HHPF Logo'
-    },
-    siteTitle: false,
-    // 配置编辑链接
-    editLink: {
-      pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
-      text: '在GitHub上编辑此页面'
-    },
-    // 配置仓库链接
-    repo: 'HHPF/hhpf.github.io',
-    // 配置最后更新时间文本
-    lastUpdatedText: '最后更新于'
-  },
 
-  // 英文版设置
+// 英文版设置-------------------------------------------------------------------------- 
   locales: {
     root: {
       label: 'English',
@@ -38,6 +29,18 @@ export default defineConfig({
       description: "Committed to Building Human Health Infrastructure for the AI Era.",
       // 英文版首页导航设置
       themeConfig: {
+        outlineTitle: 'On this page',
+        returnToTopLabel: 'Return to top ↑',
+        sidebarMenuLabel: 'Menu',
+        // 配置编辑链接
+        editLink: {
+          pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
+          text: 'Edit this page on GitHub'
+        },
+        // 配置仓库链接
+        repo: 'HHPF/hhpf.github.io',
+        // 配置最后更新时间文本
+        lastUpdatedText: 'Last updated on',
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Examples', link: '/markdown-examples' }
@@ -64,7 +67,7 @@ export default defineConfig({
       }
     },
 
-    // 中文版设置
+// 中文版设置--------------------------------------------------------------------------
     'zh-CN': {
       label: '简体中文',
       lang: 'zh-CN',
@@ -72,6 +75,18 @@ export default defineConfig({
       description: "致力于为AI时代构建人类健康基础设施。",      
       // 中文版首页导航设置
       themeConfig: {
+        outlineTitle: '本页导航',
+        returnToTopLabel: '回到顶部 ↑',
+        sidebarMenuLabel: '菜单',
+        // 配置编辑链接
+        editLink: {
+          pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
+          text: '在GitHub上编辑此页面'
+        },
+        // 配置仓库链接
+        repo: 'HHPF/hhpf.github.io',
+        // 配置最后更新时间文本
+        lastUpdatedText: '最后更新于',
         nav: [
           { text: '首页', link: '/zh-CN/' },
           { text: '白皮书', 
@@ -162,13 +177,26 @@ export default defineConfig({
         }
       }
     },
-    // 繁体中文设置
+
+// 繁体中文设置--------------------------------------------------------------------------
     'zh-TW': {
       label: '繁體中文',
       lang: 'zh-TW',
       description: '人類健康計劃基金會（筹）',
       // 繁体中文首页导航设置
       themeConfig: {
+        outlineTitle: '本頁目錄',
+        returnToTopLabel: '回到頂部 ↑',
+        sidebarMenuLabel: '菜單',
+        // 配置编辑链接
+        editLink: {
+          pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
+          text: '在GitHub上編輯此頁面'
+        },
+        // 配置仓库链接
+        repo: 'HHPF/hhpf.github.io',
+        // 配置最后更新时间文本
+        lastUpdatedText: '最後更新於',
         nav: [
           { text: '首頁', link: '/zh-TW/' },
           { text: '範例', link: '/zh-TW/markdown-examples' }
@@ -193,12 +221,25 @@ export default defineConfig({
         }
       }
     },
-    // 日语设置
+
+// 日语设置
     'ja-JP': {
       label: '日本語',
       lang: 'ja-JP',
       description: '人間健康計画財団',
       themeConfig: {
+        outlineTitle: 'このページ',
+        returnToTopLabel: '上部に戻る ↑',
+        sidebarMenuLabel: 'メニュー',
+        // 配置编辑链接
+        editLink: {
+          pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
+          text: 'GitHubでこのページを編集する'
+        },
+        // 配置仓库链接
+        repo: 'HHPF/hhpf.github.io',
+        // 配置最后更新时间文本
+        lastUpdatedText: '最終更新日',
         nav: [
           { text: 'ホーム', link: '/ja-JP/' },
           { text: '概要', link: '/ja-JP/Project-Origins' },

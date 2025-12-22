@@ -140,7 +140,7 @@ onMounted(() => {
 
 ## 其他联系方式
 
-- **邮箱**： ocean.x@HHP.Foundation
+- **邮箱**： <a href="mailto:ocean.x@HHP.Foundation">ocean.x@HHP.Foundation</a>
 - **电话**： +86 177-2251-0596（中国大陆）， +852 5941-9145（中国香港）
 - **地址**： 深圳 · 罗湖 · 梧桐山艺术小镇炎黄大健康产业园1号楼  邮编：518114
 
