@@ -132,7 +132,7 @@ export default defineConfig({
               { text: '标准化工程', link: '/zh-CN/Whitepaper/AB-Testing' },
               { text: '人工智能', link: '/zh-CN/Whitepaper/SMD-AI' },
               { text: '健康训练营', link: '/zh-CN/Whitepaper/Training-Program' },
-              { text: '示范项目', link: '/zh-CN/Whitepaper/Training-Program' }
+              { text: '实体示范项目', link: '/zh-CN/Whitepaper/Training-Program' }
             ]
           },          
 
