@@ -119,19 +119,19 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '生命系统论', link: '/zh-CN/Whitepaper/Life-Systems-Theory' },
-              { text: '自愈定理', link: '/zh-CN/Whitepaper/First-Principles' },
+              { text: '自愈三定律', link: '/zh-CN/Whitepaper/First-Principles' },
               { text: '九维健康标准', link: '/zh-CN/Whitepaper/9D-Health-Standards' },
-              { text: '系统医学', link: '/zh-CN/Whitepaper/Systems-Medicine' },
-              { text: '系统疗法', link: '/zh-CN/Whitepaper/Systems-Therapy' }
+              { text: 'SMD系统医学', link: '/zh-CN/Whitepaper/Systems-Medicine' },
+              { text: 'SMD系统疗法', link: '/zh-CN/Whitepaper/Systems-Therapy' }
             ]
           },
           {
             text: '项目',
             collapsed: true,
             items: [
-              { text: '标准化工程', link: '/zh-CN/Whitepaper/AB-Testing' },
-              { text: '人工智能', link: '/zh-CN/Whitepaper/SMD-AI' },
-              { text: '健康训练营', link: '/zh-CN/Whitepaper/Training-Program' },
+              { text: 'SMD标准化工程', link: '/zh-CN/Whitepaper/AB-Testing' },
+              { text: 'SMD人工智能', link: '/zh-CN/Whitepaper/SMD-AI' },
+              { text: '正觉健康训练营', link: '/zh-CN/Whitepaper/Training-Program' },
               { text: '实体示范项目', link: '/zh-CN/Whitepaper/Training-Program' }
             ]
           },          
