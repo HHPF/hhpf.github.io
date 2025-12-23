@@ -173,7 +173,7 @@ export default defineConfig({
         // 中文版首页页脚设置
         footer: {
           message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',
-          copyright: '版权所有 © 2025 ~ Present 人类健康计划基金会<br><br><span style="font-size: 11px; color: #888;">Powered by <a href="https://vitepress.dev/" target="_blank">VitePress</a></span>'
+          copyright: '版权所有 © 2025 ~ Present 人类健康计划基金会'
         }
       }
     },
