@@ -43,15 +43,15 @@ export default defineConfig({
         lastUpdatedText: 'Last updated on',
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Examples', link: '/markdown-examples' }
+          { text: 'Examples', link: '/en/Whitepaper/markdown-examples' }
         ],
         // 英文版内容侧边栏设置
         sidebar: [
           {
             text: 'Examples',
             items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              { text: 'Markdown Examples', link: '/en/Whitepaper/markdown-examples' },
+              { text: 'Runtime API Examples', link: '/en/Whitepaper/api-examples' }
             ]
           }
         ],
@@ -93,8 +93,8 @@ export default defineConfig({
             items: [
               { text: '愿景', link: '/zh-CN/Whitepaper/Project-Origins' },
               { text: '方法论', link: '/zh-CN/Whitepaper/Model-Innovation' },
-              { text: '项目', link: '/zh-CN/Whitepaper/Theory-Advancement' },
-              { text: '募资', link: '/zh-CN/Whitepaper/Therapy-Upgrading' },
+              { text: '项目', link: '/zh-CN/Whitepaper/Project-Origins' },
+              { text: '募资', link: '/zh-CN/Whitepaper/Public-Welfare-Fundraising' },
               { text: '团队', link: '/zh-CN/Whitepaper/HHPF-Values' },
               { text: '版权声明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
             ]
@@ -158,9 +158,9 @@ export default defineConfig({
              text: '版权声明',
              collapsed: true,
              items: [
-              { text: '著作权申明', link: '/zh-CN/Whitepaper/News-and-Events' },
+              { text: '著作权申明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
               { text: '知识产权', link: '/zh-CN/Whitepaper/Copyright-Statement' },
-              { text: '授权方式', link: '/zh-CN/Whitepaper/Contact-Us' },
+              { text: '授权方式', link: '/zh-CN/Contact' },
             ]
           },
           { text: '新闻', link: '/zh-CN/News/' },
