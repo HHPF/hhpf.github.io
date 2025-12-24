@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -11,6 +10,11 @@ hero:
     src: /hero.png
     alt: HHPF-Logo
   actions:
+    # 第一行：一个brand按钮
+    - theme: brand
+      text: 医养理论的深化与实践！
+      link: /zh-CN/Whitepaper/Project-Origins
+    # 第二行：三个alt按钮
     - theme: alt
       text: 💎 替代医疗
       link: /zh-CN/Whitepaper/Model-Innovation.html#替代医疗
@@ -37,4 +41,5 @@ features:
   - title: 🏥 示范性实体项目
     details: 基于SMD深化理论、SMD循证思想、融合SMD人工智能，践行SMD矩阵疗法的示范性项目，包括SMD医馆、SMD疗养中心、SMD诊所等。
     link: /zh-CN/Whitepaper/Training-Program
+
 ---
