@@ -10,11 +10,6 @@ hero:
     src: /hero.png
     alt: HHPF-Logo
   actions:
-    # 第一行：一个brand按钮
-    - theme: brand
-      text: 医养理论的深化与实践！
-      link: /zh-CN/Whitepaper/Project-Origins
-    # 第二行：三个alt按钮
     - theme: alt
       text: 💎 替代医疗
       link: /zh-CN/Whitepaper/Model-Innovation.html#替代医疗
