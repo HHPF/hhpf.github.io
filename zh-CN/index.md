@@ -23,7 +23,7 @@ hero:
 features:
   - title: 📊 HHPF标准化工程
     details: 透过A/B检测，对已被证明行之有效的自然疗法疗效进行量化，构建标准化SOP手册，确保治疗效果的一致性与可重复性。
-    link: /zh-CN/Whitepaper/AB-Testing
+    link: /zh-CN/Whitepaper/Standardization-Engineering
 
   - title: 🤖 SMD人工智能
     details: 基于全球顶级AI会诊系统，整合多种疗法，实现个性化治疗，提升疗效和患者满意度。
@@ -38,3 +38,37 @@ features:
     link: /zh-CN/Whitepaper/Training-Program
 
 ---
+
+<style>
+  /* 确保表格宽度100%并覆盖主题默认样式 */
+  .custom-table {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    display: table !important;
+    border-collapse: collapse !important;
+  }
+  .custom-table th,
+  .custom-table td {
+    padding: 8px !important;
+    border: 0px solid #eaeaea !important;
+    text-align: left !important;
+  }
+</style>
+
+<table class="custom-table">
+  <thead>
+    <tr>
+      <th>第一列</th>
+      <th>第二列</th>
+      <th>第三列</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>内容1</td>
+      <td>内容2</td>
+      <td>内容3</td>
+    </tr>
+  </tbody>
+</table>

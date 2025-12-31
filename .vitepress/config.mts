@@ -37,8 +37,7 @@ export default defineConfig({
           pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
           text: 'Edit this page on GitHub'
         },
-        // 配置仓库链接
-        repo: 'HHPF/hhpf.github.io',
+
         // 配置最后更新时间文本
         lastUpdatedText: 'Last updated on',
         nav: [
@@ -83,8 +82,7 @@ export default defineConfig({
           pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
           text: '在GitHub上编辑此页面'
         },
-        // 配置仓库链接
-        repo: 'HHPF/hhpf.github.io',
+
         // 配置最后更新时间文本
         lastUpdatedText: '最后更新于',
         nav: [
@@ -95,7 +93,7 @@ export default defineConfig({
               { text: '方法论', link: '/zh-CN/Whitepaper/Model-Innovation' },
               { text: '项目', link: '/zh-CN/Whitepaper/Project-Origins' },
               { text: '募资', link: '/zh-CN/Whitepaper/Public-Welfare-Fundraising' },
-              { text: '团队', link: '/zh-CN/Whitepaper/HHPF-Values' },
+              { text: '团队建设', link: '/zh-CN/Whitepaper/HHPF-Values' },
               { text: '版权声明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
             ]
           },
@@ -118,21 +116,19 @@ export default defineConfig({
             text: '方法论',
             collapsed: true,
             items: [
-              { text: '生命系统论', link: '/zh-CN/Whitepaper/Life-Systems-Theory' },
-              { text: '自愈三定律', link: '/zh-CN/Whitepaper/First-Principles' },
-              { text: '九维健康标准', link: '/zh-CN/Whitepaper/9D-Health-Standards' },
-              { text: 'SMD系统医学', link: '/zh-CN/Whitepaper/Systems-Medicine' },
-              { text: 'SMD系统疗法', link: '/zh-CN/Whitepaper/Systems-Therapy' }
+              { text: '健康的第一原理', link: '/zh-CN/Whitepaper/FPH' },
+              { text: '健康工程方法论', link: '/zh-CN/Whitepaper/MHE' },
+              { text: '生命系统论', link: '/zh-CN/Whitepaper/STL' },
             ]
           },
           {
             text: '项目',
             collapsed: true,
             items: [
-              { text: 'SMD标准化工程', link: '/zh-CN/Whitepaper/AB-Testing' },
+              { text: 'HHPF标准化工程', link: '/zh-CN/Whitepaper/Standardization-Engineering' },
               { text: 'SMD人工智能', link: '/zh-CN/Whitepaper/SMD-AI' },
-              { text: '正觉健康训练营', link: '/zh-CN/Whitepaper/Training-Program' },
-              { text: '实体示范项目', link: '/zh-CN/Whitepaper/Training-Program' }
+              { text: 'SMD正觉训练营', link: '/zh-CN/Whitepaper/Right-Consciousness-Training-Camp' },
+              { text: 'HHPF实体示范项目', link: '/zh-CN/Whitepaper/Physical-Demonstration-Projects' }
             ]
           },          
 
@@ -146,7 +142,7 @@ export default defineConfig({
           },
 
           {
-            text: '团队',
+            text: '团队建设',
             collapsed: true,
             items: [
               { text: 'HHPF价值观', link: '/zh-CN/Whitepaper/HHPF-Values' },
@@ -159,8 +155,8 @@ export default defineConfig({
              collapsed: true,
              items: [
               { text: '著作权申明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
-              { text: '知识产权', link: '/zh-CN/Whitepaper/Copyright-Statement' },
-              { text: '授权方式', link: '/zh-CN/Contact' },
+              { text: '知识产权', link: '/zh-CN/Whitepaper/Intellectual-Property' },
+              { text: '授权方式', link: '/zh-CN/Whitepaper/Licensing-Model' },
             ]
           },
           { text: '新闻', link: '/zh-CN/News/' },
@@ -193,8 +189,7 @@ export default defineConfig({
           pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
           text: '在GitHub上編輯此頁面'
         },
-        // 配置仓库链接
-        repo: 'HHPF/hhpf.github.io',
+
         // 配置最后更新时间文本
         lastUpdatedText: '最後更新於',
         nav: [
@@ -236,8 +231,7 @@ export default defineConfig({
           pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
           text: 'GitHubでこのページを編集する'
         },
-        // 配置仓库链接
-        repo: 'HHPF/hhpf.github.io',
+
         // 配置最后更新时间文本
         lastUpdatedText: '最終更新日',
         nav: [
@@ -338,7 +332,7 @@ export default defineConfig({
         ],
         footer: {
           message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',          
-          copyright: '著作権所有 © 2024 ~ 現在 人間健康計画財団（準備中）'
+          copyright: '著作権所有 © 2025 ~ 現在 人間健康計画財団'
         }
       }
     }

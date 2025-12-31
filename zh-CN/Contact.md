@@ -138,13 +138,17 @@ onMounted(() => {
 });
 </script>
 
-## 其他联系方式
+## 联系方式
 
-- **邮箱**： <a href="mailto:ocean.x@HHP.Foundation">ocean.x@HHP.Foundation</a>
-- **电话**： +86 177-2251-0596（中国大陆）， +852 5941-9145（中国香港）
-- **地址**： 深圳 · 罗湖 · 梧桐山艺术小镇炎黄大健康产业园1号楼  邮编：518114
+- **联系电话**： +86 177-2251-0596（中国大陆）， +852 5941-9145（中国香港）
+- **邮件信箱**： <a href="mailto:ocean.x@HHP.Foundation">ocean.x@HHP.Foundation</a>
+- **联系地址**： 深圳 · 罗湖 · 梧桐山艺术小镇炎黄大健康产业园1号楼，  邮编：518114
+- **官方网站**： <a href="https://www.HHP.Foundation">www.HHP.Foundation</a>
+- **社交媒体**： 微信、抖音、小红书、<a href="https://github.com/HHPF/">Github</a>
+
 
 ## 工作时间
 
 - **周一至周五**: 9:00 - 18:00
 - **周六至周日**: 休息
+
