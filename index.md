@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -8,26 +7,33 @@ hero:
   tagline: Committed to Building Human Health Infrastructure for the AI Era.
   image:
     src: /hero.png
-    alt: HHPF Logo
+    alt: HHPF-Logo
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /en/Whitepaper/markdown-examples
     - theme: alt
-      text: API Examples
-      link: /en/Whitepaper/api-examples
+      text: 💎 Alternative Medicine
+      link: /en/Whitepaper/Model-Transformation#Alternative-Medicine
+    - theme: alt
+      text: 🌈 Affordable Medicine
+      link: /en/Whitepaper/Model-Transformation#Affordable-Medicine
+    - theme: alt
+      text: 💖 Charitable Medicine
+      link: /en/Whitepaper/Model-Transformation#Charitable-Medicine
 
 features:
-  - title: MIT License
-    details: The MIT License (MIT) - A permissive open-source license that allows for reuse, modification, and distribution of software.
-    link: /license
-    linkText: View MIT License
-  - title: Copyright Notice
-    details: Copyright (c) 2017 these people - The license includes a copyright notice that must be retained in all copies or substantial portions of the software.
-    link: /copyright
-    linkText: View Copyright Notice
-  - title: Permission Terms
-    details: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software").
-    link: /terms
-    linkText: View Permission Terms
+  - title: 📊 HHPF Standardization Engineering
+    details: Through A/B testing, quantify the efficacy of proven natural therapies, build standardized SOP manuals, ensuring consistency and reproducibility of treatment outcomes.
+    link: /en/Whitepaper/Standardization-Engineering
+
+  - title: 🤖 SMD Artificial Intelligence
+    details: Based on the world's top AI consultation system, integrate multiple therapies to achieve personalized treatment, improving efficacy and patient satisfaction.
+    link: /en/Whitepaper/SMD-AI
+
+  - title: 🧘 SMD Right Consciousness Training Camp
+    details: Using engineering and scientific thinking, systematically understand, transform and reshape subconscious character habits (including emotional conditioning/fixed beliefs) to achieve physical and mental harmony and health.
+    link: /en/Whitepaper/Right-Consciousness-Training-Camp
+
+  - title: 🏥 HHPF Physical Demonstration Projects
+    details: Demonstration projects practicing SMD matrix therapy based on SMD deepening theory, SMD evidence-based thinking, and integrated SMD artificial intelligence, including SMD medical halls, SMD wellness centers, and SMD clinics.
+    link: /en/Whitepaper/Physical-Demonstration-Projects
+
 ---

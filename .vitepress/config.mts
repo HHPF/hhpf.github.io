@@ -42,17 +42,80 @@ export default defineConfig({
         lastUpdatedText: 'Last updated on',
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Examples', link: '/en/Whitepaper/markdown-examples' }
+          { text: 'Whitepaper', 
+            items: [
+              { text: 'Vision', link: '/en/Whitepaper/Project-Origins' },
+              { text: 'Methodology', link: '/en/Whitepaper/Model-Transformation' },
+              { text: 'Projects', link: '/en/Whitepaper/Physical-Demonstration-Projects' },
+              { text: 'Fundraising', link: '/en/Whitepaper/Public-Welfare-Fundraising' },
+              { text: 'Team Building', link: '/en/Whitepaper/HHPF-Values' },
+              { text: 'Copyright Statement', link: '/en/Whitepaper/Copyright-Statement' },
+            ]
+          },
+          { text: 'News', link: '/en/News/' },
+          { text: 'Contact', link: '/en/Contact' },
         ],
         // 英文版内容侧边栏设置
         sidebar: [
           {
-            text: 'Examples',
+            text: 'Vision',
+            collapsed: true,
             items: [
-              { text: 'Markdown Examples', link: '/en/Whitepaper/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/en/Whitepaper/api-examples' }
+              { text: 'Project Origins', link: '/en/Whitepaper/Project-Origins' },
+              { text: 'Theoretical Deepening', link: '/en/Whitepaper/Theoretical-Deepening' },
+              { text: 'Therapy Integration', link: '/en/Whitepaper/Therapy-Integration' },
+              { text: 'Model Transformation', link: '/en/Whitepaper/Model-Transformation' },
             ]
-          }
+          },  
+          {
+            text: 'Methodology',
+            collapsed: true,
+            items: [
+              { text: 'First Principles of Health', link: '/en/Whitepaper/FPH' },
+              { text: 'Health Engineering Methodology', link: '/en/Whitepaper/MHE' },
+              { text: 'Systems Theory of Life', link: '/en/Whitepaper/STL' },
+            ]
+          },
+          {
+            text: 'Projects',
+            collapsed: true,
+            items: [
+              { text: 'HHPF Standardization Engineering', link: '/en/Whitepaper/Standardization-Engineering' },
+              { text: 'SMD Artificial Intelligence', link: '/en/Whitepaper/SMD-AI' },
+              { text: 'SMD Right Consciousness Training Camp', link: '/en/Whitepaper/Right-Consciousness-Training-Camp' },
+              { text: 'HHPF Physical Demonstration Projects', link: '/en/Whitepaper/Physical-Demonstration-Projects' }
+            ]
+          },          
+
+          {
+            text: 'Fundraising',
+            collapsed: true,
+            items: [
+              { text: 'Public Welfare Fundraising', link: '/en/Whitepaper/Public-Welfare-Fundraising' },
+              { text: 'Commercial Projects', link: '/en/Whitepaper/Commercial-Projects' }
+            ]
+          },
+
+          {
+            text: 'Team Building',
+            collapsed: true,
+            items: [
+              { text: 'HHPF Values', link: '/en/Whitepaper/HHPF-Values' },
+              { text: 'Volunteer Recruitment', link: '/en/Whitepaper/Volunteer-Recruitment' },
+              { text: 'Talent Recruitment', link: '/en/Whitepaper/Talent-Recruitment' }
+            ]
+          },
+          {
+             text: 'Copyright Statement',
+             collapsed: true,
+             items: [
+              { text: 'Copyright Statement', link: '/en/Whitepaper/Copyright-Statement' },
+              { text: 'Intellectual Property', link: '/en/Whitepaper/Intellectual-Property' },
+              { text: 'Licensing Model', link: '/en/Whitepaper/Licensing-Model' },
+            ]
+          },
+          { text: 'News', link: '/en/News/' },
+          { text: 'Contact', link: '/en/Contact' },
         ],
         // 英文版首页社交链接设置
         socialLinks: [
@@ -109,7 +172,7 @@ export default defineConfig({
               { text: '项目缘起', link: '/zh-CN/Whitepaper/Project-Origins' },
               { text: '理论深化', link: '/zh-CN/Whitepaper/Theoretical-Deepening' },
               { text: '疗法整合', link: '/zh-CN/Whitepaper/Therapy-Integration' },
-              { text: '模式创新', link: '/zh-CN/Whitepaper/Model-Innovation' },
+              { text: '模式变革', link: '/zh-CN/Whitepaper/Model-Transformation' },
             ]
           },  
           {
@@ -194,17 +257,80 @@ export default defineConfig({
         lastUpdatedText: '最後更新於',
         nav: [
           { text: '首頁', link: '/zh-TW/' },
-          { text: '範例', link: '/zh-TW/markdown-examples' }
+          { text: '白皮書', 
+            items: [
+              { text: '願景', link: '/zh-TW/Whitepaper/Project-Origins' },
+              { text: '方法論', link: '/zh-TW/Whitepaper/Model-Transformation' },
+              { text: '項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' },
+              { text: '募資', link: '/zh-TW/Whitepaper/Public-Welfare-Fundraising' },
+              { text: '團隊建設', link: '/zh-TW/Whitepaper/HHPF-Values' },
+              { text: '版權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
+            ]
+          },
+          { text: '新聞', link: '/zh-TW/News/' },
+          { text: '聯繫', link: '/zh-TW/Contact' },
         ],
         // 繁体中文内容侧边栏设置
         sidebar: [
           {
-            text: '範例',
+            text: '願景',
+            collapsed: true,
             items: [
-              { text: 'Markdown範例', link: '/zh-TW/markdown-examples' },
-              { text: '執行時API範例', link: '/zh-TW/api-examples' }
+              { text: '項目緣起', link: '/zh-TW/Whitepaper/Project-Origins' },
+              { text: '理論深化', link: '/zh-TW/Whitepaper/Theoretical-Deepening' },
+              { text: '療法整合', link: '/zh-TW/Whitepaper/Therapy-Integration' },
+              { text: '模式變革', link: '/zh-TW/Whitepaper/Model-Transformation' },
             ]
-          }
+          },  
+          {
+            text: '方法論',
+            collapsed: true,
+            items: [
+              { text: '健康的第一原理', link: '/zh-TW/Whitepaper/FPH' },
+              { text: '健康工程方法論', link: '/zh-TW/Whitepaper/MHE' },
+              { text: '生命系統論', link: '/zh-TW/Whitepaper/STL' },
+            ]
+          },
+          {
+            text: '項目',
+            collapsed: true,
+            items: [
+              { text: 'HHPF標準化工程', link: '/zh-TW/Whitepaper/Standardization-Engineering' },
+              { text: 'SMD人工智能', link: '/zh-TW/Whitepaper/SMD-AI' },
+              { text: 'SMD正覺訓練營', link: '/zh-TW/Whitepaper/Right-Consciousness-Training-Camp' },
+              { text: 'HHPF示範性實體項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' }
+            ]
+          },          
+
+          {
+            text: '募資',
+            collapsed: true,
+            items: [
+              { text: '公益籌資', link: '/zh-TW/Whitepaper/Public-Welfare-Fundraising' },
+              { text: '商業項目', link: '/zh-TW/Whitepaper/Commercial-Projects' }
+            ]
+          },
+
+          {
+            text: '團隊建設',
+            collapsed: true,
+            items: [
+              { text: 'HHPF價值觀', link: '/zh-TW/Whitepaper/HHPF-Values' },
+              { text: '志願者招募', link: '/zh-TW/Whitepaper/Volunteer-Recruitment' },
+              { text: '誠聘英才', link: '/zh-TW/Whitepaper/Talent-Recruitment' }
+            ]
+          },
+          {
+             text: '版權聲明',
+             collapsed: true,
+             items: [
+              { text: '著作權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
+              { text: '知識產權', link: '/zh-TW/Whitepaper/Intellectual-Property' },
+              { text: '授權方式', link: '/zh-TW/Whitepaper/Licensing-Model' },
+            ]
+          },
+          { text: '新聞', link: '/zh-TW/News/' },
+          { text: '聯繫', link: '/zh-TW/Contact' },
         ],
         // 繁体中文首页社交链接设置
         socialLinks: [
@@ -236,96 +362,79 @@ export default defineConfig({
         lastUpdatedText: '最終更新日',
         nav: [
           { text: 'ホーム', link: '/ja-JP/' },
-          { text: '概要', link: '/ja-JP/Project-Origins' },
-          { text: 'ニュース', link: '/ja-JP/News-and-Events' },
-          { text: '著作権', link: '/ja-JP/Copyright-Statement' },
-          { text: 'お問い合わせ', link: '/ja-JP/Contact-Us' }
+          { text: '白書', 
+            items: [
+              { text: 'ビジョン', link: '/ja-JP/Whitepaper/Project-Origins' },
+              { text: '方法論', link: '/ja-JP/Whitepaper/Model-Transformation' },
+              { text: 'プロジェクト', link: '/ja-JP/Whitepaper/Physical-Demonstration-Projects' },
+              { text: '資金調達', link: '/ja-JP/Whitepaper/Public-Welfare-Fundraising' },
+              { text: 'チームビルディング', link: '/ja-JP/Whitepaper/HHPF-Values' },
+              { text: '著作権声明', link: '/ja-JP/Whitepaper/Copyright-Statement' },
+            ]
+          },
+          { text: 'ニュース', link: '/ja-JP/News/' },
+          { text: 'お問い合わせ', link: '/ja-JP/Contact' },
         ],
         sidebar: [
           {
             text: 'ビジョン',
             collapsed: true,
             items: [
-              { text: 'プロジェクトの起源', link: '/ja-JP/Project-Origins' },
-              { text: 'モデルイノベーション', link: '/ja-JP/Model-Innovation' },
-              { text: '理論の深化', link: '/ja-JP/Theory-Advancement' },
-              { text: '療法のアップグレード', link: '/ja-JP/Therapy-Upgrading' }
+              { text: 'プロジェクトの起源', link: '/ja-JP/Whitepaper/Project-Origins' },
+              { text: '理論の深化', link: '/ja-JP/Whitepaper/Theoretical-Deepening' },
+              { text: '療法の統合', link: '/ja-JP/Whitepaper/Therapy-Integration' },
+              { text: 'モデルの変革', link: '/ja-JP/Whitepaper/Model-Transformation' },
             ]
           },  
           {
             text: '方法論',
             collapsed: true,
             items: [
-              { text: '生命システム論', link: '/ja-JP/Life-Systems-Theory' },
-              { text: 'ファーストプリンシプル', link: '/ja-JP/First-Principles' },
-              { text: '9次元健康基準', link: '/ja-JP/9D-Health-Standards' },
-              { text: 'システム医学', link: '/ja-JP/Systems-Medicine' },
-              { text: 'システム療法', link: '/ja-JP/Systems-Therapy' }
+              { text: '健康の第一原理', link: '/ja-JP/Whitepaper/FPH' },
+              { text: '健康工学方法論', link: '/ja-JP/Whitepaper/MHE' },
+              { text: '生命システム論', link: '/ja-JP/Whitepaper/STL' },
             ]
           },
           {
-            text: '人工知能',
+            text: 'プロジェクト',
             collapsed: true,
             items: [
-              { text: '診療SOP', link: '/ja-JP/Clinical-SOPs' },
-              { text: 'ケースライブラリーRAG', link: '/ja-JP/Case-RAG' },
-              { text: '無料AIトリアージ', link: '/ja-JP/Free-AI-Triage' }
+              { text: 'HHPF標準化エンジニアリング', link: '/ja-JP/Whitepaper/Standardization-Engineering' },
+              { text: 'SMD人工知能', link: '/ja-JP/Whitepaper/SMD-AI' },
+              { text: 'SMD正覚トレーニングキャンプ', link: '/ja-JP/Whitepaper/Right-Consciousness-Training-Camp' },
+              { text: 'HHPF実証実体プロジェクト', link: '/ja-JP/Whitepaper/Physical-Demonstration-Projects' }
             ]
-          },
-          {
-            text: '標準化',
-            collapsed: true,
-            items: [
-              { text: 'A/B実験', link: '/ja-JP/AB-Testing' },
-              { text: 'トレーニングプログラム', link: '/ja-JP/Training-Program' }
-            ]
-          },
-          {
-            text: 'トレーニングキャンプ',
-            collapsed: true,
-            items: [
-              { text: '正覚療法', link: '/ja-JP/Right-Awareness-Therapy' },
-              { text: '正覚生活瞑想', link: '/ja-JP/Right-Awareness-Mindful-Living' }
-            ]
-          },
-          {
-            text: 'デモンストレーションプロジェクト',
-            collapsed: true,
-            items: [
-              { text: '医館', link: '/ja-JP/Medical-Hall' },
-              { text: '介護センター', link: '/ja-JP/Nursing-Center' },
-              { text: '高齢者介護と終末期ケア', link: '/ja-JP/Elderly-Care-and-Hospice-Services' },
-              { text: 'コミュニティ健康総合施設', link: '/ja-JP/Community-Wellness-Complex' },
-              { text: '健康産業公園', link: '/ja-JP/Health-Industry-Park' },
-              { text: '生命健康学院', link: '/ja-JP/Life-Health-College' }
-            ]
-          },
+          },          
+
           {
             text: '資金調達',
             collapsed: true,
             items: [
-              { text: '公益資金調達', link: '/ja-JP/Public-Welfare-Fundraising' },
-              { text: '商用プロジェクト', link: '/ja-JP/Commercial-Projects' }
+              { text: '公益資金調達', link: '/ja-JP/Whitepaper/Public-Welfare-Fundraising' },
+              { text: '商用プロジェクト', link: '/ja-JP/Whitepaper/Commercial-Projects' }
             ]
           },
+
           {
-            text: 'チーム',
+            text: 'チームビルディング',
             collapsed: true,
             items: [
-              { text: '価値観', link: '/ja-JP/Talent-Recruitment' },
-              { text: 'ボランティア募集', link: '/ja-JP/Volunteer-Recruitment' },
-              { text: '人材募集', link: '/ja-JP/Talent-Recruitment' }
+              { text: 'HHPFの価値観', link: '/ja-JP/Whitepaper/HHPF-Values' },
+              { text: 'ボランティア募集', link: '/ja-JP/Whitepaper/Volunteer-Recruitment' },
+              { text: '人材募集', link: '/ja-JP/Whitepaper/Talent-Recruitment' }
             ]
           },
           {
-             text: 'その他',
+             text: '著作権声明',
              collapsed: true,
              items: [
-              { text: 'ニュースとイベント', link: '/ja-JP/News-and-Events' },
-              { text: '著作権に関する声明', link: '/ja-JP/Copyright-Statement' },
-              { text: 'お問い合わせ', link: '/ja-JP/Contact-Us' },
+              { text: '著作権声明', link: '/ja-JP/Whitepaper/Copyright-Statement' },
+              { text: '知的財産', link: '/ja-JP/Whitepaper/Intellectual-Property' },
+              { text: 'ライセンスモデル', link: '/ja-JP/Whitepaper/Licensing-Model' },
             ]
-          }
+          },
+          { text: 'ニュース', link: '/ja-JP/News/' },
+          { text: 'お問い合わせ', link: '/ja-JP/Contact' },
         ],
         socialLinks: [
           { icon: 'github', link: 'https://github.com/HHPF/' }

@@ -55,20 +55,3 @@ features:
     text-align: left !important;
   }
 </style>
-
-<table class="custom-table">
-  <thead>
-    <tr>
-      <th>第一列</th>
-      <th>第二列</th>
-      <th>第三列</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>内容1</td>
-      <td>内容2</td>
-      <td>内容3</td>
-    </tr>
-  </tbody>
-</table>
