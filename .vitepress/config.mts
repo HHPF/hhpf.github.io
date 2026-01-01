@@ -19,7 +19,9 @@ export default defineConfig({
       },
       siteTitle: false,
       // 将默认模式设置为暗黑模式
-      darkMode: 'dark'
+      appearance: {
+        default: 'dark'
+      }
     },
 
 // 英文版设置-------------------------------------------------------------------------- 
