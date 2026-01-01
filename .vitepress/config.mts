@@ -44,16 +44,16 @@ export default defineConfig({
           { text: 'Home', link: '/' },
           { text: 'Whitepaper', 
             items: [
-              { text: 'Vision', link: '/en/Whitepaper/Project-Origins' },
-              { text: 'Methodology', link: '/en/Whitepaper/Model-Transformation' },
-              { text: 'Projects', link: '/en/Whitepaper/Physical-Demonstration-Projects' },
-              { text: 'Fundraising', link: '/en/Whitepaper/Public-Welfare-Fundraising' },
-              { text: 'Team Building', link: '/en/Whitepaper/HHPF-Values' },
-              { text: 'Copyright Statement', link: '/en/Whitepaper/Copyright-Statement' },
+              { text: 'Vision', link: '/Whitepaper/Project-Origins' },
+              { text: 'Methodology', link: '/Whitepaper/Model-Transformation' },
+              { text: 'Projects', link: '/Whitepaper/Physical-Demonstration-Projects' },
+              { text: 'Fundraising', link: '/Whitepaper/Public-Welfare-Fundraising' },
+              { text: 'Team Building', link: '/Whitepaper/HHPF-Values' },
+              { text: 'Copyright Statement', link: '/Whitepaper/Copyright-Statement' },
             ]
           },
-          { text: 'News', link: '/en/News/' },
-          { text: 'Contact', link: '/en/Contact' },
+          { text: 'News', link: '/News/' },
+          { text: 'Contact', link: '/Contact' },
         ],
         // 英文版内容侧边栏设置
         sidebar: [
@@ -61,29 +61,29 @@ export default defineConfig({
             text: 'Vision',
             collapsed: true,
             items: [
-              { text: 'Project Origins', link: '/en/Whitepaper/Project-Origins' },
-              { text: 'Theoretical Deepening', link: '/en/Whitepaper/Theoretical-Deepening' },
-              { text: 'Therapy Integration', link: '/en/Whitepaper/Therapy-Integration' },
-              { text: 'Model Transformation', link: '/en/Whitepaper/Model-Transformation' },
+              { text: 'Project Origins', link: '/Whitepaper/Project-Origins' },
+              { text: 'Theoretical Deepening', link: '/Whitepaper/Theoretical-Deepening' },
+              { text: 'Therapy Integration', link: '/Whitepaper/Therapy-Integration' },
+              { text: 'Model Transformation', link: '/Whitepaper/Model-Transformation' },
             ]
           },  
           {
             text: 'Methodology',
             collapsed: true,
             items: [
-              { text: 'First Principles of Health', link: '/en/Whitepaper/FPH' },
-              { text: 'Health Engineering Methodology', link: '/en/Whitepaper/MHE' },
-              { text: 'Systems Theory of Life', link: '/en/Whitepaper/STL' },
+              { text: 'First Principles of Health', link: '/Whitepaper/FPH' },
+              { text: 'Health Engineering Methodology', link: '/Whitepaper/MHE' },
+              { text: 'Systems Theory of Life', link: '/Whitepaper/STL' },
             ]
           },
           {
             text: 'Projects',
             collapsed: true,
             items: [
-              { text: 'HHPF Standardization Engineering', link: '/en/Whitepaper/Standardization-Engineering' },
-              { text: 'SMD Artificial Intelligence', link: '/en/Whitepaper/SMD-AI' },
-              { text: 'SMD Right Consciousness Training Camp', link: '/en/Whitepaper/Right-Consciousness-Training-Camp' },
-              { text: 'HHPF Physical Demonstration Projects', link: '/en/Whitepaper/Physical-Demonstration-Projects' }
+              { text: 'HHPF Standardization Engineering', link: '/Whitepaper/Standardization-Engineering' },
+              { text: 'SMD Artificial Intelligence', link: '/Whitepaper/SMD-AI' },
+              { text: 'SMD Right Consciousness Training Camp', link: '/Whitepaper/Right-Consciousness-Training-Camp' },
+              { text: 'HHPF Physical Demonstration Projects', link: '/Whitepaper/Physical-Demonstration-Projects' }
             ]
           },          
 
@@ -91,8 +91,8 @@ export default defineConfig({
             text: 'Fundraising',
             collapsed: true,
             items: [
-              { text: 'Public Welfare Fundraising', link: '/en/Whitepaper/Public-Welfare-Fundraising' },
-              { text: 'Commercial Projects', link: '/en/Whitepaper/Commercial-Projects' }
+              { text: 'Public Welfare Fundraising', link: '/Whitepaper/Public-Welfare-Fundraising' },
+              { text: 'Commercial Projects', link: '/Whitepaper/Commercial-Projects' }
             ]
           },
 
@@ -100,22 +100,22 @@ export default defineConfig({
             text: 'Team Building',
             collapsed: true,
             items: [
-              { text: 'HHPF Values', link: '/en/Whitepaper/HHPF-Values' },
-              { text: 'Volunteer Recruitment', link: '/en/Whitepaper/Volunteer-Recruitment' },
-              { text: 'Talent Recruitment', link: '/en/Whitepaper/Talent-Recruitment' }
+              { text: 'HHPF Values', link: '/Whitepaper/HHPF-Values' },
+              { text: 'Volunteer Recruitment', link: '/Whitepaper/Volunteer-Recruitment' },
+              { text: 'Talent Recruitment', link: '/Whitepaper/Talent-Recruitment' }
             ]
           },
           {
              text: 'Copyright Statement',
              collapsed: true,
              items: [
-              { text: 'Copyright Statement', link: '/en/Whitepaper/Copyright-Statement' },
-              { text: 'Intellectual Property', link: '/en/Whitepaper/Intellectual-Property' },
-              { text: 'Licensing Model', link: '/en/Whitepaper/Licensing-Model' },
+              { text: 'Copyright Statement', link: '/Whitepaper/Copyright-Statement' },
+              { text: 'Intellectual Property', link: '/Whitepaper/Intellectual-Property' },
+              { text: 'Licensing Model', link: '/Whitepaper/Licensing-Model' },
             ]
           },
-          { text: 'News', link: '/en/News/' },
-          { text: 'Contact', link: '/en/Contact' },
+          { text: 'News', link: '/News/' },
+          { text: 'Contact', link: '/Contact' },
         ],
         // 英文版首页社交链接设置
         socialLinks: [
