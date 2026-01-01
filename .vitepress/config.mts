@@ -18,10 +18,6 @@ export default defineConfig({
         alt: 'HHPF Logo'
       },
       siteTitle: false,
-      // 将默认模式设置为暗黑模式
-      appearance: {
-        default: 'dark'
-      }
     },
 
 // 英文版设置-------------------------------------------------------------------------- 
