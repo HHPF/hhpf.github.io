@@ -66,7 +66,7 @@ This is not just a job application; it's a <b>commitment</b>.
 *   <b>Special Note:</b> In your cover letter, please don't just list your skills; please tell us: <b>What are your thoughts on the current medical situation? Why do you believe in HHPF's vision?</b>
 
 <br><br>
-[<b>>>> Apply Now</b>](/en/Contact)
+[<b>>>> Apply Now</b>](/Contact)
 
 
 
