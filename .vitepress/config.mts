@@ -52,7 +52,7 @@ export default defineConfig({
               { text: 'Copyright Statement', link: '/Whitepaper/Copyright-Statement' },
             ]
           },
-          { text: 'News', link: '/News/' },
+          { text: 'Blog', link: '/Blog/' },
           { text: 'Contact', link: '/Contact' },
         ],
         // 英文版内容侧边栏设置
@@ -114,7 +114,7 @@ export default defineConfig({
               { text: 'Licensing Model', link: '/Whitepaper/Licensing-Model' },
             ]
           },
-          { text: 'News', link: '/News/' },
+          { text: 'Blog', link: '/Blog/' },
           { text: 'Contact', link: '/Contact' },
         ],
         // 英文版首页社交链接设置
@@ -160,7 +160,7 @@ export default defineConfig({
               { text: '版权声明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
             ]
           },
-          { text: '新闻', link: '/zh-CN/News/' },
+          { text: '博客', link: '/zh-CN/Blog/' },
           { text: '联系', link: '/zh-CN/Contact' },
         ],
         // 中文版内容侧边栏设置
@@ -222,7 +222,7 @@ export default defineConfig({
               { text: '授权方式', link: '/zh-CN/Whitepaper/Licensing-Model' },
             ]
           },
-          { text: '新闻', link: '/zh-CN/News/' },
+          { text: '博客', link: '/zh-CN/Blog/' },
           { text: '联系', link: '/zh-CN/Contact' },
         ],
         // 中文版首页社交链接设置
@@ -267,7 +267,7 @@ export default defineConfig({
               { text: '版權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
             ]
           },
-          { text: '新聞', link: '/zh-TW/News/' },
+          { text: '新聞', link: '/zh-TW/Blog/' },
           { text: '聯繫', link: '/zh-TW/Contact' },
         ],
         // 繁体中文内容侧边栏设置
@@ -329,7 +329,7 @@ export default defineConfig({
               { text: '授權方式', link: '/zh-TW/Whitepaper/Licensing-Model' },
             ]
           },
-          { text: '新聞', link: '/zh-TW/News/' },
+          { text: '新聞', link: '/zh-TW/Blog/' },
           { text: '聯繫', link: '/zh-TW/Contact' },
         ],
         // 繁体中文首页社交链接设置
@@ -372,7 +372,7 @@ export default defineConfig({
               { text: '著作権声明', link: '/ja-JP/Whitepaper/Copyright-Statement' },
             ]
           },
-          { text: 'ニュース', link: '/ja-JP/News/' },
+          { text: 'ニュース', link: '/ja-JP/Blog/' },
           { text: 'お問い合わせ', link: '/ja-JP/Contact' },
         ],
         sidebar: [
@@ -433,7 +433,7 @@ export default defineConfig({
               { text: 'ライセンスモデル', link: '/ja-JP/Whitepaper/Licensing-Model' },
             ]
           },
-          { text: 'ニュース', link: '/ja-JP/News/' },
+          { text: 'ニュース', link: '/ja-JP/Blog/' },
           { text: 'お問い合わせ', link: '/ja-JP/Contact' },
         ],
         socialLinks: [
