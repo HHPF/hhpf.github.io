@@ -12,13 +12,13 @@ hero:
   actions:
     - theme: alt
       text: 💎 替代医疗
-      link: /zh-CN/Whitepaper/Model-Innovation.html#替代医疗
+      link: /zh-CN/Whitepaper/Model-Transformation#1
     - theme: alt
       text: 🌈 廉价医疗
-      link: /zh-CN/Whitepaper/Model-Innovation.html#廉价医疗
+      link: /zh-CN/Whitepaper/Model-Transformation#2
     - theme: alt
       text: 💖 公益医疗
-      link: /zh-CN/Whitepaper/Model-Innovation.html#公益医疗
+      link: /zh-CN/Whitepaper/Model-Transformation#3
 
 features:
   - title: 📊 HHPF标准化工程
@@ -31,11 +31,11 @@ features:
 
   - title: 🧘 SMD正觉训练营
     details: 以工程化科学化的思想与方法，系统化认识、转化与重塑潜意识性格习惯（包括情感条件反射/固化信念）实现身心和谐与健康。
-    link: /zh-CN/Whitepaper/Training-Camp
+    link: /zh-CN/Whitepaper/Right-Consciousness-Training-Camp
 
   - title: 🏥 HHPF示范性实体项目
     details: 基于SMD深化理论、SMD循证思想、融合SMD人工智能，践行SMD矩阵疗法的示范性项目，包括SMD医馆、SMD疗养中心、SMD诊所等。
-    link: /zh-CN/Whitepaper/Training-Program
+    link: /zh-CN/Whitepaper/Physical-Demonstration-Projects
 
 ---
 
