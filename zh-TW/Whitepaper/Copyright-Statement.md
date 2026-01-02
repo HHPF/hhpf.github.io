@@ -64,7 +64,7 @@ outline: deep
     *   <b>追责：</b> 一旦发现侵权行为，我们将立即采取包括但不限于发送律师函、投诉下架、提起民事诉讼及追究刑事责任（针对严重盗版牟利）等措施。
 3.  <b>举报通道：</b>
     如果您发现任何侵犯HHPF著作权的行为，或发现有人冒用HHPF名义行骗，请立即聯系我们。
-    *   *举报邮箱：* info@hhpf.org
+    *   *举报邮箱：* [info@hhp.foundation](mailto:info@hhp.foundation)
 
 
 

@@ -91,8 +91,8 @@ We have formulated standardized authorization SOPs to ensure fairness and effici
 
 If you are unsure whether your usage requires authorization, or if you wish to initiate in-depth strategic cooperation, please contact us through the following official channels:
 
-*   <b>Authorization Consultation Email:</b> licensing@hhpf.org
-*   <b>Brand Report Email:</b> legal@hhpf.org
+*   <b>Authorization Consultation Email:</b> [licensing@hhp.foundation](mailto:licensing@hhp.foundation)
+*   <b>Brand Report Email:</b> [legal@hhp.foundation](mailto:legal@hhp.foundation)
 
 ## To Every Friend Who Reads This Far
 

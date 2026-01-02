@@ -91,8 +91,8 @@ outline: deep
 
 如果您不确定您的使用方式是否需要授權，或希望发起深度战略合作，请通過以下官方渠道聯系我们：
 
-*   <b>授權咨询邮箱：</b> licensing@hhpf.org
-*   <b>品牌举报邮箱：</b> legal@hhpf.org
+*   <b>授權咨询邮箱：</b> [licensing@hhp.foundation](mailto:licensing@hhp.foundation)
+*   <b>品牌举报邮箱：</b> [legal@hhp.foundation](mailto:legal@hhp.foundation)
 
 ## 致每一位阅读至此的朋友
 

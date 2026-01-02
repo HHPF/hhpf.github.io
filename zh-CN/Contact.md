@@ -141,7 +141,7 @@ onMounted(() => {
 ## 联系方式
 
 - <b>联系电话</b>： +86 177-2251-0596（中国大陆）， +852 5941-9145（中国香港）
-- <b>邮件信箱</b>： <a href="mailto:ocean.x@HHP.Foundation">ocean.x@HHP.Foundation</a>
+- <b>邮件信箱</b>： <a href="mailto:info@HHP.Foundation">info@HHP.Foundation</a>
 - <b>联系地址</b>： 深圳 · 罗湖 · 梧桐山艺术小镇炎黄大健康产业园1号楼，  邮编：518114
 - <b>官方网站</b>： <a href="https://www.HHP.Foundation">www.HHP.Foundation</a>
 - <b>社交媒体</b>： 微信、抖音、小红书、<a href="https://github.com/HHPF/">Github</a>
