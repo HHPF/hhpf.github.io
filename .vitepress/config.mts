@@ -267,7 +267,7 @@ export default defineConfig({
               { text: '版權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
             ]
           },
-          { text: '新聞', link: '/zh-TW/Blog/' },
+          { text: '部落格', link: '/zh-TW/Blog/' },
           { text: '聯繫', link: '/zh-TW/Contact' },
         ],
         // 繁体中文内容侧边栏设置
@@ -329,7 +329,7 @@ export default defineConfig({
               { text: '授權方式', link: '/zh-TW/Whitepaper/Licensing-Model' },
             ]
           },
-          { text: '新聞', link: '/zh-TW/Blog/' },
+          { text: '部落格', link: '/zh-TW/Blog/' },
           { text: '聯繫', link: '/zh-TW/Contact' },
         ],
         // 繁体中文首页社交链接设置
@@ -338,7 +338,7 @@ export default defineConfig({
         ],
         // 繁体中文首页页脚设置
         footer: {
-          copyright: '版權所有 © 2024 ~ 至今 人類健康計劃基金會（筹）'
+          copyright: '版權所有 © 2025 ~ 至今 人類健康計劃基金會'
         }
       }
     },
