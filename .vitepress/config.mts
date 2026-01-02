@@ -241,7 +241,7 @@ export default defineConfig({
     'zh-TW': {
       label: '繁體中文',
       lang: 'zh-TW',
-      description: '人類健康計劃基金會（筹）',
+      description: '人類健康計劃基金會',
       // 繁体中文首页导航设置
       themeConfig: {
         outlineTitle: '本頁目錄',
@@ -268,7 +268,7 @@ export default defineConfig({
             ]
           },
           { text: '部落格', link: '/zh-TW/Blog/' },
-          { text: '聯繫', link: '/zh-TW/Contact' },
+          { text: '聯繫我們', link: '/zh-TW/Contact' },
         ],
         // 繁体中文内容侧边栏设置
         sidebar: [
@@ -286,7 +286,7 @@ export default defineConfig({
             text: '方法論',
             collapsed: true,
             items: [
-              { text: '健康的第一原理', link: '/zh-TW/Whitepaper/FPH' },
+              { text: '健康第一原理', link: '/zh-TW/Whitepaper/FPH' },
               { text: '健康工程方法論', link: '/zh-TW/Whitepaper/MHE' },
               { text: '生命系統論', link: '/zh-TW/Whitepaper/STL' },
             ]
@@ -298,7 +298,7 @@ export default defineConfig({
               { text: 'HHPF標準化工程', link: '/zh-TW/Whitepaper/Standardization-Engineering' },
               { text: 'SMD人工智能', link: '/zh-TW/Whitepaper/SMD-AI' },
               { text: 'SMD正覺訓練營', link: '/zh-TW/Whitepaper/Right-Consciousness-Training-Camp' },
-              { text: 'HHPF示範性實體項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' }
+              { text: 'HHPF實體示範項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' }
             ]
           },          
 
@@ -317,7 +317,7 @@ export default defineConfig({
             items: [
               { text: 'HHPF價值觀', link: '/zh-TW/Whitepaper/HHPF-Values' },
               { text: '志願者招募', link: '/zh-TW/Whitepaper/Volunteer-Recruitment' },
-              { text: '誠聘英才', link: '/zh-TW/Whitepaper/Talent-Recruitment' }
+              { text: '誠徵人才', link: '/zh-TW/Whitepaper/Talent-Recruitment' }
             ]
           },
           {
@@ -326,11 +326,11 @@ export default defineConfig({
              items: [
               { text: '著作權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
               { text: '知識產權', link: '/zh-TW/Whitepaper/Intellectual-Property' },
-              { text: '授權方式', link: '/zh-TW/Whitepaper/Licensing-Model' },
+              { text: '授權模式', link: '/zh-TW/Whitepaper/Licensing-Model' },
             ]
           },
           { text: '部落格', link: '/zh-TW/Blog/' },
-          { text: '聯繫', link: '/zh-TW/Contact' },
+          { text: '聯繫我們', link: '/zh-TW/Contact' },
         ],
         // 繁体中文首页社交链接设置
         socialLinks: [

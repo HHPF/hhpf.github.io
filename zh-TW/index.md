@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: alt
       text: 💎 替代醫療
-      link: /zh-TW/Whitepaper/Model-Transformation#替代醫療
+      link: /zh-TW/Whitepaper/Model-Transformation#1
     - theme: alt
       text: 🌈 廉價醫療
-      link: /zh-TW/Whitepaper/Model-Transformation#廉價醫療
+      link: /zh-TW/Whitepaper/Model-Transformation#2
     - theme: alt
       text: 💖 公益醫療
-      link: /zh-TW/Whitepaper/Model-Transformation#公益醫療
+      link: /zh-TW/Whitepaper/Model-Transformation#3
 
 features:
   - title: 📊 HHPF標準化工程
