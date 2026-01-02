@@ -129,7 +129,7 @@ export default defineConfig({
       }
     },
 
-// 中文版设置--------------------------------------------------------------------------
+// 简体中文版设置--------------------------------------------------------------------------
     'zh-CN': {
       label: '简体中文',
       lang: 'zh-CN',
@@ -241,19 +241,20 @@ export default defineConfig({
     'zh-TW': {
       label: '繁體中文',
       lang: 'zh-TW',
-      description: '人類健康計劃基金會',
-      // 繁体中文首页导航设置
+      title: "HHPF - 人類健康計劃基金會",
+      description: "致力於為AI時代構建人類健康基礎設施。",      
+      // 繁體中文首頁導航設置
       themeConfig: {
         outlineTitle: '本頁目錄',
         returnToTopLabel: '回到頂部 ↑',
         sidebarMenuLabel: '菜單',
-        // 配置编辑链接
+        // 配置編輯鏈接
         editLink: {
           pattern: 'https://github.com/HHPF/hhpf.github.io/edit/main/:path',
           text: '在GitHub上編輯此頁面'
         },
 
-        // 配置最后更新时间文本
+        // 配置最後更新時間文本
         lastUpdatedText: '最後更新於',
         nav: [
           { text: '首頁', link: '/zh-TW/' },
@@ -270,7 +271,7 @@ export default defineConfig({
           { text: '部落格', link: '/zh-TW/Blog/' },
           { text: '聯繫我們', link: '/zh-TW/Contact' },
         ],
-        // 繁体中文内容侧边栏设置
+        // 繁體中文內容側邊欄設置
         sidebar: [
           {
             text: '願景',
@@ -332,12 +333,13 @@ export default defineConfig({
           { text: '部落格', link: '/zh-TW/Blog/' },
           { text: '聯繫我們', link: '/zh-TW/Contact' },
         ],
-        // 繁体中文首页社交链接设置
+        // 繁體中文首頁社交鏈接設置
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/HHPF/hhpf.github.io' }
+          { icon: 'github', link: 'https://github.com/HHPF/' }
         ],
-        // 繁体中文首页页脚设置
+        // 繁體中文首頁頁腳設置
         footer: {
+          message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',
           copyright: '版權所有 © 2025 ~ 至今 人類健康計劃基金會'
         }
       }
