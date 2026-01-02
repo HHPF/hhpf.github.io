@@ -89,7 +89,4 @@ Good subjective feeling is not enough; it must withstand the inspection of moder
 HHPF's "First Principle of Health" tells us: <b>Health can be designed, managed, and optimized.</b>
 When we examine life through the nine dimensions of "three forces, three flows, and three metrics," we are no longer blindly fighting disease, but systematically building health.
 
-This is not just a theory, but also the algorithm core of HHPF's <b>Standardization Engineering</b> and <b>SMD Artificial Intelligence System</b>.
-
-
-\n
+This is not just a theory, but also the algorithm core of HHPF's <b>Standardization Engineering</b> and <b>SMD Artificial Intelligence System</b>.\n

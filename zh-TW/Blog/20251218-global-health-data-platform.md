@@ -56,5 +56,4 @@ next: false
 <a href="index" style="display: inline-block; padding: 8px 30px; background-color: 
 #339900; color: white !important; text-decoration: none !important; border-radius: 
 20px; font-weight: 500;" onmouseover="this.style.backgroundColor='#000000';" 
-onmouseout="this.style.backgroundColor='#339900';">返回部落格列表</a>
-\n
+onmouseout="this.style.backgroundColor='#339900';">返回部落格列表</a>\n

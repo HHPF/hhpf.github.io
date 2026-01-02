@@ -88,6 +88,4 @@ HHPF's Health Engineering Methodology is essentially a process of <b>demystifica
 *   We reject "probably, maybe, perhaps."
 *   We pursue "precision, control, and compliance."
 
-Through the theoretical integration of black and white boxes, strict process control of Six Sigma, and continuous iteration of A/B testing, HHPF transforms "obtaining health" from an uncertain prayer into a <b>deliverable, verifiable engineering task</b>.
-
-\n
+Through the theoretical integration of black and white boxes, strict process control of Six Sigma, and continuous iteration of A/B testing, HHPF transforms "obtaining health" from an uncertain prayer into a <b>deliverable, verifiable engineering task</b>.\n

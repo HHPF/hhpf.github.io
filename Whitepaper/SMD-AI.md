@@ -85,4 +85,4 @@ The launch of the SMD system will bring profound social impacts:
 
 ## [Conclusion: Digital Guardian of Life]
 SMD Artificial Intelligence is the product of HHPF writing "conscience" into "algorithms".
-We are not creating cold machines; we are building a <b>digital guardian of life</b> that gathers the light of human civilization, possesses systematic medical wisdom, and is always online. Through SMD, HHPF's vision of "no disease in the world" will no longer be an empty slogan, but lines of running code.\n\n
+We are not creating cold machines; we are building a <b>digital guardian of life</b> that gathers the light of human civilization, possesses systematic medical wisdom, and is always online. Through SMD, HHPF's vision of "no disease in the world" will no longer be an empty slogan, but lines of running code.\n

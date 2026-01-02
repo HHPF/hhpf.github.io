@@ -67,6 +67,4 @@ The above three theoretical cornerstones ultimately converge into HHPF's unique 
 *   <b>Real-World Evidence (RWE):</b> We advocate establishing a <b>systematic case evidence-based system</b>. Through AI, collect massive comprehensive intervention data in the real world to verify the effectiveness of the "combination therapy" (medicine + health + mind) in improving overall quality of life and cure rate.
 
 <b>Conclusion:</b>
-HHPF's theoretical deepening is not only an academic return to the source, but also provides an unshakable logical support for building a new medical paradigm of <b>"low cost, high efficacy, no harm"</b>.
-
-\n
+HHPF's theoretical deepening is not only an academic return to the source, but also provides an unshakable logical support for building a new medical paradigm of <b>"low cost, high efficacy, no harm"</b>.\n

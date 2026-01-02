@@ -13,5 +13,3 @@ lastUpdated: true
 > <b>Summary:</b> The Human Health Plan Foundation launches a global health data sharing platform to promote global health data sharing and cooperation. The platform will become an open sharing hub for global health data, connecting medical institutions, research institutions, and health organizations worldwide to achieve safe, standardized, and efficient sharing of health data.<br>
 > <b>Release Date:</b> December 18, 2025<br>
 [<b>>>>More Details</b>](/Blog/20251218-global-health-data-platform)
-
-\n

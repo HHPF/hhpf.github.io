@@ -77,7 +77,4 @@ This constitutes a closed-loop ecosystem that is <b>data-driven, technologically
 ## [Conclusion: Lighting the Beacon of Human Health Civilization]
 HHPF's physical demonstration projects are a declaration of our implementation of grand vision into specific actions.
 We are not just building medical institutions, but building <b>models of future healthy life</b> — a place where diseases can be reversed, lives can be awakened, happiness can be experienced, and these achievements can be verified, replicated, and promoted to every corner of the world.
-This is HHPF's solemn commitment to human health.
-
-
-\n
+This is HHPF's solemn commitment to human health.\n

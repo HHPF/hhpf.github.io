@@ -54,5 +54,4 @@ features:
     border: 0px solid #eaeaea !important;
     text-align: left !important;
   }
-</style>
-\n
+</style>\n

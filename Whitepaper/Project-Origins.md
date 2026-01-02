@@ -66,5 +66,4 @@ HHPF firmly believes that with the universalization of health education and the 
 From <b>"passive medical care"</b> to <b>"active health"</b>;
 From <b>"drug dependence"</b> to <b>"awakening self-healing"</b>.
 
-This is the origin of the Human Health Plan Foundation (HHPF) project — <b>using paradigm revolution to solve the problems of the times, and using intelligent technology to benefit human health.</b>
-\n
+This is the origin of the Human Health Plan Foundation (HHPF) project — <b>using paradigm revolution to solve the problems of the times, and using intelligent technology to benefit human health.</b>\n

@@ -36,5 +36,4 @@ features:
     details: Demonstration projects practicing SMD matrix therapy based on SMD deepening theory, SMD evidence-based thinking, and integrated SMD artificial intelligence, including SMD medical halls, SMD wellness centers, and SMD clinics.
     link: /Whitepaper/Physical-Demonstration-Projects
 
----
-\n\n
+---\n

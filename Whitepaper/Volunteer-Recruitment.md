@@ -80,7 +80,4 @@ The world is not short of people who complain about the darkness, but of people 
 Joining the HHPF volunteer ranks is not just a volunteer job, but a self-redemption about <b>"life meaning"</b>.
 Let's return health to life and dignity to humanity together.
 <br><br>
-[>>> Apply to Become an HHPF Volunteer](/Contact)
-
-
-\n
+[>>> Apply to Become an HHPF Volunteer](/Contact)\n

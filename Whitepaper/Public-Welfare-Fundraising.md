@@ -34,6 +34,4 @@ outline: deep
     *   *Plan:* Jointly establish special funds (such as "HHPF-XX Enterprise Depression Prevention and Treatment Fund"). Enterprises gain brand reputation and ESG rating improvement, while HHPF gains funds and technical support.
 3.  <b>Public Monthly Donation Plan (Crowdfunding):</b>
     *   *Target:* Every ordinary person who benefits from HHPF.
-    *   *Plan:* <b>"Health Mutual Aid Plan"</b>. Advocate "donating 1 yuan per day" to accumulate small amounts into great sums. Let beneficiaries become donors, forming a cycle of love.
-
-\n
+    *   *Plan:* <b>"Health Mutual Aid Plan"</b>. Advocate "donating 1 yuan per day" to accumulate small amounts into great sums. Let beneficiaries become donors, forming a cycle of love.\n
