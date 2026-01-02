@@ -29,3 +29,7 @@ HHPF-LOGO
 # VitePress
 .vitepress/cache
 .vitepress/dist
+
+# 转换脚本
+convert_s2t_comprehensive.js
+convert_single_s2t.js
