@@ -102,4 +102,4 @@ Rules are not meant to restrict, but to better coordinate.
 Through this licensing system, we replicate HHPF's DNA to partners around the world.
 Whether you are an individual using free knowledge, a business partner operating a chain organization, or a scientist exploring the unknown, as long as you are within the rules, <b>HHPF is your backing, and SMD is your brain.</b>
 
-Let us join hands to let this future-oriented health paradigm benefit all humanity under the protection of the rule of law and contracts.\n
+Let us join hands to let this future-oriented health paradigm benefit all humanity under the protection of the rule of law and contracts.

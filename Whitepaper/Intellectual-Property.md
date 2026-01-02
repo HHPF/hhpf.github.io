@@ -75,4 +75,4 @@ HHPF implements a <b>"zero-tolerance"</b> policy against intellectual property i
 
 ## [Conclusion]
 Intellectual property belongs not only to HHPF but also to all humanity.
-Protecting it is protecting the spark of innovation and protecting every ordinary person seeking health from fraud. We invite the whole society to supervise together and guard this pure land.\n
+Protecting it is protecting the spark of innovation and protecting every ordinary person seeking health from fraud. We invite the whole society to supervise together and guard this pure land.

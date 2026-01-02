@@ -36,4 +36,4 @@ features:
     details: 基於SMD深化理論、SMD循證思想、融合SMD人工智能，踐行SMD矩陣療法的示範性項目，包括SMD醫館、SMD療養中心、SMD診所等。
     link: /zh-TW/Whitepaper/Physical-Demonstration-Projects
 
----\n
+---

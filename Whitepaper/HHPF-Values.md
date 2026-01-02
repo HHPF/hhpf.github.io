@@ -69,4 +69,4 @@ Life systems theory tells us that everything is interconnected. HHPF opposes all
 Members of HHPF are a group of <b>"down-to-earth idealists"</b>.
 We hold scalpels and code (Truth), with compassion and great love (Benevolence), promote change with thunderous means (Evolution), and ultimately lead humanity into a new era of physical and mental harmony (Oneness).
 
-If you also agree with these four iron rules, you are welcome to join us and become a partner in this health revolution.\n
+If you also agree with these four iron rules, you are welcome to join us and become a partner in this health revolution.

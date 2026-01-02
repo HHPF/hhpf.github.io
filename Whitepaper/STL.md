@@ -92,4 +92,4 @@ Based on this matrix, we have achieved seamless integration of <b>medical treatm
 
 ## [Conclusion: From "Treating the Disease of a Person" to "Treating the Person with a Disease"]
 HHPF's Life Systems Theory is a return to the dignity of life.
-We no longer see people as machines to be repaired, but as spiritual, flowing systems. Through the synchronous operation of matter, energy, and information, and through the matrix integration of Chinese and Western medicine with natural psychotherapy, we are committed to making everyone the <b>supreme commander</b> of their own life system.\n
+We no longer see people as machines to be repaired, but as spiritual, flowing systems. Through the synchronous operation of matter, energy, and information, and through the matrix integration of Chinese and Western medicine with natural psychotherapy, we are committed to making everyone the <b>supreme commander</b> of their own life system.

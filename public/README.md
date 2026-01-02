@@ -1,1 +1,1 @@
-Human Health Plan Foundation White Paper\n
+Human Health Plan Foundation White Paper
