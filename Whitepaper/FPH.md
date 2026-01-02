@@ -92,3 +92,4 @@ When we examine life through the nine dimensions of "three forces, three flows, 
 This is not just a theory, but also the algorithm core of HHPF's <b>Standardization Engineering</b> and <b>SMD Artificial Intelligence System</b>.
 
 
+\n

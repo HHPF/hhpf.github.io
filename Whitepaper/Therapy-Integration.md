@@ -74,3 +74,4 @@ Through the integration of the above therapies, HHPF ultimately aims to achieve 
 HHPF's therapy integration is a revolution that liberates humanity from "fragmented medical care". We use bucket theory to fill short boards, use system evidence to verify efficacy, and let <b>the wisdom of Chinese and Western medicine, the energy of nature, and the power of the mind</b> achieve perfect resonance in every life individual.
 
 
+\n

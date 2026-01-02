@@ -73,3 +73,4 @@ HHPF's model transformation is a revolution about <b>"return to value"</b>.
 We are committed to building a world where <b>natural therapy replaces over-treatment, cheap services replace sky-high bills, and humanitarian care replaces profit-seeking instincts</b>. In this new paradigm, health is no longer a luxury, but a right that everyone is born with.
 
 
+\n

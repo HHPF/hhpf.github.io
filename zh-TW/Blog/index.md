@@ -14,3 +14,4 @@ lastUpdated: true
 > <b>發布時間：</b> 2025年12月18日<br>
 [<b>>>>更多内容</b>](/zh-CN/Blog/20251218-global-health-data-platform)
 
+\n

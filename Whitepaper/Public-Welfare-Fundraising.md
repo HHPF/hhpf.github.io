@@ -36,3 +36,4 @@ outline: deep
     *   *Target:* Every ordinary person who benefits from HHPF.
     *   *Plan:* <b>"Health Mutual Aid Plan"</b>. Advocate "donating 1 yuan per day" to accumulate small amounts into great sums. Let beneficiaries become donors, forming a cycle of love.
 
+\n

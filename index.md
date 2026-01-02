@@ -1,1 +1,40 @@
----\nlayout: home\n\nhero:\n  name: "HHPF"\n  text: "Human Health Plan Foundation"\n  tagline: Committed to Building Human Health Infrastructure for the AI Era.\n  image:\n    src: /hero.png\n    alt: HHPF-Logo\n  actions:\n    - theme: alt\n      text: 💎 Alternative Medicine\n      link: /Whitepaper/Model-Transformation#Alternative-Medicine\n    - theme: alt\n      text: 🌈 Affordable Medicine\n      link: /Whitepaper/Model-Transformation#Affordable-Medicine\n    - theme: alt\n      text: 💖 Charitable Medicine\n      link: /Whitepaper/Model-Transformation#Charitable-Medicine\n\nfeatures:\n  - title: 📊 HHPF Standardization Engineering\n    details: Through A/B testing, quantify the efficacy of proven natural therapies, build standardized SOP manuals, ensuring consistency and reproducibility of treatment outcomes.\n    link: /Whitepaper/Standardization-Engineering\n\n  - title: 🤖 SMD Artificial Intelligence\n    details: Based on the world's top AI consultation system, integrate multiple therapies to achieve personalized treatment, improving efficacy and patient satisfaction.\n    link: /Whitepaper/SMD-AI\n\n  - title: 🧘 SMD Right Consciousness Training Camp\n    details: Using engineering and scientific thinking, systematically understand, transform and reshape subconscious character habits (including emotional conditioning/fixed beliefs) to achieve physical and mental harmony and health.\n    link: /Whitepaper/Right-Consciousness-Training-Camp\n\n  - title: 🏥 HHPF Physical Demonstration Projects\n    details: Demonstration projects practicing SMD matrix therapy based on SMD deepening theory, SMD evidence-based thinking, and integrated SMD artificial intelligence, including SMD medical halls, SMD wellness centers, and SMD clinics.\n    link: /Whitepaper/Physical-Demonstration-Projects\n\n---\n
+---
+layout: home
+
+hero:
+  name: "HHPF"
+  text: "Human Health Plan Foundation"
+  tagline: Committed to Building Human Health Infrastructure for the AI Era.
+  image:
+    src: /hero.png
+    alt: HHPF-Logo
+  actions:
+    - theme: alt
+      text: 💎 Alternative Medicine
+      link: /Whitepaper/Model-Transformation#Alternative-Medicine
+    - theme: alt
+      text: 🌈 Affordable Medicine
+      link: /Whitepaper/Model-Transformation#Affordable-Medicine
+    - theme: alt
+      text: 💖 Charitable Medicine
+      link: /Whitepaper/Model-Transformation#Charitable-Medicine
+
+features:
+  - title: 📊 HHPF Standardization Engineering
+    details: Through A/B testing, quantify the efficacy of proven natural therapies, build standardized SOP manuals, ensuring consistency and reproducibility of treatment outcomes.
+    link: /Whitepaper/Standardization-Engineering
+
+  - title: 🤖 SMD Artificial Intelligence
+    details: Based on the world's top AI consultation system, integrate multiple therapies to achieve personalized treatment, improving efficacy and patient satisfaction.
+    link: /Whitepaper/SMD-AI
+
+  - title: 🧘 SMD Right Consciousness Training Camp
+    details: Using engineering and scientific thinking, systematically understand, transform and reshape subconscious character habits (including emotional conditioning/fixed beliefs) to achieve physical and mental harmony and health.
+    link: /Whitepaper/Right-Consciousness-Training-Camp
+
+  - title: 🏥 HHPF Physical Demonstration Projects
+    details: Demonstration projects practicing SMD matrix therapy based on SMD deepening theory, SMD evidence-based thinking, and integrated SMD artificial intelligence, including SMD medical halls, SMD wellness centers, and SMD clinics.
+    link: /Whitepaper/Physical-Demonstration-Projects
+
+---
+\n\n

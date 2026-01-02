@@ -74,3 +74,4 @@ Without written authorization from HHPF, the following behaviors are strictly pr
 Respecting copyright is respecting the rigor of life sciences.
 We are willing to share wisdom, but we will defend the purity of wisdom with our lives. Thank you for working with HHPF to maintain this healthy and orderly knowledge ecosystem.
 
+\n

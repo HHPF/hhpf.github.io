@@ -76,3 +76,4 @@ Medicine can only save temporarily, while enlightenment can save a lifetime.
 HHPF firmly believes that promoting SMD Enlightenment Therapy is our core mission. This is not just about treating diseases; it is about helping every life <b>install an intelligent operating system</b> and reclaim the initiative of life.
 <b>Rectify the mind first, then cultivate the body.</b> This is a universal therapy suitable for everyone, and the starting point of all health miracles.
 
+\n

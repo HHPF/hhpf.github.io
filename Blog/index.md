@@ -14,3 +14,4 @@ lastUpdated: true
 > <b>Release Date:</b> December 18, 2025<br>
 [<b>>>>More Details</b>](/Blog/20251218-global-health-data-platform)
 
+\n

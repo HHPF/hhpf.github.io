@@ -91,4 +91,4 @@ The ultimate product of HHPF Standardization Engineering is an open-source, dyna
 
 ## [Conclusion: Let "Metaphysics" Land, Let "Science" Ascend]
 HHPF Standardization Engineering is not meant to negate the spirituality of traditional medicine, but to make these ancient wisdom understood, accepted, and applied by modern society through scientific language.
-We are committed to making <b>"cheap, efficient, and harmless"</b> natural therapy a health tool accessible to everyone, which is exactly the technical cornerstone of the medical paradigm revolution.
+We are committed to making <b>"cheap, efficient, and harmless"</b> natural therapy a health tool accessible to everyone, which is exactly the technical cornerstone of the medical paradigm revolution.\n

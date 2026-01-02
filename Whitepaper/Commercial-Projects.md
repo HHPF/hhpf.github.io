@@ -56,3 +56,4 @@ Through this plan, HHPF has achieved a great closed loop:
 
 We don't make money by selling anxiety; we make money by <b>delivering health results</b>; the money we earn is not used for extravagance, but for <b>saving more lives</b>.
 This is HHPF's fundraising philosophy.
+\n

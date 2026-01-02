@@ -151,3 +151,4 @@ onMounted(() => {
 
 - <b>Monday to Friday</b>: 9:00 - 18:00
 - <b>Saturday to Sunday</b>: Rest
+\n
