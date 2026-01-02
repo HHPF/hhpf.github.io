@@ -4,8 +4,10 @@ outline: deep
 
 # Public Welfare Fundraising
 
-## [Core Philosophy: Raising Funds for the Construction of "Infrastructure" for Human Health]
-Every penny raised through public welfare fundraising will not be used for commercial dividends, but will be fully invested in basic construction and humanitarian aid with <b>high thresholds, high risks, long cycles, and low direct returns</b>. We define this as the <b>"Health Infrastructure Project"</b>.
+## Preface
+<h3>-- Raising Funds for the Construction of "Infrastructure" for Human Health</h3>
+
+> Every penny raised through public welfare fundraising will not be used for commercial dividends, but will be fully invested in basic construction and humanitarian aid with <b>high thresholds, high risks, long cycles, and low direct returns</b>. We define this as the <b>"Health Infrastructure Project"</b>.
 
 ## I. Fund Usage: Four Cornerstones of Public Welfare (MECE Decomposition)
 1.  <b>AI and Data Infrastructure (SMD R&D):</b>

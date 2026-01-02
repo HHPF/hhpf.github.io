@@ -4,8 +4,10 @@ outline: deep
 
 # Life Systems Theory
 
-## [Preface: The Human Body is a Holographic Open System]
-The dilemma of modern mainstream medicine lies in the overuse of "reductionism" — disassembling life into organs, organs into cells, and cells into molecules. However, life is not a pile of parts, but the emergence of a system.
+## Preface
+<h3>-- The Human Body is a Holographic Open System</h3>
+
+> The dilemma of modern mainstream medicine lies in the overuse of "reductionism" — disassembling life into organs, organs into cells, and cells into molecules. However, life is not a pile of parts, but the emergence of a system.
 The <b>"Life Systems Theory"</b> proposed by HHPF views the human body as a multi-dimensional, open complex giant system. We believe that health is the dynamic balance within the system and between the system and the environment. To understand this balance, we must master the three cornerstone elements that constitute life: <b>Matter, Energy, and Information</b>.
 
 

@@ -4,8 +4,10 @@ outline: deep
 
 # Intellectual Property
 
-## [Preface: Cornerstone of Credibility, Line of Defense for Life]
-The intellectual property of the Human Health Plan Foundation (HHPF) is the cornerstone of credibility for our global services. When users see the HHPF or SMD logo, they trust a set of rigorously verified, high-standard health solutions.
+## Preface
+<h3>-- Cornerstone of Credibility, Line of Defense for Life</h3>
+
+> The intellectual property of the Human Health Plan Foundation (HHPF) is the cornerstone of credibility for our global services. When users see the HHPF or SMD logo, they trust a set of rigorously verified, high-standard health solutions.
 Therefore, protecting HHPF's intellectual property is essentially <b>protecting the life safety of every user</b>, preventing them from being harmed by counterfeit medical services. We will spare no effort to establish and defend this rights system globally.
 
 

@@ -4,10 +4,11 @@ outline: deep
 
 # HHPF Values
 
-## [Preface: A Manifesto for Idealists]
-HHPF is not a traditional commercial company, nor a rigid academic institution. We are a <b>"conscience-driven scientific community"</b>.
-Here, we are not only committed to cracking the code of human diseases, but also to reshaping the warmth of medical civilization. Our values are not hung on walls, but engraved in code, integrated into SOPs, and flowing in every comfort given to patients.
+## Preface
+<h3>-- A Manifesto for Idealists</h3>
 
+> HHPF is not a traditional commercial company, nor a rigid academic institution. We are a <b>"conscience-driven scientific community"</b>.
+> Here, we are not only committed to cracking the code of human diseases, but also to reshaping the warmth of medical civilization. Our values are not hung on walls, but engraved in code, integrated into SOPs, and flowing in every comfort given to patients.
 
 
 ## I. Truth (Truth) —— Follow Only the Truth, Not Books or Superiors

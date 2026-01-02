@@ -4,8 +4,10 @@ outline: deep
 
 # Commercial Projects
 
-## [Core Philosophy: Using Premium Services to Support Universal Healthcare]
-Commerce is not the opposite of charity, but the engine of charity. By providing <b>high-premium, high-quality, and high-scarcity</b> personalized services, 
+## Core Philosophy
+<h3>-- Using Premium Services to Support Universal Healthcare</h3>
+
+> Commerce is not the opposite of charity, but the engine of charity. By providing <b>high-premium, high-quality, and high-scarcity</b> personalized services, 
 HHPF generates reasonable profits from those with payment capabilities, and then injects these profits into the foundation through the <b>"Profit Reallocation Mechanism"</b>, 
 achieving a <b>benevolent cycle of "robbing the rich to help the poor"</b>.
 

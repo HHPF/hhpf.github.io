@@ -4,8 +4,10 @@ outline: deep
 
 # Volunteer Recruitment
 
-## [Preface: Don't Be a Bystander to History, Be an Agent of Change]
-The upgrading of human health civilization requires a spark, and even more requires a prairie fire.
+## Preface
+<h3>-- Don't Be a Bystander to History, Be an Agent of Change</h3>
+
+> The upgrading of human health civilization requires a spark, and even more requires a prairie fire.
 HHPF is looking for <b>"Health Awakened Individuals"</b> worldwide. No matter where you are, no matter what your occupation is, as long as you agree with the health view of "First Principles" and have an altruistic heart of "ultimate kindness", you are the <b>HHPF Global Health Ambassador</b> we are looking for.
 Here, every hour you put in will be transformed into a turning point in someone's life; every piece of wisdom you contribute will become the cornerstone of the SMD system benefiting humanity.
 

@@ -4,8 +4,10 @@ outline: deep
 
 # The First Principle of Health
 
-## [Preface: Returning to Original Truth]
-At a time when modern medicine is lost in complex molecular formulas and precision instruments, HHPF advocates returning to the origin of things. The "first principles" that Musk admires tell us: rather than analogizing (doing what others do), we should explore the essence of things (what things really are).
+## Preface
+<h3>-- Returning to Original Truth</h3>
+
+> At a time when modern medicine is lost in complex molecular formulas and precision instruments, HHPF advocates returning to the origin of things. The "first principles" that Musk admires tell us: rather than analogizing (doing what others do), we should explore the essence of things (what things really are).
 HHPF defines the first principle of health as: <b>The human body is a self-organizing, self-adapting, self-repairing system with high intelligence that pursues negative entropy.</b>
 
 

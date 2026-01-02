@@ -4,8 +4,10 @@ outline: deep
 
 # Copyright Statement
 
-## [Preface: Protecting Wisdom is Protecting Life]
-The white papers, theoretical systems, SOP standards, and related content released by the Human Health Plan Foundation (HHPF) are not just combinations of words and code, but also the crystallization of wisdom from the HHPF team, expert volunteers, and partners in the exploration of a "paradigm shift."
+## Preface
+<h3>-- Protecting Wisdom is Protecting Life</h3>
+
+>The white papers, theoretical systems, SOP standards, and related content released by the Human Health Plan Foundation (HHPF) are not just combinations of words and code, but also the crystallization of wisdom from the HHPF team, expert volunteers, and partners in the exploration of a "paradigm shift."
 We advocate for <b>"knowledge equality"</b> and encourage dissemination for public welfare purposes; however, we must prevent professional medical knowledge from being <b>tampered with, taken out of context, or used for unauthorized commercial profit</b> through strict copyright protection. This concerns not only intellectual property rights but also the life safety of users.
 
 
@@ -64,7 +66,7 @@ Without written authorization from HHPF, the following behaviors are strictly pr
     *   <b>Accountability:</b> Once infringement is discovered, we will immediately take measures including but not limited to sending lawyer's letters, filing complaints for removal, initiating civil lawsuits, and pursuing criminal liability (for serious piracy and profit-making).
 3.  <b>Reporting Channel:</b>
     If you discover any behavior that infringes on HHPF's copyright, or if someone is impersonating HHPF to defraud, please contact us immediately.
-    *   *Reporting Email:* info@hhpf.org
+    *   *Reporting Email:* [info@hhp.foundation](mailto:info@hhp.foundation)
 
 
 

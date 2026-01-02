@@ -4,8 +4,10 @@ outline: deep
 
 # Theoretical Deepening
 
-## [Preface: Philosophical Leap from "Symptom Treatment" to "System Governance"]
-In the face of the mechanistic dilemma of modern medicine and the complexity of chronic diseases, HHPF believes that merely introducing new technologies is not enough; a <b>revolution in epistemology</b> is necessary. We upgrade the theoretical cornerstone of human health from the traditional "biomedical model" to a "trinity" new paradigm based on <b>First Principles, Life System Theory, and Health Engineering Methodology</b>. This is the wisdom source for HHPF to reshape the medical and health industry.
+## Preface
+<h3>-- Philosophical Leap from "Symptom Treatment" to "System Governance"</h3>
+
+> In the face of the mechanistic dilemma of modern medicine and the complexity of chronic diseases, HHPF believes that merely introducing new technologies is not enough; a <b>revolution in epistemology</b> is necessary. We upgrade the theoretical cornerstone of human health from the traditional "biomedical model" to a "trinity" new paradigm based on <b>First Principles, Life System Theory, and Health Engineering Methodology</b>. This is the wisdom source for HHPF to reshape the medical and health industry.
 
 ## I. Cornerstone One: The First Principles of Health (The First Principles of Health)
 <b>——Return to the Essence of Life, Strip Away Superficial Interference</b>

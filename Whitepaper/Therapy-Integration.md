@@ -4,8 +4,10 @@ outline: deep
 
 # Therapy Integration
 
-## [Preface: From "Single Soldier Combat" to "Multi-Arm协同"]
-Modern medicine often tries to solve a complex war (chronic disease) with a single bullet (single drug), which is logically impossible. The <b>"Therapy Integration"</b> proposed by HHPF is not a simple patchwork of Chinese and Western medicine, but a <b>systematic reconstruction</b> of effective global medical means under the guidance of Life Systems Theory, based on the short board supplementation strategy of <b>"Bucket Theory"</b>. We are committed to breaking down disciplinary barriers and achieving seamless integration of <b>Integrated Medical-Wellness</b>.
+## Preface
+<h3>-- From "Single Soldier Combat" to "Multi-Arm协同"</h3>
+
+> Modern medicine often tries to solve a complex war (chronic disease) with a single bullet (single drug), which is logically impossible. The <b>"Therapy Integration"</b> proposed by HHPF is not a simple patchwork of Chinese and Western medicine, but a <b>systematic reconstruction</b> of effective global medical means under the guidance of Life Systems Theory, based on the short board supplementation strategy of <b>"Bucket Theory"</b>. We are committed to breaking down disciplinary barriers and achieving seamless integration of <b>Integrated Medical-Wellness</b>.
 
 ## I. Core Logic: Systems Thinking Based on "Bucket Theory"
 <b>——Only by filling short boards can we carry the water of life</b>

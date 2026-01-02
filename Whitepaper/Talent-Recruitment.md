@@ -4,8 +4,10 @@ outline: deep
 
 # Join Our Team
 
-## [Preface: Looking for the "Minority" Who Define the Future]
-If you're tired of being an alienated screw in a big factory, if you're disgusted by the unspoken rules in the medical industry that sacrifice patient interests for KPIs, if you believe that the combination of AI and life sciences will reshape human civilization — <b>welcome home.</b>
+## Preface
+<h3>-- Looking for the "Minority" Who Define the Future</h3>
+
+> If you're tired of being an alienated screw in a big factory, if you're disgusted by the unspoken rules in the medical industry that sacrifice patient interests for KPIs, if you believe that the combination of AI and life sciences will reshape human civilization — <b>welcome home.</b>
 HHPF is looking for the smartest minds and warmest hearts on this planet. We invite you to step out of traditional career paths and join this paradigm revolution about life, health, and consciousness. Here, your code will save lives, your solutions will eliminate suffering, and your work will become part of history.
 
 

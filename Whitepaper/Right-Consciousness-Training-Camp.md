@@ -4,8 +4,10 @@ outline: deep
 
 # SMD Enlightenment Training Camp
 
-## [Preface: A Universal Therapy That Transcends Matter]
-If there is a therapy that suits anyone, any disease, and its importance even surpasses food therapy and drug treatment, it must be <b>SMD Enlightenment Therapy</b>.
+## Preface
+<h3>-- A Universal Therapy That Transcends Matter</h3>
+
+> If there is a therapy that suits anyone, any disease, and its importance even surpasses food therapy and drug treatment, it must be <b>SMD Enlightenment Therapy</b>.
 Medicine heals the body, food nourishes the flesh, while enlightenment therapy <b>dominates life</b>. It is the pearl on HHPF's crown, and the core work that runs through the entire life cycle of "preventing disease, treating incipient disease, and treating existing disease." The SMD Enlightenment Training Camp aims to deliver a <b>"Life User Manual"</b> that all humanity is missing, leading us to complete a species-level leap from "instinctive beings" to <b>"new humans"</b>.
 
 

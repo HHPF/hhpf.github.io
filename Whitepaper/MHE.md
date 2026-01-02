@@ -5,8 +5,10 @@ outline: deep
 # Health Engineering Methodology
 
 
-## [Preface: Treating Life as the Most Precise Engineering]
-Why is the yield rate of aircraft manufacturing nearly 100%, while the success rate of treating chronic diseases in humans is so low? The reason is that the former follows strict engineering standards, while the latter often relies on discrete individual experiences.
+## Preface
+<h3>-- Treating Life as the Most Precise Engineering</h3>
+
+> Why is the yield rate of aircraft manufacturing nearly 100%, while the success rate of treating chronic diseases in humans is so low? The reason is that the former follows strict engineering standards, while the latter often relies on discrete individual experiences.
 The <b>"Health Engineering Methodology"</b> proposed by HHPF views the human body as a complex bioengineering system. We do not rely on "luck" or "miracle doctors," but achieve predictable, reproducible, and optimizable health outcomes through <b>cybernetics, dataization, and standardization</b> engineering methods.
 
 

@@ -4,8 +4,10 @@ outline: deep
 
 # Licensing Model
 
-## [Preface: Open Sharing, Orderly Empowerment]
-The vision of the Human Health Plan Foundation (HHPF) is to "make health knowledge universally accessible to the public." Therefore, we oppose closed technological monopolies. However, given the special nature of the medical and health field—where any incorrect execution can be life-threatening—we have established a management system of <b>"strict entry, lenient exit, and hierarchical authorization"</b>.
+## Preface
+<h3>-- Open Sharing, Orderly Empowerment</h3>
+
+> The vision of the Human Health Plan Foundation (HHPF) is to "make health knowledge universally accessible to the public." Therefore, we oppose closed technological monopolies. However, given the special nature of the medical and health field—where any incorrect execution can be life-threatening—we have established a management system of <b>"strict entry, lenient exit, and hierarchical authorization"</b>.
 We welcome global partners to use HHPF's brand, technology, and content under legal, compliant, and standardized conditions to jointly promote the upgrading of human health civilization.
 
 

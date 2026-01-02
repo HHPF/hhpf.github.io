@@ -4,8 +4,10 @@ outline: deep
 
 # HHPF Standardization Engineering
 
-## [Preface: Issuing "Digital ID Cards" to Ancient Wisdom]
-For a long time, non-drug intervention methods such as traditional Chinese medicine, natural therapy, and psychological therapy have often been called "alternative medicine" or "empirical medicine" due to the lack of unified quantitative standards. Efficacy often depends on the personal cultivation of the practitioner, making it difficult to replicate on a large scale.
+## Preface
+<h3>-- Issuing "Digital ID Cards" to Ancient Wisdom</h3>
+
+> For a long time, non-drug intervention methods such as traditional Chinese medicine, natural therapy, and psychological therapy have often been called "alternative medicine" or "empirical medicine" due to the lack of unified quantitative standards. Efficacy often depends on the personal cultivation of the practitioner, making it difficult to replicate on a large scale.
 The <b>"Standardization Engineering"</b> initiated by HHPF aims to break this bottleneck. We use modern sensors, big data AI, and clinical experimental methods to <b>"verify, quantify, and encapsulate"</b> proven effective natural therapies worldwide, transforming them from "craft" to "technology", and ultimately establishing a set of universal <b>natural medicine SOP (Standard Operating Procedure)</b> for all humanity.
 
 

@@ -4,8 +4,10 @@ outline: deep
 
 # HHPF Physical Demonstration Projects
 
-## [Preface: Building the Physical World of Future Healthy Life]
-The future of human health not only exists in algorithms and consciousness but also requires a physical space that carries a new lifestyle. HHPF's <b>Physical Demonstration Projects</b> aim to transform the wisdom of "Systems Theory of Life", the rigor of "Health Engineering Methodology", the accessibility of SMD Artificial Intelligence, and the deep transformation of Right Consciousness Training Camp into a visible, tangible, and experiential <b>full-life-cycle health ecosystem</b>.
+## Preface
+<h3>-- Building the Physical World of Future Healthy Life</h3>
+
+> The future of human health not only exists in algorithms and consciousness but also requires a physical space that carries a new lifestyle. HHPF's <b>Physical Demonstration Projects</b> aim to transform the wisdom of "Systems Theory of Life", the rigor of "Health Engineering Methodology", the accessibility of SMD Artificial Intelligence, and the deep transformation of Right Consciousness Training Camp into a visible, tangible, and experiential <b>full-life-cycle health ecosystem</b>.
 We aim to build a complete system from community terminals to international centers, outputting replicable and sustainable <b>HHPF Medical-Wellness Consortium</b> operation standards globally.
 
 
