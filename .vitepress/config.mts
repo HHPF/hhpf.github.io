@@ -153,7 +153,7 @@ export default defineConfig({
           { text: '白皮书', 
             items: [
               { text: '愿景', link: '/zh-CN/Whitepaper/Project-Origins' },
-              { text: '方法论', link: '/zh-CN/Whitepaper/Model-Innovation' },
+              { text: '方法论', link: '/zh-CN/Whitepaper/FPH' },
               { text: '项目', link: '/zh-CN/Whitepaper/Project-Origins' },
               { text: '募资', link: '/zh-CN/Whitepaper/Public-Welfare-Fundraising' },
               { text: '团队建设', link: '/zh-CN/Whitepaper/HHPF-Values' },
@@ -261,7 +261,7 @@ export default defineConfig({
           { text: '白皮書', 
             items: [
               { text: '願景', link: '/zh-TW/Whitepaper/Project-Origins' },
-              { text: '方法論', link: '/zh-TW/Whitepaper/Model-Transformation' },
+              { text: '方法論', link: '/zh-TW/Whitepaper/FPH' },
               { text: '項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' },
               { text: '募資', link: '/zh-TW/Whitepaper/Public-Welfare-Fundraising' },
               { text: '團隊建設', link: '/zh-TW/Whitepaper/HHPF-Values' },
