@@ -9,30 +9,33 @@ hero:
     src: /hero.png
     alt: HHPF-Logo
   actions:
+    - theme: brand
+      text: 🔑 Initiate the paradigm revolution of human health civilization!
+      link: /Whitepaper/Project-Origins
     - theme: alt
-      text: 💎 Alternative Medicine
-      link: /Whitepaper/Model-Transformation#Alternative-Medicine
+      text: 💎 Theoretical Deepening
+      link: /Whitepaper/Theoretical-Deepening
     - theme: alt
-      text: 🌈 Affordable Medicine
-      link: /Whitepaper/Model-Transformation#Affordable-Medicine
+      text: 🌈 Therapy Integration
+      link: /Whitepaper/Therapy-Integration
     - theme: alt
-      text: 💖 Charitable Medicine
-      link: /Whitepaper/Model-Transformation#Charitable-Medicine
+      text: 💖 Model Transformation
+      link: /Whitepaper/Model-Transformation
 
 features:
-  - title: 📊 HHPF Standardization Engineering
+  - title: Standardization Engineering
     details: Through A/B testing, quantify the efficacy of proven natural therapies, build standardized SOP manuals, ensuring consistency and reproducibility of treatment outcomes.
     link: /Whitepaper/Standardization-Engineering
 
-  - title: 🤖 SMD Artificial Intelligence
+  - title: Artificial Intelligence
     details: Based on the world's top AI consultation system, integrate multiple therapies to achieve personalized treatment, improving efficacy and patient satisfaction.
     link: /Whitepaper/SMD-AI
 
-  - title: 🧘 SMD Right Consciousness Training Camp
+  - title: Right Consciousness Training Camp
     details: Using engineering and scientific thinking, systematically understand, transform and reshape subconscious character habits (including emotional conditioning/fixed beliefs) to achieve physical and mental harmony and health.
     link: /Whitepaper/Right-Consciousness-Training-Camp
 
-  - title: 🏥 HHPF Physical Demonstration Projects
+  - title: Physical Demonstration Projects
     details: Demonstration projects practicing SMD matrix therapy based on SMD deepening theory, SMD evidence-based thinking, and integrated SMD artificial intelligence, including SMD medical halls, SMD wellness centers, and SMD clinics.
     link: /Whitepaper/Physical-Demonstration-Projects
 

@@ -45,8 +45,8 @@ export default defineConfig({
           { text: 'Whitepaper', 
             items: [
               { text: 'Vision', link: '/Whitepaper/Project-Origins' },
-              { text: 'Methodology', link: '/Whitepaper/Model-Transformation' },
-              { text: 'Projects', link: '/Whitepaper/Physical-Demonstration-Projects' },
+              { text: 'Methodology', link: '/Whitepaper/FPH' },
+              { text: 'Projects', link: '/Whitepaper/Standardization-Engineering' },
               { text: 'Fundraising', link: '/Whitepaper/Public-Welfare-Fundraising' },
               { text: 'Team Building', link: '/Whitepaper/HHPF-Values' },
               { text: 'Copyright Statement', link: '/Whitepaper/Copyright-Statement' },
@@ -72,8 +72,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'First Principles of Health', link: '/Whitepaper/FPH' },
-              { text: 'Health Engineering Methodology', link: '/Whitepaper/MHE' },
               { text: 'Systems Theory of Life', link: '/Whitepaper/STL' },
+              { text: 'Health Engineering Methodology', link: '/Whitepaper/MHE' },
             ]
           },
           {
@@ -154,7 +154,7 @@ export default defineConfig({
             items: [
               { text: '愿景', link: '/zh-CN/Whitepaper/Project-Origins' },
               { text: '方法论', link: '/zh-CN/Whitepaper/FPH' },
-              { text: '项目', link: '/zh-CN/Whitepaper/Project-Origins' },
+              { text: '项目', link: '/zh-CN/Whitepaper/Standardization-Engineering' },
               { text: '募资', link: '/zh-CN/Whitepaper/Public-Welfare-Fundraising' },
               { text: '团队建设', link: '/zh-CN/Whitepaper/HHPF-Values' },
               { text: '版权声明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
@@ -180,8 +180,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '健康的第一原理', link: '/zh-CN/Whitepaper/FPH' },
-              { text: '健康工程方法论', link: '/zh-CN/Whitepaper/MHE' },
               { text: '生命系统论', link: '/zh-CN/Whitepaper/STL' },
+              { text: '健康工程方法论', link: '/zh-CN/Whitepaper/MHE' },
             ]
           },
           {
@@ -262,7 +262,7 @@ export default defineConfig({
             items: [
               { text: '願景', link: '/zh-TW/Whitepaper/Project-Origins' },
               { text: '方法論', link: '/zh-TW/Whitepaper/FPH' },
-              { text: '項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' },
+              { text: '項目', link: '/zh-TW/Whitepaper/Standardization-Engineering' },
               { text: '募資', link: '/zh-TW/Whitepaper/Public-Welfare-Fundraising' },
               { text: '團隊建設', link: '/zh-TW/Whitepaper/HHPF-Values' },
               { text: '版權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
@@ -288,8 +288,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '健康第一原理', link: '/zh-TW/Whitepaper/FPH' },
-              { text: '健康工程方法論', link: '/zh-TW/Whitepaper/MHE' },
               { text: '生命系統論', link: '/zh-TW/Whitepaper/STL' },
+              { text: '健康工程方法論', link: '/zh-TW/Whitepaper/MHE' },
             ]
           },
           {
