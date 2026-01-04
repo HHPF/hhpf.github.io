@@ -11,7 +11,7 @@ hero:
     alt: HHPF-Logo
   actions:
     - theme: brand
-      text: 🔑 開啓人類健康文明的範式革命！
+      text: 🔑 開啓人類健康文明的新範式！
       link: /zh-TW/Whitepaper/Project-Origins
     - theme: alt
       text: 💎 理論深化
