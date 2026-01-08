@@ -111,7 +111,7 @@ Adopt multi-dimensional stratification instead of single randomization:
 
 ### 4.3 Two-Level, Nine-Dimension 2/9 Health Indicator System (How to Quantify Efficacy?)
 
-HHPF adopts its proprietary [<b>2/9 Health Standard</b>](/Whitepaper/fph) as the core evaluation framework:
+HHPF adopts its proprietary [<b>2/9 Health Standard</b>](/Whitepaper/FPH) as the core evaluation framework:
 
 1. Physiological indicators (HRV, sleep, inflammation, etc.)
 2. Energy and fatigue levels
