@@ -141,7 +141,7 @@ onMounted(() => {
 ## Contact Information
 
 - <b>Phone Number</b>： +86 177-2251-0596（Mainland China）, +852 5941-9145（Hong Kong, China）
-- <b>Email Address</b>： <a href="mailto:info@HHP.Foundation">info@HHP.Foundation</a>
+- <b>Email Address</b>： <a href="mailto:info@hhp.foundation">info@hhp.foundation</a>
 - <b>Address</b>： Building 1, Yanhuang Great Health Industrial Park, Wutong Mountain Art Town, Luohu, Shenzhen, 518114
 - <b>Official Website</b>： <a href="https://www.HHP.Foundation">www.HHP.Foundation</a>
 - <b>Social Media</b>： WeChat, Douyin, Xiaohongshu, <a href="https://github.com/HHPF/">Github</a>

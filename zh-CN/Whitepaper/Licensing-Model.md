@@ -93,8 +93,8 @@ outline: deep
 
 如果您不确定您的使用方式是否需要授权，或希望发起深度战略合作，请通过以下官方渠道联系我们：
 
-*   <b>授权咨询邮箱：</b> [licensing@hhp.foundation](mailto:licensing@hhp.foundation)
-*   <b>品牌举报邮箱：</b> [legal@hhp.foundation](mailto:legal@hhp.foundation)
+*   <b>授权咨询邮箱：</b> [info@hhp.foundation](mailto:info@hhp.foundation)
+*   <b>品牌举报邮箱：</b> [info@hhp.foundation](mailto:info@hhp.foundation)
 
 ## 致每一位阅读至此的朋友
 

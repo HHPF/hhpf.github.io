@@ -141,7 +141,7 @@ onMounted(() => {
 ## 聯繫方式
 
 - <b>聯繫電話</b>： +86 177-2251-0596（中國大陸）， +852 5941-9145（中國香港）
-- <b>郵件信箱</b>： <a href="mailto:info@HHP.Foundation">info@HHP.Foundation</a>
+- <b>郵件信箱</b>： <a href="mailto:info@hhp.foundation">info@hhp.foundation</a>
 - <b>聯繫地址</b>： 深圳 · 羅湖 · 梧桐山藝術小鎮炎黃大健康產業園1號樓，  郵編：518114
 - <b>官方網站</b>： <a href="https://www.HHP.Foundation">www.HHP.Foundation</a>
 - <b>社交媒體</b>： 微信、抖音、小紅書、<a href="https://github.com/HHPF/">Github</a>
