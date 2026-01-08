@@ -11,7 +11,7 @@ hero:
     alt: HHPF-Logo
   actions:
     - theme: brand
-      text:  🔑 开启人类健康文明的新范式！
+      text:  🔑 开启人类健康文明新范式！
       link: /zh-CN/Whitepaper/Project-Origins
     - theme: alt
       text: 💎 理论深化 
@@ -20,8 +20,11 @@ hero:
       text: 🌈 疗法整合 
       link: /zh-CN/Whitepaper/Therapy-Integration
     - theme: alt
-      text: 💖 模式变革
+      text: 💝 模式变革
       link: /zh-CN/Whitepaper/Model-Transformation
+    - theme: alt
+      text: 🕊️ 数字平权
+      link: /zh-CN/Whitepaper/SMD-AI 
 
 features:
   - title: HHPF标准化工程

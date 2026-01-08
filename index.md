@@ -19,8 +19,12 @@ hero:
       text: 🌈 Therapy Integration
       link: /Whitepaper/Therapy-Integration
     - theme: alt
-      text: 💖 Model Transformation
+      text: 💝 Model Transformation
       link: /Whitepaper/Model-Transformation
+    - theme: alt
+      text: 🕊️ Digital Equality
+      link: /Whitepaper/SMD-AI 
+      
 
 features:
   - title: Standardization Engineering
