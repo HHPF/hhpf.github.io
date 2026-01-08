@@ -4,43 +4,42 @@ layout: home
 hero:
   name: "HHPF"
   text: "Human Health Plan Foundation"
-  tagline: Committed to Building Human Health Infrastructure for the AI Era.
+  tagline: Committed to Building Human Health Infrastructure for the AI Era!
   image:
     src: /hero.png
     alt: HHPF-Logo
   actions:
     - theme: brand
-      text: 🔑 Usher in a New Paradigm of Health Civilization!
+      text:  🔑 Usher in a New Paradigm of Health Civilization!
       link: /Whitepaper/Project-Origins
     - theme: alt
-      text: 💎 Theoretical Deepening
+      text: 💎 Theoretical Deepening 
       link: /Whitepaper/Theoretical-Deepening
     - theme: alt
-      text: 🌈 Therapy Integration
+      text: 🌈 Therapy Integration 
       link: /Whitepaper/Therapy-Integration
     - theme: alt
       text: 💝 Model Transformation
       link: /Whitepaper/Model-Transformation
     - theme: alt
-      text: 🕊️ Digital Equality
-      link: /Whitepaper/SMD-AI 
-      
+      text: 🕊️ Knowledge Equality
+      link: /Whitepaper/SMD-AI
 
 features:
-  - title: Standardization Engineering
-    details: Through A/B testing, quantify the efficacy of proven natural therapies, build standardized SOP manuals, ensuring consistency and reproducibility of treatment outcomes.
+  - title: HHPF Standardization Engineering
+    details: Through A/B experimental systems, build quantitative relationships between "therapy/efficacy", provide universal practice standards for systems medicine and natural therapies, and promote the paradigm shift from experience to science.
     link: /Whitepaper/Standardization-Engineering
 
-  - title: Artificial Intelligence
-    details: Based on the world's top AI consultation system, integrate multiple therapies to achieve personalized treatment, improving efficacy and patient satisfaction.
+  - title: SMD Artificial Intelligence
+    details: Build a trinity system therapy AI system of SOP+LLM+RAG based on general large models, realizing health knowledge popularization and free consultation.
     link: /Whitepaper/SMD-AI
 
-  - title: Right Consciousness Training Camp
-    details: Using engineering and scientific thinking, systematically understand, transform and reshape subconscious character habits (including emotional conditioning/fixed beliefs) to achieve physical and mental harmony and health.
+  - title: SMD Right Consciousness Training Camp
+    details: ⟬Life User Manual⟭ systematic practice, upgrading human life operating system from instinct OS to intelligent OS, using engineering methods to achieve physical and mental harmony and health.
     link: /Whitepaper/Right-Consciousness-Training-Camp
 
-  - title: Physical Demonstration Projects
-    details: Demonstration projects practicing SMD matrix therapy based on SMD deepening theory, SMD evidence-based thinking, and integrated SMD artificial intelligence, including SMD medical halls, SMD wellness centers, and SMD clinics.
+  - title: HHPF Physical Demonstration Projects
+    details: Entity projects based on the HHPF-SMD paradigm, building SMD matrix therapy as the cornerstone, including SMD medical halls, SMD wellness centers, SMD clinics, etc.
     link: /Whitepaper/Physical-Demonstration-Projects
 
 ---
