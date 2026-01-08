@@ -82,19 +82,21 @@
  .VPSidebar .VPNav .VPNavItem .VPNavItemTitle {
    color: var(--vp-sidebar-heading-color);
  }
- 
+
  .VPSidebar .VPNav .VPNavItem .VPNavItemTitle:hover {
-   color: var(--vp-sidebar-item-hover-color);
+   color: var(--vp-c-brand) !important;
+   font-weight: bold !important;
  }
- 
+
  .VPSidebar .VPNav .VPNavItem .VPNavChildren a {
    color: var(--vp-sidebar-item-color);
  }
- 
+
  .VPSidebar .VPNav .VPNavItem .VPNavChildren a:hover {
-   color: var(--vp-sidebar-item-hover-color);
+   color: var(--vp-c-brand) !important;
+   font-weight: bold !important;
  }
- 
+
  .VPSidebar .VPNav .VPNavItem .VPNavChildren a.active {
    color: var(--vp-sidebar-item-active-color);
  }
