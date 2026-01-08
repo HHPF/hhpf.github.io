@@ -100,6 +100,22 @@
  .VPSidebar .VPNav .VPNavItem .VPNavChildren a.active {
    color: var(--vp-sidebar-item-active-color);
  }
+
+ /* 确保侧边栏所有链接hover颜色为品牌绿色 */
+ .VPSidebar a:hover {
+   color: var(--vp-c-brand) !important;
+   font-weight: bold !important;
+ }
+
+ .VPNavLink:hover {
+   color: var(--vp-c-brand) !important;
+   font-weight: bold !important;
+ }
+
+ .VPNavItemTitle:hover {
+   color: var(--vp-c-brand) !important;
+   font-weight: bold !important;
+ }
  
  /* 根据dark/light模式设置链接当前色 */
  /* light模式下的链接颜色 */
