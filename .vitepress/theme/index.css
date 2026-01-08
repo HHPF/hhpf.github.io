@@ -102,10 +102,15 @@
  /* 根据dark/light模式设置链接当前色 */
  /* light模式下的链接颜色 */
  :root {
-   --vp-c-text-link: var(--vp-c-brand) !important;
+   --vp-c-text-link: #000000 !important;
    --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
-   --vp-c-text-link-active: var(--vp-c-brand) !important;
-   --vp-c-text-link-visited: var(--vp-c-brand) !important;
+   --vp-c-text-link-active: #000000 !important;
+   --vp-c-text-link-visited: #000000 !important;
+ }
+
+ /* 确保brand按钮文本为白色 */
+ .VPButton.brand {
+   color: #ffffff !important;
  }
  
  /* dark模式下的链接颜色 */
