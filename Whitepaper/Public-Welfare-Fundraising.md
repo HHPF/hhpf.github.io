@@ -5,7 +5,7 @@ outline: deep
 # Public Welfare Fundraising
 
 ## Preface
-<h3>-- Raising Funds for the Construction of "Infrastructure" for Human Health</h3>
+<h3>-- Highest‑weight universal therapy</h3>
 
 > Every penny raised through public welfare fundraising will not be used for commercial dividends, but will be fully invested in basic construction and humanitarian aid with <b>high thresholds, high risks, long cycles, and low direct returns</b>. We define this as the <b>"Health Infrastructure Project"</b>.
 
