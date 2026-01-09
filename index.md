@@ -10,7 +10,7 @@ hero:
     alt: HHPF-Logo
   actions:
     - theme: brand
-      text:  🔑 Usher in a New Paradigm of Health Civilization!
+      text:  🔑 New Paradigm of Health Civilization!
       link: /Whitepaper/Project-Origins
     - theme: alt
       text: 💎 Theoretical Deepening 
