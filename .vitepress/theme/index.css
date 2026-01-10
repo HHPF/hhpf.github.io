@@ -1,4 +1,4 @@
-/* Custom styles for feature cards and logo gradient */
+/* 功能卡片和标志渐变的自定义样式 */
 :root {
   /* 网站主色设置 */
   --vp-c-brand: #339900;
@@ -13,22 +13,29 @@
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
   --vp-home-hero-image-filter: blur(44px);
 
-    /* 全局链接颜色设置 */
+  /* 全局链接颜色设置 */
   --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
   --vp-c-text-link-active: var(--vp-c-brand) !important;
-  
-  
+
+  --vp-c-indigo-1: #339900;
+  --vp-c-indigo-2: #339900;
+  --vp-c-indigo-3: #339900;
+  --vp-c-indigo-soft: rgba(20, 76, 17, 0.14);
+
+
   /* 侧边栏颜色设置 */
   --vp-sidebar-heading-color: var(--vp-c-brand);
   --vp-sidebar-item-color: #000000;
   --vp-sidebar-item-hover-color: var(--vp-c-brand-light);
   --vp-sidebar-item-active-color: #000000;
-  
+
   /* 功能卡片样式设置 */
   --vp-feature-card-border-radius: 25px;
-  --vp-feature-card-border-color: rgba(51, 153, 0, 0.2); /* 半透明的品牌绿色 */
+  --vp-feature-card-border-color: rgba(51, 153, 0, 0.2);
+  /* 半透明的品牌绿色 */
   --vp-feature-card-border-width: 3px;
-  --vp-feature-card-hover-border-color: #339900; /* 不透明的品牌绿色 */
+  --vp-feature-card-hover-border-color: #339900;
+  /* 不透明的品牌绿色 */
   --vp-feature-card-transition: all 0.2s ease;
 
 
@@ -37,22 +44,22 @@
   --vp-nav-logo-max-height: 20px !important;
 }
 
- 
- .feature-item {
-   border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
-   border-radius: var(--vp-feature-card-border-radius);
-   transition: var(--vp-feature-card-transition);
-   padding: 24px;
-   margin-bottom: 24px;
- }
- 
- .feature-item:hover {
+
+.feature-item {
+  border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
+  border-radius: var(--vp-feature-card-border-radius);
+  transition: var(--vp-feature-card-transition);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.feature-item:hover {
   border-color: var(--vp-feature-card-hover-border-color) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
 
-/* Alternative selector for VitePress default theme */
+/* VitePress默认主题的替代选择器 */
 .VPFeatures .VPFeature {
   border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
   border-radius: var(--vp-feature-card-border-radius);
@@ -65,20 +72,20 @@
   transform: translateY(-2px);
 }
 
-/* Additional fallback selector */
-.vp-doc .VPFeatures > div > div {
+/* 额外的后备选择器 */
+.vp-doc .VPFeatures>div>div {
   border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
   border-radius: var(--vp-feature-card-border-radius);
   transition: var(--vp-feature-card-transition);
 }
 
-.vp-doc .VPFeatures > div > div:hover {
+.vp-doc .VPFeatures>div>div:hover {
   border-color: var(--vp-feature-card-hover-border-color) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
- 
- /* 侧边栏可折叠栏目样式 */
+
+/* 侧边栏可折叠栏目样式 */
 .VPSidebar .VPNav .VPNavItem .VPNavItemTitle {
   color: #000000 !important;
 }
@@ -144,24 +151,25 @@
   color: #000000 !important;
   font-weight: normal !important;
 }
- 
- /* 根据dark/light模式设置链接当前色 */
- /* light模式下的链接颜色 */
- :root {
-   --vp-c-text-link: #000000 !important;
-   --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
-   --vp-c-text-link-active: #000000 !important;
-   --vp-c-text-link-visited: #000000 !important;
- }
 
- /* 确保brand按钮文本为白色 */
+/* 根据dark/light模式设置链接当前色 */
+/* light模式下的链接颜色 */
+:root {
+  --vp-c-text-link: #000000 !important;
+  --vp-c-text-link-hover: var(--vp-c-brand-lighter) !important;
+  --vp-c-text-link-active: #000000 !important;
+  --vp-c-text-link-visited: #000000 !important;
+}
+
+/* 确保brand按钮文本为白色 */
 .VPButton.brand {
   color: #ffffff !important;
   background-color: var(--vp-c-brand) !important;
 }
 
 .VPButton.brand:hover {
-  background-color: #2d8500 !important; /* 品牌色加深20% */
+  background-color: #2d8500 !important;
+  /* 品牌色加深20% */
 }
 
 /* dark模式下的链接颜色 */
@@ -173,33 +181,41 @@ html.dark {
 }
 
 /* 确保brand链接始终为白色 */
-a.brand, .brand a {
+a.brand,
+.brand a {
   color: #ffffff !important;
   background-color: var(--vp-c-brand) !important;
 }
 
-a.brand:hover, .brand a:hover {
+a.brand:hover,
+.brand a:hover {
   color: #ffffff !important;
-  background-color: #2d8500 !important; /* 品牌色加深20% */
+  background-color: #2d8500 !important;
+  /* 品牌色加深20% */
 }
 
-a.brand.active, .brand a.active {
+a.brand.active,
+.brand a.active {
   color: #ffffff !important;
   background-color: var(--vp-c-brand) !important;
 }
 
 /* 暗黑模式下brand链接始终为白色 */
-html.dark a.brand, html.dark .brand a {
+html.dark a.brand,
+html.dark .brand a {
   color: #ffffff !important;
   background-color: var(--vp-c-brand) !important;
 }
 
-html.dark a.brand:hover, html.dark .brand a:hover {
+html.dark a.brand:hover,
+html.dark .brand a:hover {
   color: #ffffff !important;
-  background-color: #2d8500 !important; /* 品牌色加深20% */
+  background-color: #2d8500 !important;
+  /* 品牌色加深20% */
 }
 
-html.dark a.brand.active, html.dark .brand a.active {
+html.dark a.brand.active,
+html.dark .brand a.active {
   color: #ffffff !important;
   background-color: var(--vp-c-brand) !important;
 }
@@ -240,35 +256,33 @@ html.dark .VPNavItemTitle {
 html.dark .VPNavItemTitle.active {
   color: #000000 !important;
 }
- 
- /* 确保所有链接都应用模式对应的颜色 */
- a {
-   color: var(--vp-c-text-link) !important;
-   text-decoration: none !important;
- }
- 
- a:hover {
-   color: #339900 !important;
-   text-decoration: none !important;
- }
- 
- a:active {
-   color: var(--vp-c-text-link-active) !important;
- }
- 
- 
- 
- a:visited {
-   color: var(--vp-c-text-link-visited) !important;
- }
- 
- /* 确保文档中的链接也应用相同样式 */
- .vp-doc a {
-   color: var(--vp-c-brand) !important;
- }
- 
- .vp-doc a:hover {
-   color: var(--vp-c-brand-lighter) !important;
- }
- 
- 
+
+/* 确保所有链接都应用模式对应的颜色 */
+a {
+  color: var(--vp-c-text-link) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #339900 !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  color: var(--vp-c-text-link-active) !important;
+}
+
+
+
+a:visited {
+  color: var(--vp-c-text-link-visited) !important;
+}
+
+/* 确保文档中的链接也应用相同样式 */
+.vp-doc a {
+  color: var(--vp-c-brand) !important;
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-brand-lighter) !important;
+}
