@@ -2,25 +2,25 @@ import { defineConfig } from 'vitepress'
 
 // 网站全局配置-----------------------------------------------------------------------
 export default defineConfig({
-    // 配置网站最后更新时间
-    lastUpdated: true,
-    // 配置网站favicon
-    head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-    // 配置网站搜索功能
-    themeConfig: {
-      search: {
-        provider: 'local'
-      },
-      // 配置网站logo
-      logo: {
-        light: '/logo-light.png',
-        dark: '/logo-dark.png',
-        alt: 'HHPF Logo'
-      },
-      siteTitle: false,
+  // 配置网站最后更新时间
+  lastUpdated: true,
+  // 配置网站favicon
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  // 配置网站搜索功能
+  themeConfig: {
+    search: {
+      provider: 'local'
     },
+    // 配置网站logo
+    logo: {
+      light: '/logo-light.png',
+      dark: '/logo-dark.png',
+      alt: 'HHPF Logo'
+    },
+    siteTitle: false,
+  },
 
-// 英文版设置-------------------------------------------------------------------------- 
+  // 英文版设置--------------------------------------------------------------------------
   locales: {
     root: {
       label: 'English',
@@ -42,7 +42,8 @@ export default defineConfig({
         lastUpdatedText: 'Last updated on',
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Whitepaper', 
+          {
+            text: 'Whitepaper',
             items: [
               { text: 'Vision', link: '/Whitepaper/Project-Origins' },
               { text: 'Methodology', link: '/Whitepaper/FPH' },
@@ -66,7 +67,7 @@ export default defineConfig({
               { text: 'Therapy Integration', link: '/Whitepaper/Therapy-Integration' },
               { text: 'Model Transformation', link: '/Whitepaper/Model-Transformation' },
             ]
-          },  
+          },
           {
             text: 'Methodology',
             collapsed: true,
@@ -85,7 +86,7 @@ export default defineConfig({
               { text: 'SMD Right Consciousness Training Camp', link: '/Whitepaper/Right-Consciousness-Training-Camp' },
               { text: 'HHPF Physical Demonstration Projects', link: '/Whitepaper/Physical-Demonstration-Projects' }
             ]
-          },          
+          },
 
           {
             text: 'Fundraising',
@@ -106,9 +107,9 @@ export default defineConfig({
             ]
           },
           {
-             text: 'Copyright Statement',
-             collapsed: true,
-             items: [
+            text: 'Copyright Statement',
+            collapsed: true,
+            items: [
               { text: 'Copyright Statement', link: '/Whitepaper/Copyright-Statement' },
               { text: 'Intellectual Property', link: '/Whitepaper/Intellectual-Property' },
               { text: 'Licensing Model', link: '/Whitepaper/Licensing-Model' },
@@ -123,18 +124,18 @@ export default defineConfig({
         ],
         // 英文版首页页脚设置
         footer: {
-          message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',          
-          copyright: 'Copyright © 2025 ~ Present Human Health Plan Foundation'
+          message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',
+          copyright: '© 2025 ~ Present Human Health Plan Foundation'
         }
       }
     },
 
-// 简体中文版设置--------------------------------------------------------------------------
+    // 简体中文版设置--------------------------------------------------------------------------
     'zh-CN': {
       label: '简体中文',
       lang: 'zh-CN',
       title: "HHPF - 人类健康计划基金会",
-      description: "致力于为AI时代构建人类健康基础设施。",      
+      description: "致力于为AI时代构建人类健康基础设施。",
       // 中文版首页导航设置
       themeConfig: {
         outlineTitle: '本页导航',
@@ -150,7 +151,8 @@ export default defineConfig({
         lastUpdatedText: '最后更新于',
         nav: [
           { text: '首页', link: '/zh-CN/' },
-          { text: '白皮书', 
+          {
+            text: '白皮书',
             items: [
               { text: '愿景', link: '/zh-CN/Whitepaper/Project-Origins' },
               { text: '方法论', link: '/zh-CN/Whitepaper/FPH' },
@@ -174,7 +176,7 @@ export default defineConfig({
               { text: '疗法整合', link: '/zh-CN/Whitepaper/Therapy-Integration' },
               { text: '模式变革', link: '/zh-CN/Whitepaper/Model-Transformation' },
             ]
-          },  
+          },
           {
             text: '方法论',
             collapsed: true,
@@ -193,7 +195,7 @@ export default defineConfig({
               { text: 'SMD正觉训练营', link: '/zh-CN/Whitepaper/Right-Consciousness-Training-Camp' },
               { text: 'HHPF实体示范项目', link: '/zh-CN/Whitepaper/Physical-Demonstration-Projects' }
             ]
-          },          
+          },
 
           {
             text: '募资',
@@ -214,9 +216,9 @@ export default defineConfig({
             ]
           },
           {
-             text: '版权声明',
-             collapsed: true,
-             items: [
+            text: '版权声明',
+            collapsed: true,
+            items: [
               { text: '著作权申明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
               { text: '知识产权', link: '/zh-CN/Whitepaper/Intellectual-Property' },
               { text: '授权方式', link: '/zh-CN/Whitepaper/Licensing-Model' },
@@ -232,17 +234,17 @@ export default defineConfig({
         // 中文版首页页脚设置
         footer: {
           message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',
-          copyright: '版权所有 © 2025 ~ Present 人类健康计划基金会'
+          copyright: '© 2025 ~ Present 人类健康计划基金会'
         }
       }
     },
 
-// 繁体中文设置--------------------------------------------------------------------------
+    // 繁体中文设置--------------------------------------------------------------------------
     'zh-TW': {
       label: '繁體中文',
       lang: 'zh-TW',
       title: "HHPF - 人類健康計劃基金會",
-      description: "致力於為AI時代構建人類健康基礎設施。",      
+      description: "致力於為AI時代構建人類健康基礎設施。",
       // 繁體中文首頁導航設置
       themeConfig: {
         outlineTitle: '本頁目錄',
@@ -258,7 +260,8 @@ export default defineConfig({
         lastUpdatedText: '最後更新於',
         nav: [
           { text: '首頁', link: '/zh-TW/' },
-          { text: '白皮書', 
+          {
+            text: '白皮書',
             items: [
               { text: '願景', link: '/zh-TW/Whitepaper/Project-Origins' },
               { text: '方法論', link: '/zh-TW/Whitepaper/FPH' },
@@ -282,7 +285,7 @@ export default defineConfig({
               { text: '療法整合', link: '/zh-TW/Whitepaper/Therapy-Integration' },
               { text: '模式變革', link: '/zh-TW/Whitepaper/Model-Transformation' },
             ]
-          },  
+          },
           {
             text: '方法論',
             collapsed: true,
@@ -301,7 +304,7 @@ export default defineConfig({
               { text: 'SMD正覺訓練營', link: '/zh-TW/Whitepaper/Right-Consciousness-Training-Camp' },
               { text: 'HHPF實體示範項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' }
             ]
-          },          
+          },
 
           {
             text: '募資',
@@ -322,9 +325,9 @@ export default defineConfig({
             ]
           },
           {
-             text: '版權聲明',
-             collapsed: true,
-             items: [
+            text: '版權聲明',
+            collapsed: true,
+            items: [
               { text: '著作權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
               { text: '知識產權', link: '/zh-TW/Whitepaper/Intellectual-Property' },
               { text: '授權模式', link: '/zh-TW/Whitepaper/Licensing-Model' },
@@ -340,7 +343,7 @@ export default defineConfig({
         // 繁體中文首頁頁腳設置
         footer: {
           message: '<img src="/logo-green.png" style="height: 30px; margin:auto;"><br>',
-          copyright: '版權所有 © 2025 ~ 至今 人類健康計劃基金會'
+          copyright: '© 2025 ~ 至今 人類健康計劃基金會'
         }
       }
     },
