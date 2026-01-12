@@ -1,11 +1,13 @@
 import { defineConfig } from 'vitepress'
 
-// 网站全局配置-----------------------------------------------------------------------
+// 网站全局配置-------------------------------------------------------
 export default defineConfig({
   // 配置网站最后更新时间
   lastUpdated: true,
   // 配置网站favicon
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  // 配置默认主题模式为非强制暗黑模式
+  appearance: 'false',
   // 配置网站搜索功能
   themeConfig: {
     search: {
