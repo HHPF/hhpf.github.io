@@ -1,15 +1,13 @@
 ---
 outline: deep
 title: News & Events
-description: Latest News from Human Health Plan Foundation
+description: Latest Updates from the Human Health Plan Foundation
 prev: false
-next: false
 lastUpdated: true
 ---
 
-# Latest News from HHPF
+# HHPF Latest Updates
 
-## Human Health Plan Foundation (HHPF) White Paper Officially Released Globally on GitHub
-> <b>Summary:</b> The Human Health Plan Foundation launches a global health data sharing platform to promote global health data sharing and cooperation. The platform will become an open sharing hub for global health data, connecting medical institutions, research institutions, and health organizations worldwide to achieve safe, standardized, and efficient sharing of health data.<br>
-> <b>Release Date:</b> December 18, 2025<br>
-[<b>>>>More Details</b>](/Blog/test)
+## Human Health Plan Foundation White Paper Officially Released Globally on GitHub
+
+> <b>Summary:</b> The Human Health Plan Foundation launches a global health knowledge and data sharing platform to promote global health data sharing and collaboration. The platform will serve as an open sharing hub for global health knowledge and data, connecting medical institutions, research organizations, and health groups worldwide to achieve secure, standardized, and efficient sharing of health knowledge and data.<br>  [<b>>>>Read More</b>](/Blog/2026-1-12) <br>
