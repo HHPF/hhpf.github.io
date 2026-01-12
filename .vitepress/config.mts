@@ -7,7 +7,7 @@ export default defineConfig({
   // 配置网站favicon
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 配置默认主题模式为非强制暗黑模式
-  appearance: 'false',
+  appearance: 'force-dark',
   // 配置网站搜索功能
   themeConfig: {
     search: {
