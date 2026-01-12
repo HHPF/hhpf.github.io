@@ -2,22 +2,22 @@
   <div>
     <form id="contact-form" style="max-width: 600px; margin: 0;">
       <div style="margin-bottom: 16px;">
-        <input type="text" id="name" name="name" :placeholder="placeholders.name" required style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px;">
+        <input type="text" id="name" name="name" :placeholder="placeholders.name" required style="width: 98%; margin-left: 2px; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px;">
       </div>
       
       <div style="margin-bottom: 16px;">
-        <input type="email" id="email" name="email" :placeholder="placeholders.email" required style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px;">
+        <input type="email" id="email" name="email" :placeholder="placeholders.email" required style="width: 98%; margin-left: 2px; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px;">
       </div>
       
       <div style="margin-bottom: 16px; position: relative;">
         <!-- 自定义下拉选择框 -->
-        <div id="custom-select" style="width: 100%; border: 2px solid #ddd; border-radius: 20px; font-size: 16px; position: relative;">
-          <div id="select-value" style="padding: 12px; cursor: pointer; background-color: transparent; display: flex; justify-content: space-between; align-items: center;">
-            <span>{{ placeholders.category }}</span>
-            <span>▼</span>
+        <div id="custom-select" style="width: 98%; margin-left: 2px; font-size: 16px; position: relative;">
+          <div id="select-value" style="padding: 12px; cursor: pointer; background-color: transparent; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box; border: 2px solid #ddd; border-radius: 20px;">
+            <span style="flex: 1; text-align: left;">{{ placeholders.category }}</span>
+            <span data-v-0009425e="" class="vpi-chevron-right caret-icon" style="transform: rotate(90deg);"></span>
           </div>
           <!-- 下拉菜单 -->
-          <div id="select-options" style="display: none; position: absolute; top: 100%; left: 0; right: 0; border: 2px solid #ddd; margin-top: -1px; z-index: 1000; background-color: transparent; backdrop-filter: blur(10px);">
+          <div id="select-options" style="display: none; width: 100%; position: absolute; top: 100%; left: 0; border: 2px solid #ddd; margin-top: 0; z-index: 1000; background-color: transparent; backdrop-filter: blur(10px); box-sizing: border-box; border-radius: 10px;">
             <div v-for="option in options" :key="option.value" class="select-option" :data-value="option.value" style="padding: 12px; cursor: pointer; transition: background-color 0.3s; background-color: transparent;">{{ option.label }}</div>
           </div>
         </div>
@@ -26,11 +26,11 @@
       </div>
 
       <div style="margin-bottom: 16px;">
-        <textarea id="message" name="message" :placeholder="placeholders.message" rows="6" required style="width: 99%; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px; resize: vertical; background-color: transparent; margin: 2px;"></textarea>
+        <textarea id="message" name="message" :placeholder="placeholders.message" rows="6" required style="width: 98%; margin-left: 2px; padding: 12px; border: 2px solid #ddd; border-radius: 20px; font-size: 16px; resize: vertical; background-color: transparent;"></textarea>
       </div>
       
       <div style="margin-bottom: 16px;">
-        <button type="submit" style="background-color: var(--vp-c-brand); color: white; border: none; padding: 12px 50px; border-radius: 20px; font-size: 16px; cursor: pointer; transition: background-color 0.3s;">
+        <button type="submit" style="background-color: var(--vp-c-brand); color: white; border: none; padding: 12px 50px; border-radius: 20px; font-size: 16px; cursor: pointer; transition: filter 0.3s;" onmouseover="this.style.filter = 'brightness(60%)'" onmouseout="this.style.filter = 'brightness(100%)'">
           {{ placeholders.submit }}
         </button>
       </div>
@@ -167,19 +167,19 @@ onMounted(() => {
   });
 
   // 点击选项选择值
-  options.forEach(option => {
-    option.addEventListener('click', function(e) {
-      e.stopPropagation(); // 阻止事件冒泡
-      const value = this.dataset.value;
-      selectValue.innerHTML = `<span>${value}</span><span>▼</span>`;
-      titleInput.value = value;
-      selectOptions.style.display = 'none';
-      
-      // 添加选中效果
-      options.forEach(opt => opt.style.backgroundColor = 'transparent');
-      this.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
-    });
-  });
+      options.forEach(option => {
+        option.addEventListener('click', function(e) {
+          e.stopPropagation(); // 阻止事件冒泡
+          const value = this.dataset.value;
+          selectValue.innerHTML = `<span style="flex: 1; text-align: left;">${value}</span><span data-v-0009425e="" class="vpi-chevron-right caret-icon" style="transform: rotate(90deg);"></span>`;
+          titleInput.value = value;
+          selectOptions.style.display = 'none';
+          
+          // 添加选中效果
+          options.forEach(opt => opt.style.backgroundColor = 'transparent');
+          this.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+        });
+      });
 
   // 点击页面其他地方关闭下拉菜单
   document.addEventListener('click', function() {
@@ -213,7 +213,7 @@ onMounted(() => {
       status.style.border = 'none';
       form.reset();
       // 重置下拉菜单显示
-      selectValue.innerHTML = `<span>${placeholders.value.category}</span><span>▼</span>`;
+      selectValue.innerHTML = `<span style="flex: 1; text-align: left;">${placeholders.value.category}</span><span data-v-0009425e="" class="vpi-chevron-right caret-icon" style="transform: rotate(90deg);"></span>`;
       // 重置title输入字段
       titleInput.value = '';
     }, function(error) {
