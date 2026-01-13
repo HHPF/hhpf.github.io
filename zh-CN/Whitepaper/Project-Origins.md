@@ -4,8 +4,6 @@ outline: deep
 
 # 项目缘起
 
-<Prologue lang="zh-CN" />
-
 ## 序言
 
 <h3>—— 文明的十字路口</h3>
