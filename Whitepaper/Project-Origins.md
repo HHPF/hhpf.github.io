@@ -5,7 +5,7 @@ outline: deep
 # Project Origins
 
 ## Preface
-<h3>-- Standing at the Crossroads of Civilization</h3>
+<h3>—— Standing at the Crossroads of Civilization</h3>
 
 > Humanity is in an unprecedented paradox: our medical technology seems to be advancing by leaps and bounds, but the overall health status of humanity is facing severe challenges. As co-founders of HHPF, we must honestly face the current systemic crisis. The birth of HHPF is not to patch up the old medical building, but to reshape the underlying logic of human health based on a deep insight into the following five dimensions of crisis.
 
