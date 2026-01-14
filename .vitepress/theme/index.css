@@ -164,12 +164,11 @@
 /* 确保brand按钮文本为白色 */
 .VPButton.brand {
   color: #ffffff !important;
-  background-color: var(--vp-c-brand) !important;
+  background-color: rgba(0, 128, 0, 0.6) !important;
 }
 
 .VPButton.brand:hover {
-  background-color: #2d8500 !important;
-  /* 品牌色加深20% */
+  background-color: var(--vp-c-brand) !important;
 }
 
 /* dark模式下的链接颜色 */
@@ -184,40 +183,38 @@ html.dark {
 a.brand,
 .brand a {
   color: #ffffff !important;
-  background-color: var(--vp-c-brand) !important;
+  background-color: rgba(0, 128, 0, 0.6) !important;
 }
 
 a.brand:hover,
 .brand a:hover {
   color: #ffffff !important;
-  background-color: #2d8500 !important;
-  /* 品牌色加深20% */
+  background-color: var(--vp-c-brand) !important;
 }
 
 a.brand.active,
 .brand a.active {
   color: #ffffff !important;
-  background-color: var(--vp-c-brand) !important;
+  background-color: rgba(0, 128, 0, 0.6) !important;
 }
 
 /* 暗黑模式下brand链接始终为白色 */
 html.dark a.brand,
 html.dark .brand a {
   color: #ffffff !important;
-  background-color: var(--vp-c-brand) !important;
+  background-color: rgba(0, 128, 0, 0.6) !important;
 }
 
 html.dark a.brand:hover,
 html.dark .brand a:hover {
   color: #ffffff !important;
-  background-color: #2d8500 !important;
-  /* 品牌色加深20% */
+  background-color: var(--vp-c-brand) !important;
 }
 
 html.dark a.brand.active,
 html.dark .brand a.active {
   color: #ffffff !important;
-  background-color: var(--vp-c-brand) !important;
+  background-color: rgba(0, 128, 0, 0.6) !important;
 }
 
 /* 确保深色模式下侧边栏链接也为黑色 */
