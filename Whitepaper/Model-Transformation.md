@@ -5,7 +5,7 @@ outline: deep
 # Model Transformation
 
 ## Preface
-<h3>-- Breaking the Deadlock Between "Money and Life"</h3>
+<h3>—— Breaking the Deadlock Between "Money and Life"</h3>
 
 > In the current medical system, there exists a distressing paradox: the more profitable a hospital is, the more patients it tends to have, and the more severe their illnesses. When healthcare becomes a tool for profit, cheap and efficient methods are inevitably driven out by expensive and complex over-treatment.
 HHPF's <b>"Model Transformation"</b> aims to completely cut off this negative cycle. We propose a three-step strategy of <b>"Alternative Medicine, Affordable Medicine, Public Welfare Medicine"</b>, and through reconstructing industry logic, achieve a perfect balance between <b>"medical public welfare" and "wellness commercialization"</b>, returning health rights to the general public.
