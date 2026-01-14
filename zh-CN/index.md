@@ -5,19 +5,19 @@ hero:
   name: "HHPF"
   text: "人类健康计划基金会"
   tagline: Human Health Plan Foundation<br>
-           致力于AI时代人类健康基础设施建设！<br>
+    致力于AI时代人类健康基础设施建设！<br>
   image:
     src: /hero.png
     alt: HHPF-Logo
   actions:
     - theme: brand
-      text:  🔑 开启人类健康文明新范式！
+      text: 🔑 开启人类健康文明新范式！
       link: /zh-CN/Whitepaper/Project-Origins
     - theme: alt
-      text: 💎 理论深化 
+      text: 💎 理论深化
       link: /zh-CN/Whitepaper/Theoretical-Deepening
     - theme: alt
-      text: 🌈 疗法整合 
+      text: 🌈 疗法整合
       link: /zh-CN/Whitepaper/Therapy-Integration
     - theme: alt
       text: 💝 模式变革
@@ -42,5 +42,4 @@ features:
   - title: HHPF示范性实体项目
     details: 基于HHPF-SMD范式、构建SMD矩阵疗法为基石的实体性项目，包括SMD医馆、SMD疗养中心、SMD诊所等。
     link: /zh-CN/Whitepaper/Physical-Demonstration-Projects
-
 ---
