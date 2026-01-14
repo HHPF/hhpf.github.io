@@ -38,7 +38,7 @@
     </div>
 
     <div v-else-if="props.lang === 'zh-CN'">
-    <h2>术语</h2>
+    <h2>核心术语</h2>
       <div style="width: 100%; margin: 0; padding: 0; overflow: hidden;">
        <table style="width: 100% !important; border-collapse: collapse; display: table;">
          <thead>
@@ -80,7 +80,7 @@
     </div>
 
     <div v-else-if="props.lang === 'zh-TW'">
-      <h2>術語</h2>
+      <h2>核心術語</h2>
       <div style="width: 100%; margin: 0; padding: 0; overflow: hidden;">
        <table style="width: 100% !important; border-collapse: collapse; display: table;">
          <thead>
