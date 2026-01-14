@@ -30,7 +30,7 @@
       </div>
       
       <div style="margin-bottom: 16px;">
-        <button type="submit" style="background-color: var(--vp-c-brand); color: white; border: none; padding: 12px 50px; border-radius: 20px; font-size: 16px; cursor: pointer; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor = 'rgba(0, 128, 0, 0.3)'" onmouseout="this.style.backgroundColor = 'var(--vp-c-brand)'">{{ placeholders.submit }}</button>
+        <button type="submit" style="background-color: rgba(0, 128, 0, 0.6); color: white; border: none; padding: 12px 50px; border-radius: 20px; font-size: 16px; cursor: pointer; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor = 'var(--vp-c-brand)'" onmouseout="this.style.backgroundColor = 'rgba(0, 128, 0, 0.6)'" >{{ placeholders.submit }}</button>
       </div>
       
       <div id="form-status" style="margin-top: 16px; padding: 12px; border-radius: 20px; font-weight: bold;"></div>
