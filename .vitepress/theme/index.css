@@ -44,6 +44,10 @@
   --vp-nav-logo-max-height: 20px !important;
 }
 
+/* 修改菜单容器的最大宽度 */
+.VPNavScreen .container {
+    max-width: 100% !important;
+}
 
 .feature-item {
   border: var(--vp-feature-card-border-width) solid var(--vp-feature-card-border-color);
@@ -169,6 +173,33 @@
 
 .VPButton.brand:hover {
   background-color: var(--vp-c-brand) !important;
+}
+
+/* 让移动版GitHub图标居左显示 */
+#VPNavScreen .container .social-links .VPNavScreenSocialLinks .VPSocialLinks {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+  margin: 20px 0px !important;
+  padding: 0 !important;
+}
+
+/* 直接针对社交链接项 */
+#VPNavScreen .VPSocialLinks {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 确保社交链接容器居左 */
+.VPNavScreenSocialLinks {
+  text-align: left !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* dark模式下的链接颜色 */
