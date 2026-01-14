@@ -4,6 +4,8 @@ outline: deep
 
 # SMD 正觉训练营
 
+<CoreTerms lang="zh-CN" />
+
 ## 序言
 
 <h3>—— 最高权重的通用疗法</h3>

@@ -4,6 +4,8 @@ outline: deep
 
 # SMD Right Consciousness Training Camp
 
+<CoreTerms />
+
 ## Preface
 
 <h3>-- A Universal Therapy That Transcends Matter</h3>

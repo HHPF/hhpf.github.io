@@ -4,6 +4,8 @@ outline: deep
 
 # SMD 正覺訓練營
 
+<CoreTerms lang="zh-TW" />
+
 ## 序言
 
 <h3>—— 最高權重的通用療法</h3>
