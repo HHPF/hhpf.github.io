@@ -181,7 +181,7 @@
   justify-content: flex-start !important;
   align-items: flex-start !important;
   text-align: left !important;
-  margin: 20px 0px 20px -8px !important;
+  margin: 25px 0px 20px -8px !important;
   padding: 0 !important;
 }
 
@@ -191,14 +191,14 @@
   justify-content: flex-start !important;
   align-items: flex-start !important;
   text-align: left !important;
-  margin: 20px 0px 0px -8px !important;
+  margin: 25px 0px 0px -8px !important;
   padding: 0 !important;
 }
 
 /* 确保社交链接容器居左 */
 .VPNavScreenSocialLinks {
   text-align: left !important;
-  margin: 20px 0px 0px -8px !important;
+  margin: 25px 0px 0px -8px !important;
   padding: 0 !important;
 }
 
