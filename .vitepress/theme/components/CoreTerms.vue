@@ -1,3 +1,4 @@
+// 核心术语组件组件
 <template>
 
   <div style="width: 100%; display: block;">

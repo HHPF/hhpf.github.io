@@ -1,3 +1,4 @@
+// 联系方式表单调用EmailJS功能组件
 <template>
   <div>
     <form id="contact-form" style="max-width: 600px; margin: 0;">
