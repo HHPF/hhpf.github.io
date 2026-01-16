@@ -30,7 +30,7 @@ Most human suffering and diseases stem from the fact that we are still using an 
 
 <b>——Modern Encapsulation of Zen, Vipassana, and the Eightfold Path</b>
 
-SMD Right Consciousness Therapy is not a religion, but <b>Mental Science</b>. We have stripped away the religious 外衣 of traditional practice, retained its core algorithms, and transformed <b>Zen, Vipassana</b>, and <b>The Eightfold Path</b> into an executable, quantifiable, and replicable <b>engineering training system</b>.
+SMD Right Consciousness Therapy is not a religion, but <b>Mental Science</b>. We have stripped away the religious trappings of traditional practice, retained its core algorithms, and transformed <b>Zen, Vipassana</b>, and <b>The Eightfold Path</b> into an executable, quantifiable, and replicable <b>engineering training system</b>.
 
 1.  <b>Mindfulness 2.0:</b>
     - Traditional mindfulness focuses on "calmness."
