@@ -37,7 +37,7 @@ features:
 
   - title: SMD正覺訓練營
     details: 《生命使用手冊》系統實踐，升級人類生命操作系統，從本能OS到智能OS，以工程化方法，實現身心和諧與健康。
-    link: /zh-TW/Whitepaper/Right-Consciousness-Training-Camp
+    link: /zh-TW/Whitepaper/Right-Awakening-Training-Camp
 
   - title: HHPF示範性實體項目
     details: 基於HHPF-SMD範式、構建SMD矩陣療法為基石的實體性項目，包括SMD醫館、SMD療養中心、SMD診所等。

@@ -19,7 +19,7 @@ outline: deep
     HHPF 已在主要運營国家/地区申请或注册以下商标：
     - <b>机构品牌：</b> “HHPF”、“Human Health Plan Foundation”、“人类健康计划基金會”。
     - <b>技術品牌：</b> “SMD”、“Systems Medicine Doctor”、“系統醫学醫师”。
-    - <b>項目品牌：</b> “正覺訓練營”、“Right Consciousness Training”。
+    - <b>項目品牌：</b> “正覺訓練營”、“Right Awakening Training (RA)”。
 2.  <b>视觉识别（VI）：</b>
     HHPF 特有的 Logo 图形（及其组合形式）、特定的品牌色值组合，均受商标法保護。
 3.  <b>禁止行为：</b>

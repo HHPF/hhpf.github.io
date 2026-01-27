@@ -80,7 +80,7 @@ SMD is not satisfied with labeling (such as "you have high blood pressure"), but
 Based on diagnosis, generate <b>personalized, executable</b> intervention plans:
 
 - <b>Natural Therapy Prescription:</b> Such as "sleep before 11 PM every day + 20 minutes of mindfulness meditation + magnesium supplements".
-- <b>Psychological Intervention Prescription:</b> Recommend specific CBT cognitive training courses or SMD Right Consciousness Training Camp content.
+- <b>Psychological Intervention Prescription:</b> Recommend specific CBT cognitive training courses or SMD Right Awakening Training Camp (RA) content.
 - <b>Medical Guidance:</b> When detecting critical illness risks, immediately advise to visit relevant departments in offline hospitals.
 
 ## IV. Social Value: Health Dividends in the AI Era

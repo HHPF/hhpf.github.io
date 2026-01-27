@@ -17,9 +17,9 @@ We have exclusive rights to the names, logos, and slogans that represent HHPF's 
 
 1.  <b>Core Registered Trademarks:</b>
     HHPF has applied for or registered the following trademarks in major operating countries/regions:
-    - <b>Institutional Brands:</b> "HHPF", "Human Health Plan Foundation",.
+    - <b>Institutional Brands:</b> "HHPF", "Human Health Plan Foundation".
     - <b>Technology Brands:</b> "SMD", "Systems Medicine Doctor".
-    - <b>Project Brands:</b> "Right Consciousness Training".
+    - <b>Project Brands:</b> "Right Awakening Training (RA)".}}}
 2.  <b>Visual Identity (VI):</b>
     HHPF's unique Logo graphics (and their combinations), specific brand color value combinations, are all protected by trademark law.
 3.  <b>Prohibited Behaviors:</b>

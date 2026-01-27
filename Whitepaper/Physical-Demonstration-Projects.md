@@ -10,7 +10,7 @@ outline: deep
 
 <h3>-- Building the Physical World of Future Healthy Life</h3>
 
-> The future of human health not only exists in algorithms and consciousness but also requires a physical space that carries a new lifestyle. HHPF's <b>Physical Demonstration Projects</b> aim to transform the wisdom of "Systems Theory of Life", the rigor of "Health Engineering Methodology", the accessibility of SMD Artificial Intelligence, and the deep transformation of Right Consciousness Training Camp into a visible, tangible, and experiential <b>full-life-cycle health ecosystem</b>.
+> The future of human health not only exists in algorithms and consciousness but also requires a physical space that carries a new lifestyle. HHPF's <b>Physical Demonstration Projects</b> aim to transform the wisdom of "Systems Theory of Life", the rigor of "Health Engineering Methodology", the accessibility of SMD Artificial Intelligence, and the deep transformation of Right Awakening Training Camp (RA) into a visible, tangible, and experiential <b>full-life-cycle health ecosystem</b>.
 > We aim to build a complete system from community terminals to international centers, outputting replicable and sustainable <b>HHPF Medical-Wellness Consortium</b> operation standards globally.
 
 ## I. Reach and Prevention: HHPF Community Health Eco-Station
@@ -32,7 +32,7 @@ outline: deep
 - <b>Positioning:</b> Located in beautiful, ecologically pleasant natural areas, it is the core venue for <b>deep intervention and life system upgrading</b> in the HHPF system.
 - <b>Core Business (MECE Decomposition):</b>
   1.  <b>Chronic Disease Reversal and Rehabilitation Camp:</b> For cardiovascular diseases, diabetes, obesity, autoimmune diseases, etc., providing 7-90 days of closed, personalized "integrated medical and wellness" programs. Integrating precision nutrition, customized exercise, integrated Chinese and Western medicine intervention, and psychological support.
-  2.  <b>SMD Right Consciousness Training Camp:</b> As the flagship practice site for SMD Right Consciousness Therapy, providing beginner, intermediate, and advanced training for the "Becoming a New Human" series courses. Achieving an upgrade of the mental operating system through high-intensity introspection, meditation, and mindfulness.
+  2.  <b>SMD Right Awakening Training Camp (RA):</b> As the flagship practice site for SMD Right Awakening Therapy (RA), providing beginner, intermediate, and advanced training for the "Becoming a New Human" series courses. Achieving an upgrade of the mental operating system through high-intensity introspection, meditation, and mindfulness.
   3.  <b>Holographic Life Detection and Assessment:</b> Introducing the latest achievements of HHPF Standardization Engineering to conduct comprehensive matter, energy, and information level testing, providing the most accurate baseline data for deep healing.
   4.  <b>Natural Therapy Experience Area:</b> Integrating global top forest therapy, hot spring hydrotherapy, music therapy, sunlight therapy, etc.
 - <b>Core Value:</b> Solving the deep healing and fundamental transformation problems of <b>"treating existing disease" and "treating incipient disease"</b>. Through immersive experience, help individuals completely reverse disease progression, reshape healthy living paradigms, and provide commercial blood-making capabilities for HHPF.
@@ -64,11 +64,11 @@ outline: deep
 
 ## V. Operational Philosophy: Integration of Digital and Physical, Win-Win Symbiosis
 
-HHPF's physical demonstration projects are not isolated, but <b>highly integrated, mutually complementary</b> with SMD Artificial Intelligence, Standardization Engineering, and Right Consciousness Training Camp.
+HHPF's physical demonstration projects are not isolated, but <b>highly integrated, mutually complementary</b> with SMD Artificial Intelligence, Standardization Engineering, and Right Awakening Training Camp (RA).
 
 - <b>SMD AI Empowerment:</b> Physical projects are the data feedback source and execution terminal for AI.
 - <b>Standardization Verification:</b> Physical projects are the practice field and test field for standardized therapies.
-- <b>Right Consciousness Communication:</b> Physical projects are the offline carrier for right consciousness training.
+- <b>Right Awakening Communication (RA):</b> Physical projects are the offline carrier for right awakening training.
 
 This constitutes a closed-loop ecosystem that is <b>data-driven, technologically advanced, and humanistic</b>.
 

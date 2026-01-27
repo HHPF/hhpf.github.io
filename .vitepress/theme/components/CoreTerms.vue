@@ -26,12 +26,12 @@
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Systems Medicine Doctor</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RC</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Consciousness</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RA</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RCT</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Consciousness Training</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAT</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Training</td>
            </tr>
          </tbody>
        </table>
@@ -66,13 +66,13 @@
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">系统医学诊疗</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RC</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Consciousness</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RA</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening</td>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正觉</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RCT</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Consciousness Training</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAT</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Training</td>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正觉训练</td>
            </tr>
          </tbody>
@@ -108,13 +108,13 @@
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">系統醫學診療</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RC</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Consciousness</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RA</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening</td>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正覺</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RCT</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Consciousness Training</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAT</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Training</td>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正覺訓練</td>
            </tr>
          </tbody>

@@ -34,9 +34,9 @@ features:
     details: Build a trinity system therapy AI system of SOP+LLM+RAG based on general large models, realizing health knowledge popularization and free consultation.
     link: /Whitepaper/SMD-AI
 
-  - title: SMD Right Consciousness Training Camp
+  - title: SMD Right Awakening Training Camp (RA)
     details: ⟬Life User Manual⟭ systematic practice, upgrading human life operating system from instinct OS to intelligent OS, using engineering methods to achieve physical and mental harmony and health.
-    link: /Whitepaper/Right-Consciousness-Training-Camp
+    link: /Whitepaper/Right-Awakening-Training-Camp
 
   - title: HHPF Physical Demonstration Projects
     details: Entity projects based on the HHPF-SMD paradigm, building SMD matrix therapy as the cornerstone, including SMD medical halls, SMD wellness centers, SMD clinics, etc.
