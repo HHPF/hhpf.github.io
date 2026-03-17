@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# SMD Right Awakening Training Camp
+# SMD Right Awakening Course Training
 
 <CoreTerms />
 
