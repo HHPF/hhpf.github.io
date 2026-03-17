@@ -85,7 +85,7 @@ export default defineConfig({
             items: [
               { text: 'HHPF Standardization Engineering', link: '/Whitepaper/Standardization-Engineering' },
               { text: 'SMD Artificial Intelligence', link: '/Whitepaper/SMD-AI' },
-              { text: 'SMD Right Awakening Training Camp (RA)', link: '/Whitepaper/Right-Awakening-Training-Camp' },
+              { text: 'SMD Right Awakening Training Camp (RA)', link: '/Whitepaper/Right-Awakening-Course-Training' },
               { text: 'HHPF Physical Demonstration Projects', link: '/Whitepaper/Physical-Demonstration-Projects' }
             ]
           },
@@ -194,7 +194,7 @@ export default defineConfig({
             items: [
               { text: 'HHPF标准化工程', link: '/zh-CN/Whitepaper/Standardization-Engineering' },
               { text: 'SMD人工智能', link: '/zh-CN/Whitepaper/SMD-AI' },
-              { text: 'SMD正觉（RA）训练营', link: '/zh-CN/Whitepaper/Right-Awakening-Training-Camp' },
+              { text: 'SMD正觉（RA）训练营', link: '/zh-CN/Whitepaper/Right-Awakening-Course-Training' },
               { text: 'HHPF实体示范项目', link: '/zh-CN/Whitepaper/Physical-Demonstration-Projects' }
             ]
           },
@@ -303,7 +303,7 @@ export default defineConfig({
             items: [
               { text: 'HHPF標準化工程', link: '/zh-TW/Whitepaper/Standardization-Engineering' },
               { text: 'SMD人工智能', link: '/zh-TW/Whitepaper/SMD-AI' },
-              { text: 'SMD正覺（RA）訓練營', link: '/zh-TW/Whitepaper/Right-Awakening-Training-Camp' },
+              { text: 'SMD正覺（RA）訓練營', link: '/zh-TW/Whitepaper/Right-Awakening-Course-Training' },
               { text: 'HHPF實體示範項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' }
             ]
           },
