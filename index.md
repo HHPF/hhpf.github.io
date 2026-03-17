@@ -36,7 +36,7 @@ features:
 
   - title: SMD Right Awakening Course Training (RACT)
     details: ⟬Life User Manual⟭ systematic practice, upgrading human life operating system from instinct OS to intelligent OS, using engineering methods to achieve physical and mental harmony and health.
-    link: /Whitepaper/Right-Awakening-Training-Camp
+    link: /Whitepaper/Right-Awakening-Course-Training
 
   - title: HHPF Physical Demonstration Projects
     details: Entity projects based on the HHPF-SMD paradigm, building SMD matrix therapy as the cornerstone, including SMD medical halls, SMD wellness centers, SMD clinics, etc.
