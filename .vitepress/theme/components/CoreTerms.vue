@@ -34,7 +34,7 @@
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Course</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAT</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RACT</td>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Course Training</td>
            </tr>
          </tbody>
