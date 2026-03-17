@@ -34,7 +34,7 @@ features:
     details: Build a trinity system therapy AI system of SOP+LLM+RAG based on general large models, realizing health knowledge popularization and free consultation.
     link: /Whitepaper/SMD-AI
 
-  - title: SMD Right Awakening Training Camp (RA)
+  - title: SMD Right Awakening Course Training (RACT)
     details: ⟬Life User Manual⟭ systematic practice, upgrading human life operating system from instinct OS to intelligent OS, using engineering methods to achieve physical and mental harmony and health.
     link: /Whitepaper/Right-Awakening-Training-Camp
 
