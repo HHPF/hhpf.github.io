@@ -1,7 +1,3 @@
-***
-
-## outline: deep
-
 # SMD Right Awakening Course Training
 
 <CoreTerms />

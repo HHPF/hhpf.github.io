@@ -1,7 +1,3 @@
-***
-
-## outline: deep
-
 # SMD 正覺訓練營
 
 <CoreTerms lang="zh-TW" />

@@ -1,8 +1,4 @@
-***
-
-## outline: deep
-
-# SMD 正觉（Right Awakening，简称 RA）训练营
+# SMD 正觉训练营
 
 <CoreTerms lang="zh-CN" />
 
