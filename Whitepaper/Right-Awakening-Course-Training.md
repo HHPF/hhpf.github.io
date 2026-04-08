@@ -1,6 +1,6 @@
----
-outline: deep
----
+***
+
+## outline: deep
 
 # SMD Right Awakening Course Training
 
@@ -10,7 +10,7 @@ outline: deep
 
 <h3>-- A Universal Therapy That Transcends Matter</h3>
 
-> If there is a therapy that suits anyone, any disease, and its importance even surpasses food therapy and drug treatment, it must be <b>SMD Right Awakening Therapy (RA)</b>.
+> If there is a therapy that suits anyone, any disease, and its importance even surpasses food therapy and drug treatment, it must be <b>SMD Right Awakening Therapy (RAT)</b>.
 > Medicine heals the body, food nourishes the flesh, while Right Awakening (RA) therapy <b>dominates life</b>. It is the pearl on HHPF's crown, and the core work that runs through the entire life cycle of "preventing disease, treating incipient disease, and treating existing disease." The SMD Right Awakening Training Camp aims to deliver a <b>"Life User Manual"</b> that all humanity is missing, leading us to complete a species-level leap from "instinctive beings" to <b>"new humans"</b>.
 
 ## I. Core Definition: Generational Revolution of Operating Systems (OS)
@@ -19,12 +19,12 @@ outline: deep
 
 Most human suffering and diseases stem from the fact that we are still using an ancient and bug-ridden <b>"Instinctive OS"</b>. HHPF's Right Awakening (RA) training is essentially an <b>engineering reconstruction</b> of the underlying code of life.
 
-1.  <b>Old System (Instinctive OS):</b>
-    - _Features:_ Based on animalistic "seeking pleasure and avoiding pain."
-    - _Bugs:_ Automatically generates greed (excessive intake), hatred (emotional internal friction), and obsession (cognitive distortion). This <b>unconscious stress response</b> continuously sends wrong biochemical instructions to the body (such as cortisol spikes), which is the culprit of chronic diseases and psychological suffering.
-2.  <b>New System (Intelligent OS):</b>
-    - _Features:_ Based on "Right Awakening (RA)" meta-cognitive monitoring.
-    - _Upgrade:_ SMD therapy transforms "instinct" into "intelligence." It gives us a <b>"pause button"</b> and <b>"choice"</b>, enabling us to detach from emotional storms and actively choose response patterns that are conducive to life continuation.
+1. <b>Old System (Instinctive OS):</b>
+   - _Features:_ Based on animalistic "seeking pleasure and avoiding pain."
+   - _Bugs:_ Automatically generates greed (excessive intake), hatred (emotional internal friction), and obsession (cognitive distortion). This <b>unconscious stress response</b> continuously sends wrong biochemical instructions to the body (such as cortisol spikes), which is the culprit of chronic diseases and psychological suffering.
+2. <b>New System (Intelligent OS):</b>
+   - _Features:_ Based on "Right Awakening (RA)" meta-cognitive monitoring.
+   - _Upgrade:_ SMD therapy transforms "instinct" into "intelligence." It gives us a <b>"pause button"</b> and <b>"choice"</b>, enabling us to detach from emotional storms and actively choose response patterns that are conducive to life continuation.
 
 ## II. Methodology: Engineering Revival of Ancient Wisdom
 
@@ -32,14 +32,14 @@ Most human suffering and diseases stem from the fact that we are still using an 
 
 SMD Right Awakening Therapy (RA) is not a religion, but <b>Mental Science</b>. We have stripped away the religious trappings of traditional practice, retained its core algorithms, and transformed <b>Zen, Vipassana</b>, and <b>The Eightfold Path</b> into an executable, quantifiable, and replicable <b>engineering training system</b>.
 
-1.  <b>Mindfulness 2.0:</b>
-    - Traditional mindfulness focuses on "calmness."
-    - SMD Right Awakening (RA) focuses on <b>"transformation" and "insight"</b>. We not only seek calmness but also deeply transform negative emotions and understand the essence of life and the universe (impermanence/no-self).
-2.  <b>Engineering the Eightfold Path:</b>
-    We deconstruct the "Eightfold Path" into specific <b>physical and mental correction SOPs</b>:
-    - <b>Right View (Cognitive Layer):</b> Establishing underlying logic that conforms to universal laws (such as causality, system theory).
-    - <b>Right Mindfulness/Right Concentration (Consciousness Layer):</b> High-intensity attention control training to enter a low-entropy state.
-    - <b>Right Speech/Right Action/Right Livelihood (Behavioral Layer):</b> Bringing awareness into words, actions, work, and life details, achieving <b>"life is practice"</b>.
+1. <b>Mindfulness 2.0:</b>
+   - Traditional mindfulness focuses on "calmness."
+   - SMD Right Awakening (RA) focuses on <b>"transformation" and "insight"</b>. We not only seek calmness but also deeply transform negative emotions and understand the essence of life and the universe (impermanence/no-self).
+2. <b>Engineering the Eightfold Path:</b>
+   We deconstruct the "Eightfold Path" into specific <b>physical and mental correction SOPs</b>:
+   - <b>Right View (Cognitive Layer):</b> Establishing underlying logic that conforms to universal laws (such as causality, system theory).
+   - <b>Right Mindfulness/Right Concentration (Consciousness Layer):</b> High-intensity attention control training to enter a low-entropy state.
+   - <b>Right Speech/Right Action/Right Livelihood (Behavioral Layer):</b> Bringing awareness into words, actions, work, and life details, achieving <b>"life is practice"</b>.
 
 ## III. Treatment Objects: "Master Key" Covering the Full Spectrum
 
@@ -74,8 +74,7 @@ The deliverable product of the SMD Right Awakening Training Camp (RA) is a set o
 - <b>Intermediate Level: Transformation (Transformation)</b> —— Using "engineered eightfold path" to transform energy in conflicts and pressures, turning troubles into Right Awakening (RA).
 - <b>Advanced Level: Oneness (Oneness)</b> —— Understanding the origin of the universe, breaking the boundaries of the ego, and achieving ultimate peace and great health.
 
-## [Conclusion: The Starting Point of All Healing]
+## \[Conclusion: The Starting Point of All Healing]
 
 Medicine can only save temporarily, while Right Awakening (RA) can save a lifetime.
-HHPF firmly believes that promoting SMD Right Awakening Therapy (RA) is our core mission. This is not just about treating diseases; it is about helping every life <b>install an intelligent operating system</b> and reclaim the initiative of life.
-<b>Rectify the mind first, then cultivate the body.</b> This is a universal therapy suitable for everyone, and the starting point of all health miracles.
+HHPF firmly believes that promoting SMD Right Awakening Therapy (RA) is our core mission. This is not just about treating diseases; it is about helping every life <b>install an intelligent operating system</b> and reclaim the initiative of life. <b>Rectify the mind first, then cultivate the body.</b> This is a universal therapy suitable for everyone, and the starting point of all health miracles.
