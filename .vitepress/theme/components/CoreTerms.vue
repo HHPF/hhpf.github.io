@@ -30,8 +30,8 @@
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAC</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Course</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAT</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Therapy</td>
            </tr>
            <tr>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RACT</td>
@@ -75,9 +75,9 @@
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正觉</td>
            </tr>
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAC</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Course</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正觉课程</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAT</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Therapy</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正觉疗法</td>
            </tr>
            <tr>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RACT</td>
@@ -120,11 +120,11 @@
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RA</td>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening</td>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正覺</td>
-           </tr>
+           </tr>                     
            <tr>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAC</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Course</td>
-             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正覺課程</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RAT</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">Right Awakening Therapy</td>
+             <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px;">正覺疗法</td>
            </tr>
            <tr>
              <td style="border: 1px solid rgba(221, 221, 221, 0.5); padding: 8px; text-align: center; font-weight: bold;">RACT</td>
