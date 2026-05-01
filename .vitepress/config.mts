@@ -27,7 +27,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      title: "HHPF - Human Health Plan Foundation",
+      title: "HHPF - Human Health Plan Foundation | Official Website",
       description: "Committed to Building Human Health Infrastructure for the AI Era.",
       // 英文版首页导航设置
       themeConfig: {
@@ -136,7 +136,7 @@ export default defineConfig({
     'zh-CN': {
       label: '简体中文',
       lang: 'zh-CN',
-      title: "HHPF - 人类健康计划基金会",
+      title: "HHPF - 人类健康计划基金会官网",
       description: "致力于为AI时代构建人类健康基础设施。",
       // 中文版首页导航设置
       themeConfig: {
@@ -245,7 +245,7 @@ export default defineConfig({
     'zh-TW': {
       label: '繁體中文',
       lang: 'zh-TW',
-      title: "HHPF - 人類健康計劃基金會",
+      title: "HHPF - 人類健康計劃基金會官網",
       description: "致力於為AI時代構建人類健康基礎設施。",
       // 繁體中文首頁導航設置
       themeConfig: {
