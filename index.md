@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "HHPF"
   text: "Human Health Plan Foundation"
-  tagline: Committed to Building Human Health Infrastructure for the AI Era!
+  tagline: Define a New Health Paradigm. Build the Intelligent OS for Life.
   image:
     src: /hero.png
     alt: HHPF-Logo

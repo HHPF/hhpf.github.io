@@ -5,7 +5,7 @@ hero:
   name: "HHPF"
   text: "人类健康计划基金会"
   tagline: Human Health Plan Foundation<br>
-    致力于AI时代人类健康基础设施建设！<br>
+           定义健康新范式，构建生命智能OS！<br>
   image:
     src: /hero.png
     alt: HHPF-Logo
