@@ -27,7 +27,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      title: "HHPF - Human Health Plan Foundation | Official Website",
+      title: "HHP - Human Health Plan | Official Website",
       description: "Define a New Health Paradigm. Build the Intelligent OS for Life.",
       // 英文版首页导航设置
       themeConfig: {

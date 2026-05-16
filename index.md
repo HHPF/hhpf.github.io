@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "HHPF"
-  text: "Human Health Plan Foundation"
+  name: "HHP"
+  text: "Human Health Plan"
   tagline: Define a New Health Paradigm. Build the Intelligent OS for Life.
   image:
     src: /hero.png
