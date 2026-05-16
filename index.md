@@ -4,14 +4,11 @@ layout: home
 hero:
   name: "HHP"
   text: "Human Health Plan"
-  tagline: Define a New Health Paradigm. Build the Intelligent OS for Life.
+  tagline: 🔑 New Paradigm of Health Civilization!
   image:
     src: /hero.png
     alt: HHPF-Logo
   actions:
-    - theme: brand
-      text:  🔑 New Paradigm of Health Civilization!
-      link: /Whitepaper/Project-Origins
     - theme: alt
       text: 💎 Theoretical Deepening 
       link: /Whitepaper/Theoretical-Deepening

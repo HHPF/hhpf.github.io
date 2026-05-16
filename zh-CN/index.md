@@ -4,14 +4,11 @@ layout: home
 hero:
   name: "HHP"
   text: "人类健康计划"
-  tagline: Human Health Plan<br>定义健康新范式，构建生命智能OS！<br>
+  tagline: Human Health Plan Foundation<br>🔑 开启人类健康文明新范式！<br>
   image:
     src: /hero.png
     alt: HHPF-Logo
   actions:
-    - theme: brand
-      text: 🔑 开启人类健康文明新范式！
-      link: /zh-CN/Whitepaper/Project-Origins
     - theme: alt
       text: 💎 理论深化
       link: /zh-CN/Whitepaper/Theoretical-Deepening
