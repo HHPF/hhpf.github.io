@@ -23,7 +23,7 @@ hero:
       link: /zh-TW/Whitepaper/SMD-AI
 
 features:
-  - title: HHPF標準化工程
+  - title: HHP標準化工程
     details: 透過A/B實驗體系，構建「療法/療效」量化關係，為系統醫學與自然療法提供通行實踐標準，推動從經驗到科學的範式轉變。
     link: /zh-TW/Whitepaper/Standardization-Engineering
 
@@ -35,7 +35,7 @@ features:
     details: 《生命使用手冊》系統實踐，升級人類生命操作系統，從本能OS到智能OS，以工程化方法，實現身心和諧與健康。
     link: /zh-TW/Whitepaper/Right-Awakening-Course-Training
 
-  - title: HHPF示範性實體項目
+  - title: HHP示範性實體項目
     details: 基於HHPF-SMD範式、構建SMD矩陣療法為基石的實體性項目，包括SMD醫館、SMD療養中心、SMD診所等。
     link: /zh-TW/Whitepaper/Physical-Demonstration-Projects
 

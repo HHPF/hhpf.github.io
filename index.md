@@ -23,7 +23,7 @@ hero:
       link: /Whitepaper/SMD-AI
 
 features:
-  - title: HHPF Standardization Engineering
+  - title: HHP Standardization Engineering
     details: Through A/B experimental systems, build quantitative relationships between "therapy/efficacy", provide universal practice standards for systems medicine and natural therapies, and promote the paradigm shift from experience to science.
     link: /Whitepaper/Standardization-Engineering
 
@@ -35,7 +35,7 @@ features:
     details: ⟬Life User Manual⟭ systematic practice, upgrading human life operating system from instinct OS to intelligent OS, using engineering methods to achieve physical and mental harmony and health.
     link: /Whitepaper/Right-Awakening-Course-Training
 
-  - title: HHPF Physical Demonstration Projects
+  - title: HHP Physical Demonstration Projects
     details: Entity projects based on the HHPF-SMD paradigm, building SMD matrix therapy as the cornerstone, including SMD medical halls, SMD wellness centers, SMD clinics, etc.
     link: /Whitepaper/Physical-Demonstration-Projects
 
