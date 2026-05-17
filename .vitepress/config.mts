@@ -17,7 +17,7 @@ export default defineConfig({
     logo: {
       light: '/logo-light.png',
       dark: '/logo-dark.png',
-      alt: 'HHPF Logo'
+      alt: 'HHP Logo'
     },
     siteTitle: false,
   },
@@ -28,7 +28,7 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       title: "HHP - Human Health Plan | Official Website",
-      description: "Define a New Health Paradigm. Build the Intelligent OS for Life.",
+      description: "🔑 New Paradigm of Health Civilization!",
       // 英文版首页导航设置
       themeConfig: {
         outlineTitle: 'On this page',
@@ -136,8 +136,8 @@ export default defineConfig({
     'zh-CN': {
       label: '简体中文',
       lang: 'zh-CN',
-      title: "HHPF - 人类健康计划基金会官网",
-      description: "定义健康新范式，构建生命智能OS！",
+      title: "HHP - 人类健康计划 | 项目官网",
+      description: "🔑 开启人类健康文明新范式！",
       // 中文版首页导航设置
       themeConfig: {
         outlineTitle: '本页导航',
@@ -245,8 +245,8 @@ export default defineConfig({
     'zh-TW': {
       label: '繁體中文',
       lang: 'zh-TW',
-      title: "HHPF - 人類健康計劃基金會官網",
-      description: "定義新健康范式，構建生命智能OS！",
+      title: "HHP - 人類健康計劃 | 项目官網",
+      description: "🔑 開啓人類健康文明新範式！",
       // 繁體中文首頁導航設置
       themeConfig: {
         outlineTitle: '本頁目錄',
