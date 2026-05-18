@@ -314,3 +314,54 @@ a:visited {
 .vp-doc a:hover {
   color: var(--vp-c-brand-lighter) !important;
 }
+
+/* Tagline 字体大小自定义 */
+:root {
+  --tagline-primary-size: 1.5rem;
+  --tagline-secondary-size: 1.1rem;
+  --tagline-zh-cn-primary: 1.6rem;
+  --tagline-zh-cn-secondary: 1.2rem;
+  --tagline-zh-tw-primary: 1.4rem;
+  --tagline-zh-tw-secondary: 1.0rem;
+}
+
+.tagline-primary {
+  font-size: var(--tagline-primary-size);
+  font-weight: 600;
+  display: block;
+}
+
+.tagline-secondary {
+  font-size: var(--tagline-secondary-size);
+  opacity: 0.9;
+  display: block;
+}
+
+html[lang="zh-CN"] .tagline-primary {
+  font-size: var(--tagline-zh-cn-primary);
+}
+
+html[lang="zh-CN"] .tagline-secondary {
+  font-size: var(--tagline-zh-cn-secondary);
+}
+
+html[lang="zh-TW"] .tagline-primary {
+  font-size: var(--tagline-zh-tw-primary);
+}
+
+html[lang="zh-TW"] .tagline-secondary {
+  font-size: var(--tagline-zh-tw-secondary);
+}
+
+/* 平板和PC端（≥640px）简体中文和繁体中文 tagline 字体放大 */
+@media (min-width: 640px) {
+  html[lang="zh-CN"] .tagline-primary,
+  html[lang="zh-TW"] .tagline-primary {
+    font-size: calc(var(--tagline-zh-cn-primary) * 1.5);
+  }
+  
+  html[lang="zh-CN"] .tagline-secondary,
+  html[lang="zh-TW"] .tagline-secondary {
+    font-size: calc(var(--tagline-zh-cn-secondary) * 1.2);
+  }
+}

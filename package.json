@@ -1,7 +1,7 @@
 {
-  "name": "hhpf",
+  "name": "hhp",
   "version": "1.0.0",
-  "description": "Human Health Plan Foundation White Paper",
+  "description": "Human Health Plan White Paper",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev",
@@ -12,12 +12,12 @@
     "docs:preview": "vitepress preview"
   },
   "keywords": [
-    "HHPF",
+    "HHP",
     "Human Health Plan",
     "Human Health Plan Foundation",
     "White Paper"
   ],
-  "author": "Ocean.x",
+  "author": "ocean.x",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {

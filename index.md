@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "HHP"
   text: "Human Health Plan"
-  tagline: 🔑 New Paradigm of Health Civilization!
+  tagline: 🔑 New Paradigm of Human Health Civilization!
   image:
     src: /hero.png
     alt: HHPF-Logo

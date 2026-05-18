@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "HHP"
   text: "人類健康計劃"
-  tagline: Human Health Plan Foundation<br>🔑 開啓人類健康文明新範式！<br>
+  tagline: <span class="tagline-primary">Human Health Plan</span><span class="tagline-secondary">🔑 開啓人類健康文明新範式！</span>
   image:
     src: /hero.png
     alt: HHPF-Logo
