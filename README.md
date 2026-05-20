@@ -11,7 +11,7 @@
 
 ---
 
-## 🌐 English Version
+## <span id="english-version">🌐 English Version</span>
 
 Welcome to the official repository for the **Human Health Plan (HHP)** Whitepaper. This project presents a comprehensive framework for advancing human health and well-being through innovative methodologies and collaborative initiatives.
 
@@ -68,7 +68,7 @@ npm run build
 
 ---
 
-## 🇨🇳 简体中文版本
+## <span id="chinese-simplified">🇨🇳 简体中文版本</span>
 
 欢迎来到 **人类健康计划 (HHP)** 白皮书的官方仓库。本项目通过创新方法论和协作倡议，为促进人类健康与福祉提供了全面的框架。
 
