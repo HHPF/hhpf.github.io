@@ -4,8 +4,8 @@
 [![Documentation: CC BY 4.0](https://img.shields.io/badge/Documentation-CC%20BY%204.0-green)](LICENSE-DOCS)
 
 - [English](#english-version)
-- [简体中文](#简体中文版本)
-- [繁体中文](#繁體中文版本)
+- [简体中文](#chinese-simplified)
+- [繁体中文](#chinese-traditional)
 
 ---
 
@@ -119,7 +119,7 @@ npm run build
 
 ---
 
-## 🇹🇼 繁體中文版本
+## <span id="chinese-traditional">🇹🇼 繁體中文版本</span>
 
 歡迎來到 **人類健康計劃 (HHP)** 白皮書的官方倉庫。本專案透過創新方法論和協作倡議，為促進人類健康與福祉提供了全面的框架。
 
@@ -176,4 +176,4 @@ npm run build
 
 ---
 
-© 2025 ~ Present Human Health Plan Foundation / 人類健康計劃基金會
+© 2025 ~ Present Human Health Plan Foundation
