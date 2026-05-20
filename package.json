@@ -13,12 +13,14 @@
   },
   "keywords": [
     "HHP",
+    "HHPF",
     "Human Health Plan",
     "Human Health Plan Foundation",
-    "White Paper"
+    "HHP White Paper",
+    "HHP Official Website"
   ],
   "author": "ocean.x",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "vitepress": "^1.6.4"
