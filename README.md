@@ -176,6 +176,6 @@ npm run build
 
 ---
 
-<img src="https://raw.githubusercontent.com/HHPF/hhpf.github.io/main/public/logo-green.png" alt="HHPF Logo" width="33%">
+<img src="https://raw.githubusercontent.com/HHPF/hhpf.github.io/main/public/logo-green.png" alt="HHPF Logo" width="10%">
 
 © 2025 ~ Present Human Health Plan Foundation
