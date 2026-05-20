@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/HHPF/hhpf.github.io/main/public/logo-light.png" alt="HHP Logo" width="15%">
+
 # Human Health Plan (HHP) 
 
 [![License: MIT](https://img.shields.io/github/license/HHPF/hhpf.github.io)](LICENSE)
@@ -176,6 +178,6 @@ npm run build
 
 ---
 
-<img src="https://raw.githubusercontent.com/HHPF/hhpf.github.io/main/public/logo-green.png" alt="HHPF Logo" width="10%">
+<img src="https://raw.githubusercontent.com/HHPF/hhpf.github.io/main/public/logo-green.png" alt="HHPF Logo" width="15%">
 
 © 2025 ~ Present Human Health Plan Foundation
