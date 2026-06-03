@@ -1,4 +1,4 @@
-# SMD 正觉训练营
+# RACT正觉训练营
 
 <CoreTerms lang="zh-CN" />
 
