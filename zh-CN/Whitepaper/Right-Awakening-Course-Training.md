@@ -1,4 +1,4 @@
-# RACT正觉训练营
+# RA正觉训练营
 
 <CoreTerms lang="zh-CN" />
 
