@@ -31,7 +31,7 @@ features:
     details: 基於通用大模型構建SOP+LLM+RAG的三位一體的系統療法AI系統，實現健康知識普及與免費問診。
     link: /zh-TW/Whitepaper/SMD-AI
 
-  - title: SMD正覺訓練營
+  - title: RA正覺訓練
     details: 《生命使用手冊》系統實踐，升級人類生命操作系統，從本能OS到智能OS，以工程化方法，實現身心和諧與健康。
     link: /zh-TW/Whitepaper/Right-Awakening-Course-Training
 
