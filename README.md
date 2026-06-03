@@ -2,8 +2,8 @@
 
 # Human Health Plan (HHP) 
 
-[![License: MIT](https://img.shields.io/github/license/HHPF/hhpf.github.io)](LICENSE)
-[![Documentation: CC BY 4.0](https://img.shields.io/badge/Documentation-CC%20BY%204.0-green)](LICENSE-CC-BY-4.0)
+[![License: MIT](https://img.shields.io/github/license/HHPF/hhpf.github.io)](https://github.com/HHPF/hhpf.github.io/blob/main/LICENSE)
+[![Documentation: CC BY 4.0](https://img.shields.io/badge/Documentation-CC%20BY%204.0-green)](https://github.com/HHPF/hhpf.github.io/blob/main/LICENSE-CC-BY-4.0)
 
 - [English](#english-version)
 - [简体中文](#chinese-simplified)
@@ -13,7 +13,7 @@
 
 ## <span id="english-version">🌐 English Version</span>
 
-Welcome to the official repository for the **Human Health Plan (HHP)** Whitepaper. This project presents a comprehensive framework for advancing human health and well-being through innovative methodologies and collaborative initiatives.
+Welcome to the official repository for the **Human Health Plan (HHP)** Whitepaper. This project presents a comprehensive framework for advancing human health and well-being through innovative methods and collaborative initiatives.
 
 ### 📋 Table of Contents
 - [Introduction](#introduction)
@@ -24,7 +24,7 @@ Welcome to the official repository for the **Human Health Plan (HHP)** Whitepape
 - [License](#license)
 
 ### <span id="introduction">🎯 Introduction</span>
-The Human Health Plan is a groundbreaking initiative aimed at transforming global health through interdisciplinary collaboration, technological innovation, and sustainable practices. Our goal is to create a new paradigm for human health civilization.
+The Human Health Plan is a groundbreaking initiative aimed at transforming global health through interdisciplinary collaboration, technological innovation, and sustainable practices. Our goal is to establish a new paradigm of human health civilization.
 
 ### <span id="vision-and-mission">🌟 Vision and Mission</span>
 - **Vision**: To establish a world where every individual has access to optimal health and well-being
@@ -59,8 +59,8 @@ npm run build
 ```
 
 ### <span id="license">📄 License</span>
-- **Code**: MIT License ([LICENSE](LICENSE))
-- **Content**: CC BY 4.0 International License ([LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0))
+- **Code**: MIT License ([LICENSE](https://github.com/HHPF/hhpf.github.io/blob/main/LICENSE))
+- **Content**: CC BY 4.0 International License ([LICENSE-CC-BY-4.0](https://github.com/HHPF/hhpf.github.io/blob/main/LICENSE-CC-BY-4.0))
 
 ### 📬 Contact
 - **Official Website**: https://hhp.foundation/
@@ -116,8 +116,8 @@ npm run build
 ```
 
 ### <span id="zh-cn-license">📄 许可证</span>
-- **代码**: MIT 许可证 ([LICENSE](LICENSE))
-- **内容**: CC BY 4.0 International License ([LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0))
+- **代码**: MIT 许可证 ([LICENSE](https://github.com/HHPF/hhpf.github.io/blob/main/LICENSE))
+- **内容**: CC BY 4.0 International License ([LICENSE-CC-BY-4.0](https://github.com/HHPF/hhpf.github.io/blob/main/LICENSE-CC-BY-4.0))
 
 ---
 
@@ -169,8 +169,8 @@ npm run build
 ```
 
 ### <span id="zh-tw-license">📄 許可證</span>
-- **程式碼**: MIT 許可證 ([LICENSE](LICENSE))
-- **內容**: CC BY 4.0 International License ([LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0))
+- **程式碼**: MIT 許可證 ([LICENSE](https://github.com/HHPF/hhpf.github.io/blob/main/LICENSE))
+- **內容**: CC BY 4.0 International License ([LICENSE-CC-BY-4.0](https://github.com/HHPF/hhpf.github.io/blob/main/LICENSE-CC-BY-4.0))
 
 ### 📬 聯絡方式
 - **官方網站**: https://hhp.foundation/
