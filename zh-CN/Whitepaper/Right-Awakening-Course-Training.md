@@ -1,4 +1,4 @@
-# RA正觉训练营
+# RA正觉训练
 
 <CoreTerms lang="zh-CN" />
 
