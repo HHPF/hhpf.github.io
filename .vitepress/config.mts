@@ -160,8 +160,8 @@ export default defineConfig({
               { text: '方法论', link: '/zh-CN/Whitepaper/FPH' },
               { text: '项目', link: '/zh-CN/Whitepaper/Standardization-Engineering' },
               { text: '募资', link: '/zh-CN/Whitepaper/Public-Welfare-Fundraising' },
-              { text: '团队建设', link: '/zh-CN/Whitepaper/HHPF-Values' },
-              { text: '版权声明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
+              { text: '团队', link: '/zh-CN/Whitepaper/HHPF-Values' },
+              { text: '版权', link: '/zh-CN/Whitepaper/Copyright-Statement' },
             ]
           },
           { text: '博客', link: '/zh-CN/Blog/' },
@@ -194,8 +194,8 @@ export default defineConfig({
             items: [
               { text: 'HHPF标准化工程', link: '/zh-CN/Whitepaper/Standardization-Engineering' },
               { text: 'SMD人工智能', link: '/zh-CN/Whitepaper/SMD-AI' },
-              { text: 'SMD正觉（RA）训练营', link: '/zh-CN/Whitepaper/Right-Awakening-Course-Training' },
-              { text: 'HHPF实体示范项目', link: '/zh-CN/Whitepaper/Physical-Demonstration-Projects' }
+              { text: 'RA正觉训练营', link: '/zh-CN/Whitepaper/Right-Awakening-Course-Training' },
+              { text: 'HHP实体示范项目', link: '/zh-CN/Whitepaper/Physical-Demonstration-Projects' }
             ]
           },
 
@@ -209,16 +209,16 @@ export default defineConfig({
           },
 
           {
-            text: '团队建设',
+            text: '团队',
             collapsed: true,
             items: [
-              { text: 'HHPF价值观', link: '/zh-CN/Whitepaper/HHPF-Values' },
+              { text: 'HHP价值观', link: '/zh-CN/Whitepaper/HHPF-Values' },
               { text: '志愿者招募', link: '/zh-CN/Whitepaper/Volunteer-Recruitment' },
               { text: '诚聘英才', link: '/zh-CN/Whitepaper/Talent-Recruitment' }
             ]
           },
           {
-            text: '版权声明',
+            text: '版权',
             collapsed: true,
             items: [
               { text: '著作权申明', link: '/zh-CN/Whitepaper/Copyright-Statement' },
@@ -269,8 +269,8 @@ export default defineConfig({
               { text: '方法論', link: '/zh-TW/Whitepaper/FPH' },
               { text: '項目', link: '/zh-TW/Whitepaper/Standardization-Engineering' },
               { text: '募資', link: '/zh-TW/Whitepaper/Public-Welfare-Fundraising' },
-              { text: '團隊建設', link: '/zh-TW/Whitepaper/HHPF-Values' },
-              { text: '版權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
+              { text: '團隊', link: '/zh-TW/Whitepaper/HHPF-Values' },
+              { text: '版權', link: '/zh-TW/Whitepaper/Copyright-Statement' },
             ]
           },
           { text: '部落格', link: '/zh-TW/Blog/' },
@@ -301,10 +301,10 @@ export default defineConfig({
             text: '項目',
             collapsed: true,
             items: [
-              { text: 'HHPF標準化工程', link: '/zh-TW/Whitepaper/Standardization-Engineering' },
+              { text: 'HHP標準化工程', link: '/zh-TW/Whitepaper/Standardization-Engineering' },
               { text: 'SMD人工智能', link: '/zh-TW/Whitepaper/SMD-AI' },
-              { text: 'SMD正覺（RA）訓練營', link: '/zh-TW/Whitepaper/Right-Awakening-Course-Training' },
-              { text: 'HHPF實體示範項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' }
+              { text: 'RA正覺訓練營', link: '/zh-TW/Whitepaper/Right-Awakening-Course-Training' },
+              { text: 'HHP實體示範項目', link: '/zh-TW/Whitepaper/Physical-Demonstration-Projects' }
             ]
           },
 
@@ -318,7 +318,7 @@ export default defineConfig({
           },
 
           {
-            text: '團隊建設',
+            text: '團隊',
             collapsed: true,
             items: [
               { text: 'HHPF價值觀', link: '/zh-TW/Whitepaper/HHPF-Values' },
@@ -327,7 +327,7 @@ export default defineConfig({
             ]
           },
           {
-            text: '版權聲明',
+            text: '版權',
             collapsed: true,
             items: [
               { text: '著作權聲明', link: '/zh-TW/Whitepaper/Copyright-Statement' },
