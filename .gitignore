@@ -37,3 +37,8 @@ convert_s2t.js
 
 # 修复脚本
 fix-frontmatter*.js
+
+# 安装程序
+*.msi
+*.exe
+*.dmg
